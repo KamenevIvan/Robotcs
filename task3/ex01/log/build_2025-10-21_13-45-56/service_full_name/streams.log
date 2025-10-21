@@ -1,0 +1,41 @@
+[1.173s] Invoking command in '/home/ivan/ros2_ws/ex01/src/service_full_name': AMENT_PREFIX_PATH=/home/ivan/ros2_ws/ex01/install/full_name_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ivan/ros2_ws/ex01/install/full_name_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ivan/ros2_ws/ex01/install/full_name_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ivan/ros2_ws/ex01/build/service_full_name/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ivan/ros2_ws/ex01/install/service_full_name/lib/python3.10/site-packages:/home/ivan/ros2_ws/ex01/install/full_name_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/service_full_name build --build-base /home/ivan/ros2_ws/ex01/build/service_full_name/build install --record /home/ivan/ros2_ws/ex01/build/service_full_name/install.log --single-version-externally-managed install_data
+[1.467s] running egg_info
+[1.468s] creating ../../build/service_full_name/service_full_name.egg-info
+[1.469s] writing ../../build/service_full_name/service_full_name.egg-info/PKG-INFO
+[1.470s] writing dependency_links to ../../build/service_full_name/service_full_name.egg-info/dependency_links.txt
+[1.470s] writing entry points to ../../build/service_full_name/service_full_name.egg-info/entry_points.txt
+[1.470s] writing requirements to ../../build/service_full_name/service_full_name.egg-info/requires.txt
+[1.471s] writing top-level names to ../../build/service_full_name/service_full_name.egg-info/top_level.txt
+[1.471s] writing manifest file '../../build/service_full_name/service_full_name.egg-info/SOURCES.txt'
+[1.474s] reading manifest file '../../build/service_full_name/service_full_name.egg-info/SOURCES.txt'
+[1.475s] writing manifest file '../../build/service_full_name/service_full_name.egg-info/SOURCES.txt'
+[1.476s] running build
+[1.477s] running build_py
+[1.477s] creating /home/ivan/ros2_ws/ex01/build/service_full_name/build
+[1.478s] creating /home/ivan/ros2_ws/ex01/build/service_full_name/build/lib
+[1.478s] creating /home/ivan/ros2_ws/ex01/build/service_full_name/build/lib/service_full_name
+[1.479s] copying service_full_name/client_name.py -> /home/ivan/ros2_ws/ex01/build/service_full_name/build/lib/service_full_name
+[1.479s] copying service_full_name/__init__.py -> /home/ivan/ros2_ws/ex01/build/service_full_name/build/lib/service_full_name
+[1.480s] copying service_full_name/service_name.py -> /home/ivan/ros2_ws/ex01/build/service_full_name/build/lib/service_full_name
+[1.480s] running install
+[1.481s] running install_lib
+[1.482s] creating /home/ivan/ros2_ws/ex01/install/service_full_name/lib/python3.10/site-packages/service_full_name
+[1.483s] copying /home/ivan/ros2_ws/ex01/build/service_full_name/build/lib/service_full_name/client_name.py -> /home/ivan/ros2_ws/ex01/install/service_full_name/lib/python3.10/site-packages/service_full_name
+[1.483s] copying /home/ivan/ros2_ws/ex01/build/service_full_name/build/lib/service_full_name/__init__.py -> /home/ivan/ros2_ws/ex01/install/service_full_name/lib/python3.10/site-packages/service_full_name
+[1.484s] copying /home/ivan/ros2_ws/ex01/build/service_full_name/build/lib/service_full_name/service_name.py -> /home/ivan/ros2_ws/ex01/install/service_full_name/lib/python3.10/site-packages/service_full_name
+[1.484s] byte-compiling /home/ivan/ros2_ws/ex01/install/service_full_name/lib/python3.10/site-packages/service_full_name/client_name.py to client_name.cpython-310.pyc
+[1.486s] byte-compiling /home/ivan/ros2_ws/ex01/install/service_full_name/lib/python3.10/site-packages/service_full_name/__init__.py to __init__.cpython-310.pyc
+[1.486s] byte-compiling /home/ivan/ros2_ws/ex01/install/service_full_name/lib/python3.10/site-packages/service_full_name/service_name.py to service_name.cpython-310.pyc
+[1.487s] running install_data
+[1.487s] creating /home/ivan/ros2_ws/ex01/install/service_full_name/share/ament_index
+[1.489s] creating /home/ivan/ros2_ws/ex01/install/service_full_name/share/ament_index/resource_index
+[1.490s] creating /home/ivan/ros2_ws/ex01/install/service_full_name/share/ament_index/resource_index/packages
+[1.490s] copying resource/service_full_name -> /home/ivan/ros2_ws/ex01/install/service_full_name/share/ament_index/resource_index/packages
+[1.491s] copying package.xml -> /home/ivan/ros2_ws/ex01/install/service_full_name/share/service_full_name
+[1.491s] running install_egg_info
+[1.494s] Copying ../../build/service_full_name/service_full_name.egg-info to /home/ivan/ros2_ws/ex01/install/service_full_name/lib/python3.10/site-packages/service_full_name-0.0.0-py3.10.egg-info
+[1.497s] running install_scripts
+[1.524s] Installing client_name script to /home/ivan/ros2_ws/ex01/install/service_full_name/lib/service_full_name
+[1.524s] Installing service_name script to /home/ivan/ros2_ws/ex01/install/service_full_name/lib/service_full_name
+[1.525s] writing list of installed files to '/home/ivan/ros2_ws/ex01/build/service_full_name/install.log'
+[1.562s] Invoked command in '/home/ivan/ros2_ws/ex01/src/service_full_name' returned '0': AMENT_PREFIX_PATH=/home/ivan/ros2_ws/ex01/install/full_name_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ivan/ros2_ws/ex01/install/full_name_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ivan/ros2_ws/ex01/install/full_name_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ivan/ros2_ws/ex01/build/service_full_name/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ivan/ros2_ws/ex01/install/service_full_name/lib/python3.10/site-packages:/home/ivan/ros2_ws/ex01/install/full_name_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/service_full_name build --build-base /home/ivan/ros2_ws/ex01/build/service_full_name/build install --record /home/ivan/ros2_ws/ex01/build/service_full_name/install.log --single-version-externally-managed install_data

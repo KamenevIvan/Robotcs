@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "test_interfaces__py",
+		"source" : "/home/ivan/ros2_ws/task3/ex05/src/build/test_interfaces/test_interfaces__py"
+	}
+}

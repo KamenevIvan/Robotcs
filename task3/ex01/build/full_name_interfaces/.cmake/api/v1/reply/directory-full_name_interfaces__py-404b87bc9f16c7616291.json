@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "full_name_interfaces__py",
+		"source" : "/home/ivan/ros2_ws/ex01/build/full_name_interfaces/full_name_interfaces__py"
+	}
+}

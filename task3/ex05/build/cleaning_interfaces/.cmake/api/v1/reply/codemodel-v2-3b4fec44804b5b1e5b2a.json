@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-9f8af0b9e256a8295170.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "cleaning_interfaces__py",
+					"jsonFile" : "directory-cleaning_interfaces__py-7ab734c99a98dec449aa.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/ivan/ros2_ws/task3/ex05/build/cleaning_interfaces/cleaning_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "cleaning_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_cleaning_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_cleaning_interfaces_egg-4464c0914b3de7711c6e.json",
+					"name" : "ament_cmake_python_build_cleaning_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_cleaning_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_cleaning_interfaces-3a2fea144b7e3de589e4.json",
+					"name" : "ament_cmake_python_copy_cleaning_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cleaning_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cleaning_interfaces-745f8cfd84ade65aa7d1.json",
+					"name" : "cleaning_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cleaning_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cleaning_interfaces__cpp-9c14e5a447636db7f4f8.json",
+					"name" : "cleaning_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "cleaning_interfaces__py::@43512707bbe3961d7c48",
+					"jsonFile" : "target-cleaning_interfaces__py-a41b0e2464877aef4429.json",
+					"name" : "cleaning_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cleaning_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cleaning_interfaces__rosidl_generator_c-d22eaa98e092245f003d.json",
+					"name" : "cleaning_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cleaning_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cleaning_interfaces__rosidl_generator_py-e0fc34097a087d5d25d9.json",
+					"name" : "cleaning_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cleaning_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cleaning_interfaces__rosidl_typesupport_c-567c1eea0ce47cc64398.json",
+					"name" : "cleaning_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cleaning_interfaces__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cleaning_interfaces__rosidl_typesupport_c__pyext-b0f540043a3504c2ff73.json",
+					"name" : "cleaning_interfaces__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cleaning_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cleaning_interfaces__rosidl_typesupport_cpp-bcfb84f079122a5177de.json",
+					"name" : "cleaning_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cleaning_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cleaning_interfaces__rosidl_typesupport_fastrtps_c-827984727b6cb45a2ab4.json",
+					"name" : "cleaning_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cleaning_interfaces__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cleaning_interfaces__rosidl_typesupport_fastrtps_c__pyext-d975fc81b66c95c2f528.json",
+					"name" : "cleaning_interfaces__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cleaning_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cleaning_interfaces__rosidl_typesupport_fastrtps_cpp-0a490137c3d433215a93.json",
+					"name" : "cleaning_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cleaning_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cleaning_interfaces__rosidl_typesupport_introspection_c-f583e0a9030ca6c782c5.json",
+					"name" : "cleaning_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cleaning_interfaces__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cleaning_interfaces__rosidl_typesupport_introspection_c__pyext-4c6ba02429436d57b0df.json",
+					"name" : "cleaning_interfaces__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cleaning_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cleaning_interfaces__rosidl_typesupport_introspection_cpp-57a22335841d942efa17.json",
+					"name" : "cleaning_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cleaning_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cleaning_interfaces_uninstall-02a87f70ce896f736025.json",
+					"name" : "cleaning_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-98dd870210c009fb65cd.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ivan/ros2_ws/task3/ex05/build/cleaning_interfaces",
+		"source" : "/home/ivan/ros2_ws/task3/ex05/src/cleaning_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

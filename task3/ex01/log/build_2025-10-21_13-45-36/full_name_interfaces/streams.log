@@ -1,0 +1,234 @@
+[0.024s] Invoking command in '/home/ivan/ros2_ws/ex01/build/full_name_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ivan/ros2_ws/ex01/install/service_full_name:/home/ivan/ros2_ws/install/text_to_cmd_vel_pkg:/home/ivan/ros2_ws/install/py_pubsub:/home/ivan/ros2_ws/install/my_package:/home/ivan/ros2_ws/install/Ivan:/opt/ros/humble /usr/bin/cmake /home/ivan/ros2_ws/ex01/src/full_name_interfaces -DCMAKE_INSTALL_PREFIX=/home/ivan/ros2_ws/ex01/install/full_name_interfaces
+[0.176s] -- The C compiler identification is GNU 11.4.0
+[0.666s] -- The CXX compiler identification is GNU 11.4.0
+[0.992s] -- Detecting C compiler ABI info
+[1.165s] -- Detecting C compiler ABI info - done
+[1.176s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.177s] -- Detecting C compile features
+[1.178s] -- Detecting C compile features - done
+[1.184s] -- Detecting CXX compiler ABI info
+[1.371s] -- Detecting CXX compiler ABI info - done
+[1.384s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.384s] -- Detecting CXX compile features
+[1.385s] -- Detecting CXX compile features - done
+[1.390s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.627s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.775s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.806s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.834s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.142s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.670s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.983s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.357s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.465s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[3.470s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.765s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[3.765s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.765s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.766s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[3.795s] -- Found PythonExtra: .so  
+[3.884s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.957s] -- Added test 'lint_cmake' to check CMake code style
+[3.962s] -- Added test 'xmllint' to check XML markup files
+[3.972s] -- Configuring done
+[4.036s] -- Generating done
+[4.051s] -- Build files have been written to: /home/ivan/ros2_ws/ex01/build/full_name_interfaces
+[4.060s] Invoked command in '/home/ivan/ros2_ws/ex01/build/full_name_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ivan/ros2_ws/ex01/install/service_full_name:/home/ivan/ros2_ws/install/text_to_cmd_vel_pkg:/home/ivan/ros2_ws/install/py_pubsub:/home/ivan/ros2_ws/install/my_package:/home/ivan/ros2_ws/install/Ivan:/opt/ros/humble /usr/bin/cmake /home/ivan/ros2_ws/ex01/src/full_name_interfaces -DCMAKE_INSTALL_PREFIX=/home/ivan/ros2_ws/ex01/install/full_name_interfaces
+[4.064s] Invoking command in '/home/ivan/ros2_ws/ex01/build/full_name_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ivan/ros2_ws/ex01/install/service_full_name:/home/ivan/ros2_ws/install/text_to_cmd_vel_pkg:/home/ivan/ros2_ws/install/py_pubsub:/home/ivan/ros2_ws/install/my_package:/home/ivan/ros2_ws/install/Ivan:/opt/ros/humble /usr/bin/cmake --build /home/ivan/ros2_ws/ex01/build/full_name_interfaces -- -j16 -l16
+[4.119s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.131s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.151s] [  6%] Built target ament_cmake_python_copy_full_name_interfaces
+[4.521s] running egg_info
+[4.523s] creating full_name_interfaces.egg-info
+[4.524s] writing full_name_interfaces.egg-info/PKG-INFO
+[4.524s] writing dependency_links to full_name_interfaces.egg-info/dependency_links.txt
+[4.525s] writing top-level names to full_name_interfaces.egg-info/top_level.txt
+[4.525s] writing manifest file 'full_name_interfaces.egg-info/SOURCES.txt'
+[4.529s] reading manifest file 'full_name_interfaces.egg-info/SOURCES.txt'
+[4.530s] writing manifest file 'full_name_interfaces.egg-info/SOURCES.txt'
+[4.584s] [  6%] Built target ament_cmake_python_build_full_name_interfaces_egg
+[4.594s] [  6%] Built target full_name_interfaces__cpp
+[4.610s] [  9%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[4.611s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[4.611s] [ 16%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[4.629s] [ 19%] [32mBuilding C object CMakeFiles/full_name_interfaces__rosidl_generator_c.dir/rosidl_generator_c/full_name_interfaces/srv/detail/summ_full_name__functions.c.o[0m
+[4.786s] [ 22%] [32m[1mLinking C shared library libfull_name_interfaces__rosidl_generator_c.so[0m
+[4.929s] [ 22%] Built target full_name_interfaces__rosidl_generator_c
+[4.946s] [ 29%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[4.947s] [ 29%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[4.948s] [ 32%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[5.036s] [ 35%] [32mBuilding CXX object CMakeFiles/full_name_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/full_name_interfaces/srv/summ_full_name__type_support.cpp.o[0m
+[5.074s] [ 38%] [32mBuilding CXX object CMakeFiles/full_name_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/full_name_interfaces/srv/detail/dds_fastrtps/summ_full_name__type_support.cpp.o[0m
+[5.076s] [ 41%] [32mBuilding CXX object CMakeFiles/full_name_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/full_name_interfaces/srv/detail/summ_full_name__type_support.cpp.o[0m
+[5.350s] [ 45%] [32mBuilding CXX object CMakeFiles/full_name_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/full_name_interfaces/srv/summ_full_name__type_support.cpp.o[0m
+[5.412s] [ 48%] [32m[1mLinking CXX shared library libfull_name_interfaces__rosidl_typesupport_c.so[0m
+[5.446s] [ 51%] [32mBuilding C object CMakeFiles/full_name_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/full_name_interfaces/srv/detail/summ_full_name__type_support.c.o[0m
+[5.460s] [ 54%] [32mBuilding CXX object CMakeFiles/full_name_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/full_name_interfaces/srv/detail/summ_full_name__type_support_c.cpp.o[0m
+[5.512s] [ 58%] [32m[1mLinking C shared library libfull_name_interfaces__rosidl_typesupport_introspection_c.so[0m
+[5.590s] [ 58%] Built target full_name_interfaces__rosidl_typesupport_c
+[5.600s] [ 61%] [32m[1mLinking CXX shared library libfull_name_interfaces__rosidl_typesupport_cpp.so[0m
+[5.653s] [ 61%] Built target full_name_interfaces__rosidl_typesupport_introspection_c
+[5.760s] [ 61%] Built target full_name_interfaces__rosidl_typesupport_cpp
+[5.822s] [ 64%] [32m[1mLinking CXX shared library libfull_name_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[5.904s] [ 67%] [32m[1mLinking CXX shared library libfull_name_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[6.018s] [ 67%] Built target full_name_interfaces__rosidl_typesupport_introspection_cpp
+[6.063s] [ 70%] [32m[1mLinking CXX shared library libfull_name_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[6.126s] [ 70%] Built target full_name_interfaces__rosidl_typesupport_fastrtps_cpp
+[6.268s] [ 70%] Built target full_name_interfaces__rosidl_typesupport_fastrtps_c
+[6.294s] [ 70%] Built target full_name_interfaces
+[6.321s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[6.809s] [ 74%] Built target full_name_interfaces__py
+[6.836s] [ 77%] [32mBuilding C object CMakeFiles/full_name_interfaces__rosidl_generator_py.dir/rosidl_generator_py/full_name_interfaces/srv/_summ_full_name_s.c.o[0m
+[7.094s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/full_name_interfaces/libfull_name_interfaces__rosidl_generator_py.so[0m
+[7.215s] [ 80%] Built target full_name_interfaces__rosidl_generator_py
+[7.243s] [ 83%] [32mBuilding C object CMakeFiles/full_name_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/full_name_interfaces/_full_name_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[7.245s] [ 87%] [32mBuilding C object CMakeFiles/full_name_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/full_name_interfaces/_full_name_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[7.247s] [ 90%] [32mBuilding C object CMakeFiles/full_name_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/full_name_interfaces/_full_name_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[7.389s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/full_name_interfaces/full_name_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[7.389s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/full_name_interfaces/full_name_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[7.396s] [100%] [32m[1mLinking C shared library rosidl_generator_py/full_name_interfaces/full_name_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[7.497s] [100%] Built target full_name_interfaces__rosidl_typesupport_c__pyext
+[7.504s] [100%] Built target full_name_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[7.536s] [100%] Built target full_name_interfaces__rosidl_typesupport_introspection_c__pyext
+[7.555s] Invoked command in '/home/ivan/ros2_ws/ex01/build/full_name_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ivan/ros2_ws/ex01/install/service_full_name:/home/ivan/ros2_ws/install/text_to_cmd_vel_pkg:/home/ivan/ros2_ws/install/py_pubsub:/home/ivan/ros2_ws/install/my_package:/home/ivan/ros2_ws/install/Ivan:/opt/ros/humble /usr/bin/cmake --build /home/ivan/ros2_ws/ex01/build/full_name_interfaces -- -j16 -l16
+[7.572s] Invoking command in '/home/ivan/ros2_ws/ex01/build/full_name_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ivan/ros2_ws/ex01/install/service_full_name:/home/ivan/ros2_ws/install/text_to_cmd_vel_pkg:/home/ivan/ros2_ws/install/py_pubsub:/home/ivan/ros2_ws/install/my_package:/home/ivan/ros2_ws/install/Ivan:/opt/ros/humble /usr/bin/cmake --install /home/ivan/ros2_ws/ex01/build/full_name_interfaces
+[7.581s] -- Install configuration: ""
+[7.583s] -- Installing: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/share/ament_index/resource_index/rosidl_interfaces/full_name_interfaces
+[7.583s] -- Installing: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/include/full_name_interfaces/full_name_interfaces
+[7.584s] -- Installing: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/include/full_name_interfaces/full_name_interfaces/srv
+[7.585s] -- Installing: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/include/full_name_interfaces/full_name_interfaces/srv/detail
+[7.585s] -- Installing: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/include/full_name_interfaces/full_name_interfaces/srv/detail/summ_full_name__functions.c
+[7.586s] -- Installing: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/include/full_name_interfaces/full_name_interfaces/srv/detail/summ_full_name__functions.h
+[7.586s] -- Installing: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/include/full_name_interfaces/full_name_interfaces/srv/detail/summ_full_name__type_support.h
+[7.587s] -- Installing: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/include/full_name_interfaces/full_name_interfaces/srv/detail/summ_full_name__struct.h
+[7.587s] -- Installing: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/include/full_name_interfaces/full_name_interfaces/srv/summ_full_name.h
+[7.587s] -- Installing: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/include/full_name_interfaces/full_name_interfaces/msg
+[7.588s] -- Installing: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/include/full_name_interfaces/full_name_interfaces/msg/rosidl_generator_c__visibility_control.h
+[7.588s] -- Installing: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/share/full_name_interfaces/environment/library_path.sh
+[7.588s] -- Installing: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/share/full_name_interfaces/environment/library_path.dsv
+[7.590s] -- Installing: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/lib/libfull_name_interfaces__rosidl_generator_c.so
+[7.590s] -- Set runtime path of "/home/ivan/ros2_ws/ex01/install/full_name_interfaces/lib/libfull_name_interfaces__rosidl_generator_c.so" to ""
+[7.590s] -- Up-to-date: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/include/full_name_interfaces/full_name_interfaces
+[7.591s] -- Up-to-date: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/include/full_name_interfaces/full_name_interfaces/srv
+[7.591s] -- Up-to-date: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/include/full_name_interfaces/full_name_interfaces/srv/detail
+[7.592s] -- Installing: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/include/full_name_interfaces/full_name_interfaces/srv/detail/summ_full_name__rosidl_typesupport_fastrtps_c.h
+[7.592s] -- Up-to-date: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/include/full_name_interfaces/full_name_interfaces/msg
+[7.592s] -- Installing: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/include/full_name_interfaces/full_name_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[7.593s] -- Installing: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/lib/libfull_name_interfaces__rosidl_typesupport_fastrtps_c.so
+[7.593s] -- Set runtime path of "/home/ivan/ros2_ws/ex01/install/full_name_interfaces/lib/libfull_name_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[7.594s] -- Up-to-date: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/include/full_name_interfaces/full_name_interfaces
+[7.594s] -- Up-to-date: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/include/full_name_interfaces/full_name_interfaces/srv
+[7.595s] -- Up-to-date: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/include/full_name_interfaces/full_name_interfaces/srv/detail
+[7.595s] -- Installing: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/include/full_name_interfaces/full_name_interfaces/srv/detail/summ_full_name__rosidl_typesupport_introspection_c.h
+[7.595s] -- Installing: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/include/full_name_interfaces/full_name_interfaces/srv/detail/summ_full_name__type_support.c
+[7.596s] -- Up-to-date: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/include/full_name_interfaces/full_name_interfaces/msg
+[7.597s] -- Installing: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/include/full_name_interfaces/full_name_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[7.597s] -- Installing: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/lib/libfull_name_interfaces__rosidl_typesupport_introspection_c.so
+[7.597s] -- Set runtime path of "/home/ivan/ros2_ws/ex01/install/full_name_interfaces/lib/libfull_name_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[7.598s] -- Installing: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/lib/libfull_name_interfaces__rosidl_typesupport_c.so
+[7.598s] -- Set runtime path of "/home/ivan/ros2_ws/ex01/install/full_name_interfaces/lib/libfull_name_interfaces__rosidl_typesupport_c.so" to ""
+[7.599s] -- Up-to-date: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/include/full_name_interfaces/full_name_interfaces
+[7.600s] -- Up-to-date: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/include/full_name_interfaces/full_name_interfaces/srv
+[7.600s] -- Installing: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/include/full_name_interfaces/full_name_interfaces/srv/summ_full_name.hpp
+[7.601s] -- Up-to-date: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/include/full_name_interfaces/full_name_interfaces/srv/detail
+[7.601s] -- Installing: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/include/full_name_interfaces/full_name_interfaces/srv/detail/summ_full_name__builder.hpp
+[7.602s] -- Installing: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/include/full_name_interfaces/full_name_interfaces/srv/detail/summ_full_name__type_support.hpp
+[7.602s] -- Installing: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/include/full_name_interfaces/full_name_interfaces/srv/detail/summ_full_name__traits.hpp
+[7.603s] -- Installing: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/include/full_name_interfaces/full_name_interfaces/srv/detail/summ_full_name__struct.hpp
+[7.603s] -- Up-to-date: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/include/full_name_interfaces/full_name_interfaces/msg
+[7.603s] -- Installing: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/include/full_name_interfaces/full_name_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[7.604s] -- Up-to-date: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/include/full_name_interfaces/full_name_interfaces
+[7.604s] -- Up-to-date: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/include/full_name_interfaces/full_name_interfaces/srv
+[7.604s] -- Up-to-date: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/include/full_name_interfaces/full_name_interfaces/srv/detail
+[7.604s] -- Installing: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/include/full_name_interfaces/full_name_interfaces/srv/detail/dds_fastrtps
+[7.604s] -- Installing: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/include/full_name_interfaces/full_name_interfaces/srv/detail/summ_full_name__rosidl_typesupport_fastrtps_cpp.hpp
+[7.605s] -- Up-to-date: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/include/full_name_interfaces/full_name_interfaces/msg
+[7.605s] -- Installing: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/include/full_name_interfaces/full_name_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[7.606s] -- Installing: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/lib/libfull_name_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[7.606s] -- Set runtime path of "/home/ivan/ros2_ws/ex01/install/full_name_interfaces/lib/libfull_name_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[7.606s] -- Up-to-date: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/include/full_name_interfaces/full_name_interfaces
+[7.607s] -- Up-to-date: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/include/full_name_interfaces/full_name_interfaces/srv
+[7.607s] -- Up-to-date: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/include/full_name_interfaces/full_name_interfaces/srv/detail
+[7.608s] -- Installing: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/include/full_name_interfaces/full_name_interfaces/srv/detail/summ_full_name__type_support.cpp
+[7.608s] -- Installing: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/include/full_name_interfaces/full_name_interfaces/srv/detail/summ_full_name__rosidl_typesupport_introspection_cpp.hpp
+[7.608s] -- Installing: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/lib/libfull_name_interfaces__rosidl_typesupport_introspection_cpp.so
+[7.609s] -- Set runtime path of "/home/ivan/ros2_ws/ex01/install/full_name_interfaces/lib/libfull_name_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[7.609s] -- Installing: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/lib/libfull_name_interfaces__rosidl_typesupport_cpp.so
+[7.609s] -- Set runtime path of "/home/ivan/ros2_ws/ex01/install/full_name_interfaces/lib/libfull_name_interfaces__rosidl_typesupport_cpp.so" to ""
+[7.610s] -- Installing: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/share/full_name_interfaces/environment/pythonpath.sh
+[7.610s] -- Installing: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/share/full_name_interfaces/environment/pythonpath.dsv
+[7.610s] -- Installing: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/local/lib/python3.10/dist-packages/full_name_interfaces-0.0.0-py3.10.egg-info
+[7.611s] -- Installing: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/local/lib/python3.10/dist-packages/full_name_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[7.611s] -- Installing: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/local/lib/python3.10/dist-packages/full_name_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[7.611s] -- Installing: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/local/lib/python3.10/dist-packages/full_name_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[7.611s] -- Installing: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/local/lib/python3.10/dist-packages/full_name_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[7.611s] -- Installing: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/local/lib/python3.10/dist-packages/full_name_interfaces
+[7.612s] -- Installing: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/local/lib/python3.10/dist-packages/full_name_interfaces/srv
+[7.612s] -- Installing: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/local/lib/python3.10/dist-packages/full_name_interfaces/srv/_summ_full_name.py
+[7.612s] -- Installing: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/local/lib/python3.10/dist-packages/full_name_interfaces/srv/_summ_full_name_s.c
+[7.612s] -- Installing: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/local/lib/python3.10/dist-packages/full_name_interfaces/srv/__init__.py
+[7.612s] -- Installing: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/local/lib/python3.10/dist-packages/full_name_interfaces/_full_name_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[7.613s] -- Installing: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/local/lib/python3.10/dist-packages/full_name_interfaces/_full_name_interfaces_s.ep.rosidl_typesupport_c.c
+[7.613s] -- Installing: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/local/lib/python3.10/dist-packages/full_name_interfaces/full_name_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[7.613s] -- Installing: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/local/lib/python3.10/dist-packages/full_name_interfaces/full_name_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[7.613s] -- Installing: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/local/lib/python3.10/dist-packages/full_name_interfaces/_full_name_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[7.613s] -- Installing: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/local/lib/python3.10/dist-packages/full_name_interfaces/__init__.py
+[7.614s] -- Installing: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/local/lib/python3.10/dist-packages/full_name_interfaces/full_name_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[7.614s] -- Installing: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/local/lib/python3.10/dist-packages/full_name_interfaces/libfull_name_interfaces__rosidl_generator_py.so
+[7.670s] Listing '/home/ivan/ros2_ws/ex01/install/full_name_interfaces/local/lib/python3.10/dist-packages/full_name_interfaces'...
+[7.671s] Compiling '/home/ivan/ros2_ws/ex01/install/full_name_interfaces/local/lib/python3.10/dist-packages/full_name_interfaces/__init__.py'...
+[7.671s] Listing '/home/ivan/ros2_ws/ex01/install/full_name_interfaces/local/lib/python3.10/dist-packages/full_name_interfaces/srv'...
+[7.671s] Compiling '/home/ivan/ros2_ws/ex01/install/full_name_interfaces/local/lib/python3.10/dist-packages/full_name_interfaces/srv/__init__.py'...
+[7.671s] Compiling '/home/ivan/ros2_ws/ex01/install/full_name_interfaces/local/lib/python3.10/dist-packages/full_name_interfaces/srv/_summ_full_name.py'...
+[7.679s] -- Installing: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/local/lib/python3.10/dist-packages/full_name_interfaces/full_name_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[7.680s] -- Set runtime path of "/home/ivan/ros2_ws/ex01/install/full_name_interfaces/local/lib/python3.10/dist-packages/full_name_interfaces/full_name_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[7.681s] -- Installing: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/local/lib/python3.10/dist-packages/full_name_interfaces/full_name_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[7.681s] -- Set runtime path of "/home/ivan/ros2_ws/ex01/install/full_name_interfaces/local/lib/python3.10/dist-packages/full_name_interfaces/full_name_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[7.681s] -- Installing: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/local/lib/python3.10/dist-packages/full_name_interfaces/full_name_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[7.681s] -- Set runtime path of "/home/ivan/ros2_ws/ex01/install/full_name_interfaces/local/lib/python3.10/dist-packages/full_name_interfaces/full_name_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[7.682s] -- Installing: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/lib/libfull_name_interfaces__rosidl_generator_py.so
+[7.682s] -- Set runtime path of "/home/ivan/ros2_ws/ex01/install/full_name_interfaces/lib/libfull_name_interfaces__rosidl_generator_py.so" to ""
+[7.683s] -- Installing: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/share/full_name_interfaces/srv/SummFullName.idl
+[7.684s] -- Installing: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/share/full_name_interfaces/srv/SummFullName.srv
+[7.684s] -- Installing: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/share/full_name_interfaces/srv/SummFullName_Request.msg
+[7.684s] -- Installing: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/share/full_name_interfaces/srv/SummFullName_Response.msg
+[7.685s] -- Installing: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/share/ament_index/resource_index/package_run_dependencies/full_name_interfaces
+[7.686s] -- Installing: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/share/ament_index/resource_index/parent_prefix_path/full_name_interfaces
+[7.687s] -- Installing: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/share/full_name_interfaces/environment/ament_prefix_path.sh
+[7.687s] -- Installing: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/share/full_name_interfaces/environment/ament_prefix_path.dsv
+[7.687s] -- Installing: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/share/full_name_interfaces/environment/path.sh
+[7.688s] -- Installing: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/share/full_name_interfaces/environment/path.dsv
+[7.688s] -- Installing: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/share/full_name_interfaces/local_setup.bash
+[7.689s] -- Installing: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/share/full_name_interfaces/local_setup.sh
+[7.689s] -- Installing: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/share/full_name_interfaces/local_setup.zsh
+[7.689s] -- Installing: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/share/full_name_interfaces/local_setup.dsv
+[7.689s] -- Installing: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/share/full_name_interfaces/package.dsv
+[7.690s] -- Installing: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/share/ament_index/resource_index/packages/full_name_interfaces
+[7.691s] -- Installing: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/share/full_name_interfaces/cmake/export_full_name_interfaces__rosidl_generator_cExport.cmake
+[7.691s] -- Installing: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/share/full_name_interfaces/cmake/export_full_name_interfaces__rosidl_generator_cExport-noconfig.cmake
+[7.691s] -- Installing: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/share/full_name_interfaces/cmake/export_full_name_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[7.692s] -- Installing: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/share/full_name_interfaces/cmake/export_full_name_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[7.692s] -- Installing: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/share/full_name_interfaces/cmake/full_name_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[7.693s] -- Installing: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/share/full_name_interfaces/cmake/full_name_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[7.693s] -- Installing: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/share/full_name_interfaces/cmake/full_name_interfaces__rosidl_typesupport_cExport.cmake
+[7.693s] -- Installing: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/share/full_name_interfaces/cmake/full_name_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[7.694s] -- Installing: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/share/full_name_interfaces/cmake/export_full_name_interfaces__rosidl_generator_cppExport.cmake
+[7.694s] -- Installing: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/share/full_name_interfaces/cmake/export_full_name_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[7.694s] -- Installing: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/share/full_name_interfaces/cmake/export_full_name_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[7.695s] -- Installing: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/share/full_name_interfaces/cmake/full_name_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[7.695s] -- Installing: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/share/full_name_interfaces/cmake/full_name_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[7.696s] -- Installing: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/share/full_name_interfaces/cmake/full_name_interfaces__rosidl_typesupport_cppExport.cmake
+[7.696s] -- Installing: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/share/full_name_interfaces/cmake/full_name_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[7.696s] -- Installing: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/share/full_name_interfaces/cmake/export_full_name_interfaces__rosidl_generator_pyExport.cmake
+[7.697s] -- Installing: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/share/full_name_interfaces/cmake/export_full_name_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[7.697s] -- Installing: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/share/full_name_interfaces/cmake/rosidl_cmake-extras.cmake
+[7.698s] -- Installing: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/share/full_name_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.699s] -- Installing: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/share/full_name_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[7.699s] -- Installing: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/share/full_name_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[7.699s] -- Installing: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/share/full_name_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[7.700s] -- Installing: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/share/full_name_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.700s] -- Installing: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/share/full_name_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[7.700s] -- Installing: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/share/full_name_interfaces/cmake/full_name_interfacesConfig.cmake
+[7.700s] -- Installing: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/share/full_name_interfaces/cmake/full_name_interfacesConfig-version.cmake
+[7.700s] -- Installing: /home/ivan/ros2_ws/ex01/install/full_name_interfaces/share/full_name_interfaces/package.xml
+[7.704s] Invoked command in '/home/ivan/ros2_ws/ex01/build/full_name_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ivan/ros2_ws/ex01/install/service_full_name:/home/ivan/ros2_ws/install/text_to_cmd_vel_pkg:/home/ivan/ros2_ws/install/py_pubsub:/home/ivan/ros2_ws/install/my_package:/home/ivan/ros2_ws/install/Ivan:/opt/ros/humble /usr/bin/cmake --install /home/ivan/ros2_ws/ex01/build/full_name_interfaces

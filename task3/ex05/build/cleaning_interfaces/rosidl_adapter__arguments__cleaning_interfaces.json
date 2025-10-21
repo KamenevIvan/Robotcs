@@ -1,0 +1,6 @@
+{
+  "package_name": "cleaning_interfaces",
+  "non_idl_tuples": [
+    "/home/ivan/ros2_ws/task3/ex05/src/cleaning_interfaces:action/CleaningTask.action"
+  ]
+}

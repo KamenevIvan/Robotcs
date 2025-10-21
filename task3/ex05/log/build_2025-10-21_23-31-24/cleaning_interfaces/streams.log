@@ -1,0 +1,230 @@
+[0.013s] Invoking command in '/home/ivan/ros2_ws/task3/ex05/build/cleaning_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ivan/ros2_ws/task3/ex05/install/action_cleaning_robot:/home/ivan/ros2_ws/install/text_to_cmd_vel_pkg:/home/ivan/ros2_ws/install/py_pubsub:/home/ivan/ros2_ws/install/my_package:/home/ivan/ros2_ws/install/Ivan:/opt/ros/humble /usr/bin/cmake /home/ivan/ros2_ws/task3/ex05/src/cleaning_interfaces -DCMAKE_INSTALL_PREFIX=/home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces
+[0.154s] -- The C compiler identification is GNU 11.4.0
+[0.541s] -- The CXX compiler identification is GNU 11.4.0
+[0.824s] -- Detecting C compiler ABI info
+[0.952s] -- Detecting C compiler ABI info - done
+[0.959s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.959s] -- Detecting C compile features
+[0.960s] -- Detecting C compile features - done
+[0.962s] -- Detecting CXX compiler ABI info
+[1.095s] -- Detecting CXX compiler ABI info - done
+[1.103s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.103s] -- Detecting CXX compile features
+[1.103s] -- Detecting CXX compile features - done
+[1.107s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.243s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.333s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.337s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.344s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.519s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.552s] -- Found action_msgs: 1.2.2 (/opt/ros/humble/share/action_msgs/cmake)
+[1.816s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.988s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.216s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.319s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.321s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.623s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.624s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.624s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.624s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.644s] -- Found PythonExtra: .so  
+[2.720s] -- Configuring done
+[2.769s] -- Generating done
+[2.782s] -- Build files have been written to: /home/ivan/ros2_ws/task3/ex05/build/cleaning_interfaces
+[2.790s] Invoked command in '/home/ivan/ros2_ws/task3/ex05/build/cleaning_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ivan/ros2_ws/task3/ex05/install/action_cleaning_robot:/home/ivan/ros2_ws/install/text_to_cmd_vel_pkg:/home/ivan/ros2_ws/install/py_pubsub:/home/ivan/ros2_ws/install/my_package:/home/ivan/ros2_ws/install/Ivan:/opt/ros/humble /usr/bin/cmake /home/ivan/ros2_ws/task3/ex05/src/cleaning_interfaces -DCMAKE_INSTALL_PREFIX=/home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces
+[2.793s] Invoking command in '/home/ivan/ros2_ws/task3/ex05/build/cleaning_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ivan/ros2_ws/task3/ex05/install/action_cleaning_robot:/home/ivan/ros2_ws/install/text_to_cmd_vel_pkg:/home/ivan/ros2_ws/install/py_pubsub:/home/ivan/ros2_ws/install/my_package:/home/ivan/ros2_ws/install/Ivan:/opt/ros/humble /usr/bin/cmake --build /home/ivan/ros2_ws/task3/ex05/build/cleaning_interfaces -- -j16 -l16
+[2.827s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.837s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.845s] [  6%] Built target ament_cmake_python_copy_cleaning_interfaces
+[3.062s] running egg_info
+[3.063s] creating cleaning_interfaces.egg-info
+[3.064s] writing cleaning_interfaces.egg-info/PKG-INFO
+[3.064s] writing dependency_links to cleaning_interfaces.egg-info/dependency_links.txt
+[3.064s] writing top-level names to cleaning_interfaces.egg-info/top_level.txt
+[3.065s] writing manifest file 'cleaning_interfaces.egg-info/SOURCES.txt'
+[3.067s] reading manifest file 'cleaning_interfaces.egg-info/SOURCES.txt'
+[3.067s] writing manifest file 'cleaning_interfaces.egg-info/SOURCES.txt'
+[3.107s] [  6%] Built target ament_cmake_python_build_cleaning_interfaces_egg
+[3.342s] [  6%] Built target cleaning_interfaces__cpp
+[3.353s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.353s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.353s] [ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.419s] [ 19%] [32mBuilding C object CMakeFiles/cleaning_interfaces__rosidl_generator_c.dir/rosidl_generator_c/cleaning_interfaces/action/detail/cleaning_task__functions.c.o[0m
+[3.567s] [ 22%] [32m[1mLinking C shared library libcleaning_interfaces__rosidl_generator_c.so[0m
+[3.671s] [ 22%] Built target cleaning_interfaces__rosidl_generator_c
+[3.682s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.683s] [ 29%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.684s] [ 32%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.831s] [ 35%] [32mBuilding CXX object CMakeFiles/cleaning_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cleaning_interfaces/action/cleaning_task__type_support.cpp.o[0m
+[3.916s] [ 38%] [32mBuilding CXX object CMakeFiles/cleaning_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cleaning_interfaces/action/detail/cleaning_task__type_support.cpp.o[0m
+[4.031s] [ 41%] [32mBuilding CXX object CMakeFiles/cleaning_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cleaning_interfaces/action/detail/dds_fastrtps/cleaning_task__type_support.cpp.o[0m
+[4.284s] [ 45%] [32mBuilding CXX object CMakeFiles/cleaning_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cleaning_interfaces/action/detail/cleaning_task__type_support_c.cpp.o[0m
+[4.307s] [ 48%] [32mBuilding CXX object CMakeFiles/cleaning_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/cleaning_interfaces/action/cleaning_task__type_support.cpp.o[0m
+[4.372s] [ 51%] [32m[1mLinking CXX shared library libcleaning_interfaces__rosidl_typesupport_c.so[0m
+[4.385s] [ 54%] [32mBuilding C object CMakeFiles/cleaning_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cleaning_interfaces/action/detail/cleaning_task__type_support.c.o[0m
+[4.455s] [ 58%] [32m[1mLinking C shared library libcleaning_interfaces__rosidl_typesupport_introspection_c.so[0m
+[4.457s] [ 61%] [32m[1mLinking CXX shared library libcleaning_interfaces__rosidl_typesupport_cpp.so[0m
+[4.506s] [ 61%] Built target cleaning_interfaces__rosidl_typesupport_c
+[4.542s] [ 61%] Built target cleaning_interfaces__rosidl_typesupport_introspection_c
+[4.554s] [ 61%] Built target cleaning_interfaces__rosidl_typesupport_cpp
+[4.664s] [ 64%] [32m[1mLinking CXX shared library libcleaning_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[4.725s] [ 67%] [32m[1mLinking CXX shared library libcleaning_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[4.729s] [ 70%] [32m[1mLinking CXX shared library libcleaning_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.842s] [ 70%] Built target cleaning_interfaces__rosidl_typesupport_introspection_cpp
+[4.865s] [ 70%] Built target cleaning_interfaces__rosidl_typesupport_fastrtps_cpp
+[4.876s] [ 70%] Built target cleaning_interfaces__rosidl_typesupport_fastrtps_c
+[4.897s] [ 70%] Built target cleaning_interfaces
+[4.916s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[5.750s] [ 74%] Built target cleaning_interfaces__py
+[5.771s] [ 77%] [32mBuilding C object CMakeFiles/cleaning_interfaces__rosidl_generator_py.dir/rosidl_generator_py/cleaning_interfaces/action/_cleaning_task_s.c.o[0m
+[5.897s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/cleaning_interfaces/libcleaning_interfaces__rosidl_generator_py.so[0m
+[5.995s] [ 80%] Built target cleaning_interfaces__rosidl_generator_py
+[6.015s] [ 87%] [32mBuilding C object CMakeFiles/cleaning_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/cleaning_interfaces/_cleaning_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[6.015s] [ 87%] [32mBuilding C object CMakeFiles/cleaning_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/cleaning_interfaces/_cleaning_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[6.017s] [ 90%] [32mBuilding C object CMakeFiles/cleaning_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/cleaning_interfaces/_cleaning_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[6.123s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/cleaning_interfaces/cleaning_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.138s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/cleaning_interfaces/cleaning_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.149s] [100%] [32m[1mLinking C shared library rosidl_generator_py/cleaning_interfaces/cleaning_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.232s] [100%] Built target cleaning_interfaces__rosidl_typesupport_c__pyext
+[6.247s] [100%] Built target cleaning_interfaces__rosidl_typesupport_introspection_c__pyext
+[6.256s] [100%] Built target cleaning_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[6.270s] Invoked command in '/home/ivan/ros2_ws/task3/ex05/build/cleaning_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ivan/ros2_ws/task3/ex05/install/action_cleaning_robot:/home/ivan/ros2_ws/install/text_to_cmd_vel_pkg:/home/ivan/ros2_ws/install/py_pubsub:/home/ivan/ros2_ws/install/my_package:/home/ivan/ros2_ws/install/Ivan:/opt/ros/humble /usr/bin/cmake --build /home/ivan/ros2_ws/task3/ex05/build/cleaning_interfaces -- -j16 -l16
+[6.281s] Invoking command in '/home/ivan/ros2_ws/task3/ex05/build/cleaning_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ivan/ros2_ws/task3/ex05/install/action_cleaning_robot:/home/ivan/ros2_ws/install/text_to_cmd_vel_pkg:/home/ivan/ros2_ws/install/py_pubsub:/home/ivan/ros2_ws/install/my_package:/home/ivan/ros2_ws/install/Ivan:/opt/ros/humble /usr/bin/cmake --install /home/ivan/ros2_ws/task3/ex05/build/cleaning_interfaces
+[6.289s] -- Install configuration: ""
+[6.292s] -- Installing: /home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/share/ament_index/resource_index/rosidl_interfaces/cleaning_interfaces
+[6.292s] -- Installing: /home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/include/cleaning_interfaces/cleaning_interfaces
+[6.293s] -- Installing: /home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/include/cleaning_interfaces/cleaning_interfaces/msg
+[6.293s] -- Installing: /home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/include/cleaning_interfaces/cleaning_interfaces/msg/rosidl_generator_c__visibility_control.h
+[6.294s] -- Installing: /home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/include/cleaning_interfaces/cleaning_interfaces/action
+[6.294s] -- Installing: /home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/include/cleaning_interfaces/cleaning_interfaces/action/detail
+[6.294s] -- Installing: /home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/include/cleaning_interfaces/cleaning_interfaces/action/detail/cleaning_task__struct.h
+[6.294s] -- Installing: /home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/include/cleaning_interfaces/cleaning_interfaces/action/detail/cleaning_task__type_support.h
+[6.295s] -- Installing: /home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/include/cleaning_interfaces/cleaning_interfaces/action/detail/cleaning_task__functions.h
+[6.295s] -- Installing: /home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/include/cleaning_interfaces/cleaning_interfaces/action/detail/cleaning_task__functions.c
+[6.295s] -- Installing: /home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/include/cleaning_interfaces/cleaning_interfaces/action/cleaning_task.h
+[6.296s] -- Installing: /home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/share/cleaning_interfaces/environment/library_path.sh
+[6.297s] -- Installing: /home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/share/cleaning_interfaces/environment/library_path.dsv
+[6.297s] -- Installing: /home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/lib/libcleaning_interfaces__rosidl_generator_c.so
+[6.298s] -- Set runtime path of "/home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/lib/libcleaning_interfaces__rosidl_generator_c.so" to ""
+[6.298s] -- Up-to-date: /home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/include/cleaning_interfaces/cleaning_interfaces
+[6.298s] -- Up-to-date: /home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/include/cleaning_interfaces/cleaning_interfaces/msg
+[6.299s] -- Installing: /home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/include/cleaning_interfaces/cleaning_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.299s] -- Up-to-date: /home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/include/cleaning_interfaces/cleaning_interfaces/action
+[6.299s] -- Up-to-date: /home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/include/cleaning_interfaces/cleaning_interfaces/action/detail
+[6.300s] -- Installing: /home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/include/cleaning_interfaces/cleaning_interfaces/action/detail/cleaning_task__rosidl_typesupport_fastrtps_c.h
+[6.300s] -- Installing: /home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/lib/libcleaning_interfaces__rosidl_typesupport_fastrtps_c.so
+[6.300s] -- Set runtime path of "/home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/lib/libcleaning_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[6.301s] -- Up-to-date: /home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/include/cleaning_interfaces/cleaning_interfaces
+[6.302s] -- Up-to-date: /home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/include/cleaning_interfaces/cleaning_interfaces/msg
+[6.302s] -- Installing: /home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/include/cleaning_interfaces/cleaning_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[6.303s] -- Up-to-date: /home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/include/cleaning_interfaces/cleaning_interfaces/action
+[6.303s] -- Up-to-date: /home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/include/cleaning_interfaces/cleaning_interfaces/action/detail
+[6.303s] -- Installing: /home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/include/cleaning_interfaces/cleaning_interfaces/action/detail/cleaning_task__rosidl_typesupport_introspection_c.h
+[6.304s] -- Installing: /home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/include/cleaning_interfaces/cleaning_interfaces/action/detail/cleaning_task__type_support.c
+[6.304s] -- Installing: /home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/lib/libcleaning_interfaces__rosidl_typesupport_introspection_c.so
+[6.305s] -- Set runtime path of "/home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/lib/libcleaning_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[6.306s] -- Installing: /home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/lib/libcleaning_interfaces__rosidl_typesupport_c.so
+[6.306s] -- Set runtime path of "/home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/lib/libcleaning_interfaces__rosidl_typesupport_c.so" to ""
+[6.308s] -- Up-to-date: /home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/include/cleaning_interfaces/cleaning_interfaces
+[6.308s] -- Up-to-date: /home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/include/cleaning_interfaces/cleaning_interfaces/msg
+[6.309s] -- Installing: /home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/include/cleaning_interfaces/cleaning_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[6.309s] -- Up-to-date: /home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/include/cleaning_interfaces/cleaning_interfaces/action
+[6.309s] -- Installing: /home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/include/cleaning_interfaces/cleaning_interfaces/action/cleaning_task.hpp
+[6.310s] -- Up-to-date: /home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/include/cleaning_interfaces/cleaning_interfaces/action/detail
+[6.310s] -- Installing: /home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/include/cleaning_interfaces/cleaning_interfaces/action/detail/cleaning_task__type_support.hpp
+[6.311s] -- Installing: /home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/include/cleaning_interfaces/cleaning_interfaces/action/detail/cleaning_task__builder.hpp
+[6.312s] -- Installing: /home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/include/cleaning_interfaces/cleaning_interfaces/action/detail/cleaning_task__struct.hpp
+[6.313s] -- Installing: /home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/include/cleaning_interfaces/cleaning_interfaces/action/detail/cleaning_task__traits.hpp
+[6.313s] -- Up-to-date: /home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/include/cleaning_interfaces/cleaning_interfaces
+[6.314s] -- Up-to-date: /home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/include/cleaning_interfaces/cleaning_interfaces/msg
+[6.314s] -- Installing: /home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/include/cleaning_interfaces/cleaning_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[6.314s] -- Up-to-date: /home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/include/cleaning_interfaces/cleaning_interfaces/action
+[6.315s] -- Up-to-date: /home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/include/cleaning_interfaces/cleaning_interfaces/action/detail
+[6.315s] -- Installing: /home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/include/cleaning_interfaces/cleaning_interfaces/action/detail/dds_fastrtps
+[6.315s] -- Installing: /home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/include/cleaning_interfaces/cleaning_interfaces/action/detail/cleaning_task__rosidl_typesupport_fastrtps_cpp.hpp
+[6.315s] -- Installing: /home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/lib/libcleaning_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[6.315s] -- Set runtime path of "/home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/lib/libcleaning_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[6.316s] -- Up-to-date: /home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/include/cleaning_interfaces/cleaning_interfaces
+[6.316s] -- Up-to-date: /home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/include/cleaning_interfaces/cleaning_interfaces/action
+[6.316s] -- Up-to-date: /home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/include/cleaning_interfaces/cleaning_interfaces/action/detail
+[6.316s] -- Installing: /home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/include/cleaning_interfaces/cleaning_interfaces/action/detail/cleaning_task__rosidl_typesupport_introspection_cpp.hpp
+[6.316s] -- Installing: /home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/include/cleaning_interfaces/cleaning_interfaces/action/detail/cleaning_task__type_support.cpp
+[6.316s] -- Installing: /home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/lib/libcleaning_interfaces__rosidl_typesupport_introspection_cpp.so
+[6.316s] -- Set runtime path of "/home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/lib/libcleaning_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[6.316s] -- Installing: /home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/lib/libcleaning_interfaces__rosidl_typesupport_cpp.so
+[6.317s] -- Set runtime path of "/home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/lib/libcleaning_interfaces__rosidl_typesupport_cpp.so" to ""
+[6.317s] -- Installing: /home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/share/cleaning_interfaces/environment/pythonpath.sh
+[6.317s] -- Installing: /home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/share/cleaning_interfaces/environment/pythonpath.dsv
+[6.317s] -- Installing: /home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/local/lib/python3.10/dist-packages/cleaning_interfaces-0.0.0-py3.10.egg-info
+[6.318s] -- Installing: /home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/local/lib/python3.10/dist-packages/cleaning_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[6.318s] -- Installing: /home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/local/lib/python3.10/dist-packages/cleaning_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[6.318s] -- Installing: /home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/local/lib/python3.10/dist-packages/cleaning_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[6.318s] -- Installing: /home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/local/lib/python3.10/dist-packages/cleaning_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[6.318s] -- Installing: /home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/local/lib/python3.10/dist-packages/cleaning_interfaces
+[6.318s] -- Installing: /home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/local/lib/python3.10/dist-packages/cleaning_interfaces/_cleaning_interfaces_s.ep.rosidl_typesupport_c.c
+[6.318s] -- Installing: /home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/local/lib/python3.10/dist-packages/cleaning_interfaces/cleaning_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[6.319s] -- Installing: /home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/local/lib/python3.10/dist-packages/cleaning_interfaces/libcleaning_interfaces__rosidl_generator_py.so
+[6.319s] -- Installing: /home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/local/lib/python3.10/dist-packages/cleaning_interfaces/_cleaning_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[6.319s] -- Installing: /home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/local/lib/python3.10/dist-packages/cleaning_interfaces/cleaning_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[6.319s] -- Installing: /home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/local/lib/python3.10/dist-packages/cleaning_interfaces/cleaning_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.319s] -- Installing: /home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/local/lib/python3.10/dist-packages/cleaning_interfaces/__init__.py
+[6.320s] -- Installing: /home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/local/lib/python3.10/dist-packages/cleaning_interfaces/_cleaning_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[6.320s] -- Installing: /home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/local/lib/python3.10/dist-packages/cleaning_interfaces/action
+[6.320s] -- Installing: /home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/local/lib/python3.10/dist-packages/cleaning_interfaces/action/_cleaning_task_s.c
+[6.320s] -- Installing: /home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/local/lib/python3.10/dist-packages/cleaning_interfaces/action/__init__.py
+[6.320s] -- Installing: /home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/local/lib/python3.10/dist-packages/cleaning_interfaces/action/_cleaning_task.py
+[6.353s] Listing '/home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/local/lib/python3.10/dist-packages/cleaning_interfaces'...
+[6.354s] Compiling '/home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/local/lib/python3.10/dist-packages/cleaning_interfaces/__init__.py'...
+[6.354s] Listing '/home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/local/lib/python3.10/dist-packages/cleaning_interfaces/action'...
+[6.354s] Compiling '/home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/local/lib/python3.10/dist-packages/cleaning_interfaces/action/__init__.py'...
+[6.354s] Compiling '/home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/local/lib/python3.10/dist-packages/cleaning_interfaces/action/_cleaning_task.py'...
+[6.360s] -- Installing: /home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/local/lib/python3.10/dist-packages/cleaning_interfaces/cleaning_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[6.360s] -- Set runtime path of "/home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/local/lib/python3.10/dist-packages/cleaning_interfaces/cleaning_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[6.361s] -- Installing: /home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/local/lib/python3.10/dist-packages/cleaning_interfaces/cleaning_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[6.361s] -- Set runtime path of "/home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/local/lib/python3.10/dist-packages/cleaning_interfaces/cleaning_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[6.361s] -- Installing: /home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/local/lib/python3.10/dist-packages/cleaning_interfaces/cleaning_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.361s] -- Set runtime path of "/home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/local/lib/python3.10/dist-packages/cleaning_interfaces/cleaning_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[6.361s] -- Installing: /home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/lib/libcleaning_interfaces__rosidl_generator_py.so
+[6.362s] -- Set runtime path of "/home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/lib/libcleaning_interfaces__rosidl_generator_py.so" to ""
+[6.362s] -- Installing: /home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/share/cleaning_interfaces/action/CleaningTask.idl
+[6.362s] -- Installing: /home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/share/cleaning_interfaces/action/CleaningTask.action
+[6.363s] -- Installing: /home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/share/ament_index/resource_index/package_run_dependencies/cleaning_interfaces
+[6.364s] -- Installing: /home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/share/ament_index/resource_index/parent_prefix_path/cleaning_interfaces
+[6.364s] -- Installing: /home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/share/cleaning_interfaces/environment/ament_prefix_path.sh
+[6.364s] -- Installing: /home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/share/cleaning_interfaces/environment/ament_prefix_path.dsv
+[6.365s] -- Installing: /home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/share/cleaning_interfaces/environment/path.sh
+[6.365s] -- Installing: /home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/share/cleaning_interfaces/environment/path.dsv
+[6.365s] -- Installing: /home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/share/cleaning_interfaces/local_setup.bash
+[6.365s] -- Installing: /home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/share/cleaning_interfaces/local_setup.sh
+[6.366s] -- Installing: /home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/share/cleaning_interfaces/local_setup.zsh
+[6.366s] -- Installing: /home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/share/cleaning_interfaces/local_setup.dsv
+[6.366s] -- Installing: /home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/share/cleaning_interfaces/package.dsv
+[6.366s] -- Installing: /home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/share/ament_index/resource_index/packages/cleaning_interfaces
+[6.366s] -- Installing: /home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/share/cleaning_interfaces/cmake/export_cleaning_interfaces__rosidl_generator_cExport.cmake
+[6.367s] -- Installing: /home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/share/cleaning_interfaces/cmake/export_cleaning_interfaces__rosidl_generator_cExport-noconfig.cmake
+[6.367s] -- Installing: /home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/share/cleaning_interfaces/cmake/export_cleaning_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[6.368s] -- Installing: /home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/share/cleaning_interfaces/cmake/export_cleaning_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[6.368s] -- Installing: /home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/share/cleaning_interfaces/cmake/cleaning_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[6.368s] -- Installing: /home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/share/cleaning_interfaces/cmake/cleaning_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[6.369s] -- Installing: /home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/share/cleaning_interfaces/cmake/cleaning_interfaces__rosidl_typesupport_cExport.cmake
+[6.369s] -- Installing: /home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/share/cleaning_interfaces/cmake/cleaning_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[6.370s] -- Installing: /home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/share/cleaning_interfaces/cmake/export_cleaning_interfaces__rosidl_generator_cppExport.cmake
+[6.370s] -- Installing: /home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/share/cleaning_interfaces/cmake/export_cleaning_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[6.370s] -- Installing: /home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/share/cleaning_interfaces/cmake/export_cleaning_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[6.371s] -- Installing: /home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/share/cleaning_interfaces/cmake/cleaning_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[6.371s] -- Installing: /home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/share/cleaning_interfaces/cmake/cleaning_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[6.371s] -- Installing: /home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/share/cleaning_interfaces/cmake/cleaning_interfaces__rosidl_typesupport_cppExport.cmake
+[6.371s] -- Installing: /home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/share/cleaning_interfaces/cmake/cleaning_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[6.371s] -- Installing: /home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/share/cleaning_interfaces/cmake/export_cleaning_interfaces__rosidl_generator_pyExport.cmake
+[6.372s] -- Installing: /home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/share/cleaning_interfaces/cmake/export_cleaning_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[6.372s] -- Installing: /home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/share/cleaning_interfaces/cmake/rosidl_cmake-extras.cmake
+[6.372s] -- Installing: /home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/share/cleaning_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.372s] -- Installing: /home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/share/cleaning_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.372s] -- Installing: /home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/share/cleaning_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[6.372s] -- Installing: /home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/share/cleaning_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[6.372s] -- Installing: /home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/share/cleaning_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[6.372s] -- Installing: /home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/share/cleaning_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[6.373s] -- Installing: /home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/share/cleaning_interfaces/cmake/cleaning_interfacesConfig.cmake
+[6.373s] -- Installing: /home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/share/cleaning_interfaces/cmake/cleaning_interfacesConfig-version.cmake
+[6.373s] -- Installing: /home/ivan/ros2_ws/task3/ex05/install/cleaning_interfaces/share/cleaning_interfaces/package.xml
+[6.375s] Invoked command in '/home/ivan/ros2_ws/task3/ex05/build/cleaning_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ivan/ros2_ws/task3/ex05/install/action_cleaning_robot:/home/ivan/ros2_ws/install/text_to_cmd_vel_pkg:/home/ivan/ros2_ws/install/py_pubsub:/home/ivan/ros2_ws/install/my_package:/home/ivan/ros2_ws/install/Ivan:/opt/ros/humble /usr/bin/cmake --install /home/ivan/ros2_ws/task3/ex05/build/cleaning_interfaces
