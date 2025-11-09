@@ -1,0 +1,4 @@
+source;share/ex0402b/local_setup.bash
+source;share/ex0402b/local_setup.dsv
+source;share/ex0402b/local_setup.sh
+source;share/ex0402b/local_setup.zsh

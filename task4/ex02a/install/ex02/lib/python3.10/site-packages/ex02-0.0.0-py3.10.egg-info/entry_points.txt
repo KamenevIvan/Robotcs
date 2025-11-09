@@ -1,0 +1,5 @@
+[console_scripts]
+carrot_broadcaster = ex02.carrot_broadcaster:main
+turtle_broadcaster = ex02.turtle_tf2_broadcaster:main
+turtle_follower = ex02.turtle_follower:main
+

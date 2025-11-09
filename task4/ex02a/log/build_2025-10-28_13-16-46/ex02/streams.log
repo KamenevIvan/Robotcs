@@ -1,0 +1,51 @@
+[1.501s] Invoking command in '/home/ivan/ros2_ws/task4/ex02': PYTHONPATH=/home/ivan/ros2_ws/task4/build/ex02/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ivan/ros2_ws/task4/install/ex02/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/ex02 build --build-base /home/ivan/ros2_ws/task4/build/ex02/build install --record /home/ivan/ros2_ws/task4/build/ex02/install.log --single-version-externally-managed install_data
+[1.931s] running egg_info
+[1.932s] creating ../build/ex02/ex02.egg-info
+[1.933s] writing ../build/ex02/ex02.egg-info/PKG-INFO
+[1.934s] writing dependency_links to ../build/ex02/ex02.egg-info/dependency_links.txt
+[1.935s] writing entry points to ../build/ex02/ex02.egg-info/entry_points.txt
+[1.935s] writing requirements to ../build/ex02/ex02.egg-info/requires.txt
+[1.936s] writing top-level names to ../build/ex02/ex02.egg-info/top_level.txt
+[1.937s] writing manifest file '../build/ex02/ex02.egg-info/SOURCES.txt'
+[1.941s] reading manifest file '../build/ex02/ex02.egg-info/SOURCES.txt'
+[1.943s] writing manifest file '../build/ex02/ex02.egg-info/SOURCES.txt'
+[1.950s] running build
+[1.951s] running build_py
+[1.951s] creating /home/ivan/ros2_ws/task4/build/ex02/build
+[1.952s] creating /home/ivan/ros2_ws/task4/build/ex02/build/lib
+[1.953s] creating /home/ivan/ros2_ws/task4/build/ex02/build/lib/ex02
+[1.954s] copying ex02/dummy.py -> /home/ivan/ros2_ws/task4/build/ex02/build/lib/ex02
+[1.954s] copying ex02/carrot_broadcaster.py -> /home/ivan/ros2_ws/task4/build/ex02/build/lib/ex02
+[1.955s] copying ex02/turtle_follower.py -> /home/ivan/ros2_ws/task4/build/ex02/build/lib/ex02
+[1.955s] copying ex02/__init__.py -> /home/ivan/ros2_ws/task4/build/ex02/build/lib/ex02
+[1.956s] copying ex02/turtle_tf2_broadcaster.py -> /home/ivan/ros2_ws/task4/build/ex02/build/lib/ex02
+[1.956s] running install
+[1.957s] running install_lib
+[1.959s] creating /home/ivan/ros2_ws/task4/install/ex02/lib/python3.10/site-packages/ex02
+[1.960s] copying /home/ivan/ros2_ws/task4/build/ex02/build/lib/ex02/dummy.py -> /home/ivan/ros2_ws/task4/install/ex02/lib/python3.10/site-packages/ex02
+[1.960s] copying /home/ivan/ros2_ws/task4/build/ex02/build/lib/ex02/carrot_broadcaster.py -> /home/ivan/ros2_ws/task4/install/ex02/lib/python3.10/site-packages/ex02
+[1.961s] copying /home/ivan/ros2_ws/task4/build/ex02/build/lib/ex02/turtle_follower.py -> /home/ivan/ros2_ws/task4/install/ex02/lib/python3.10/site-packages/ex02
+[1.961s] copying /home/ivan/ros2_ws/task4/build/ex02/build/lib/ex02/__init__.py -> /home/ivan/ros2_ws/task4/install/ex02/lib/python3.10/site-packages/ex02
+[1.962s] copying /home/ivan/ros2_ws/task4/build/ex02/build/lib/ex02/turtle_tf2_broadcaster.py -> /home/ivan/ros2_ws/task4/install/ex02/lib/python3.10/site-packages/ex02
+[1.964s] byte-compiling /home/ivan/ros2_ws/task4/install/ex02/lib/python3.10/site-packages/ex02/dummy.py to dummy.cpython-310.pyc
+[1.966s] byte-compiling /home/ivan/ros2_ws/task4/install/ex02/lib/python3.10/site-packages/ex02/carrot_broadcaster.py to carrot_broadcaster.cpython-310.pyc
+[1.968s] byte-compiling /home/ivan/ros2_ws/task4/install/ex02/lib/python3.10/site-packages/ex02/turtle_follower.py to turtle_follower.cpython-310.pyc
+[1.970s] byte-compiling /home/ivan/ros2_ws/task4/install/ex02/lib/python3.10/site-packages/ex02/__init__.py to __init__.cpython-310.pyc
+[1.971s] byte-compiling /home/ivan/ros2_ws/task4/install/ex02/lib/python3.10/site-packages/ex02/turtle_tf2_broadcaster.py to turtle_tf2_broadcaster.cpython-310.pyc
+[1.973s] running install_data
+[1.973s] creating /home/ivan/ros2_ws/task4/install/ex02/share/ament_index
+[1.974s] creating /home/ivan/ros2_ws/task4/install/ex02/share/ament_index/resource_index
+[1.975s] creating /home/ivan/ros2_ws/task4/install/ex02/share/ament_index/resource_index/packages
+[1.976s] copying resource/ex02 -> /home/ivan/ros2_ws/task4/install/ex02/share/ament_index/resource_index/packages
+[1.977s] copying package.xml -> /home/ivan/ros2_ws/task4/install/ex02/share/ex02
+[1.978s] creating /home/ivan/ros2_ws/task4/install/ex02/share/ex02/launch
+[1.979s] copying launch/ex02_launch.py -> /home/ivan/ros2_ws/task4/install/ex02/share/ex02/launch
+[1.979s] copying carrot.rviz -> /home/ivan/ros2_ws/task4/install/ex02/share/ex02
+[1.980s] running install_egg_info
+[1.983s] Copying ../build/ex02/ex02.egg-info to /home/ivan/ros2_ws/task4/install/ex02/lib/python3.10/site-packages/ex02-0.0.0-py3.10.egg-info
+[1.988s] running install_scripts
+[2.021s] Installing carrot_broadcaster script to /home/ivan/ros2_ws/task4/install/ex02/lib/ex02
+[2.022s] Installing turtle_broadcaster script to /home/ivan/ros2_ws/task4/install/ex02/lib/ex02
+[2.023s] Installing turtle_follower script to /home/ivan/ros2_ws/task4/install/ex02/lib/ex02
+[2.024s] writing list of installed files to '/home/ivan/ros2_ws/task4/build/ex02/install.log'
+[2.074s] Invoked command in '/home/ivan/ros2_ws/task4/ex02' returned '0': PYTHONPATH=/home/ivan/ros2_ws/task4/build/ex02/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ivan/ros2_ws/task4/install/ex02/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/ex02 build --build-base /home/ivan/ros2_ws/task4/build/ex02/build install --record /home/ivan/ros2_ws/task4/build/ex02/install.log --single-version-externally-managed install_data

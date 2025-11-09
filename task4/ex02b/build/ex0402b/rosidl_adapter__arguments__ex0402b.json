@@ -1,0 +1,6 @@
+{
+  "package_name": "ex0402b",
+  "non_idl_tuples": [
+    "/home/ivan/ros2_ws/task4/ex02b/turtle_multi_target:msg/CurrentTarget.msg"
+  ]
+}

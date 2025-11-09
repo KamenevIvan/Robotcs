@@ -1,0 +1,567 @@
+[0.000000] (-) TimerEvent: {}
+[0.000950] (ex0402b) JobQueued: {'identifier': 'ex0402b', 'dependencies': OrderedDict()}
+[0.001080] (ex0402b) JobStarted: {'identifier': 'ex0402b'}
+[0.017756] (ex0402b) JobProgress: {'identifier': 'ex0402b', 'progress': 'cmake'}
+[0.024356] (ex0402b) Command: {'cmd': ['/usr/bin/cmake', '/home/ivan/ros2_ws/task4/ex02b/turtle_multi_target', '-DCMAKE_INSTALL_PREFIX=/home/ivan/ros2_ws/task4/ex02b/install/ex0402b'], 'cwd': '/home/ivan/ros2_ws/task4/ex02b/build/ex0402b', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ivan'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ivan/ros2_ws/install/tutorial_interfaces/lib:/home/ivan/ros2_ws/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}'), ('HOME', '/home/ivan'), ('OLDPWD', '/home/ivan/ros2_ws/task4'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('_colcon_cd_root', '/opt/ros/humble/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ivan/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ivan'), ('NAME', 'SprintN'), ('WSL_INTEROP', '/run/WSL/2896_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/NSU/Code/netCourse:/mnt/c/Work/netOverload/ffmpeg-master-latest-win64-gpl/ffmpeg-master-latest-win64-gpl/bin:/mnt/c/Program Files/CMake/bin:/mnt/c/Users/Kamen/AppData/Local/Microsoft/WindowsApps:/mnt/c/NSU/Microsoft VS Code/bin:/snap/bin'), ('WT_SESSION', 'cc58855f-9962-405d-8708-01e7bbc6f32d'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/ivan/ros2_ws/install/tutorial_interfaces:/home/ivan/ros2_ws/install/turtle_multi_target:/home/ivan/ros2_ws/install/turtlesim:/home/ivan/ros2_ws/install/text_to_cmd_vel_pkg:/home/ivan/ros2_ws/install/py_pubsub:/home/ivan/ros2_ws/install/my_package:/home/ivan/ros2_ws/install/Ivan:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ivan/ros2_ws/task4/ex02b/build/ex0402b'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ivan/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/ivan/ros2_ws/install/turtle_multi_target/lib/python3.10/site-packages:/home/ivan/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/ivan/ros2_ws/install/text_to_cmd_vel_pkg/lib/python3.10/site-packages:/home/ivan/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/home/ivan/ros2_ws/install/my_package/lib/python3.10/site-packages:/home/ivan/ros2_ws/install/Ivan/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/ivan/ros2_ws/install/tutorial_interfaces:/home/ivan/ros2_ws/install/turtlesim:/home/ivan/ros2_ws/install/turtle_multi_target:/home/ivan/ros2_ws/install/text_to_cmd_vel_pkg:/home/ivan/ros2_ws/install/py_pubsub:/home/ivan/ros2_ws/install/my_package:/home/ivan/ros2_ws/install/Ivan:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[0.098160] (-) TimerEvent: {}
+[0.198894] (-) TimerEvent: {}
+[0.220667] (ex0402b) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.299133] (-) TimerEvent: {}
+[0.400006] (-) TimerEvent: {}
+[0.500660] (-) TimerEvent: {}
+[0.601378] (-) TimerEvent: {}
+[0.702045] (-) TimerEvent: {}
+[0.755105] (ex0402b) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.802294] (-) TimerEvent: {}
+[0.902932] (-) TimerEvent: {}
+[1.003436] (-) TimerEvent: {}
+[1.103966] (-) TimerEvent: {}
+[1.115909] (ex0402b) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.204205] (-) TimerEvent: {}
+[1.304833] (-) TimerEvent: {}
+[1.309341] (ex0402b) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.320176] (ex0402b) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.321029] (ex0402b) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.321266] (ex0402b) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.326950] (ex0402b) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.405008] (-) TimerEvent: {}
+[1.505677] (-) TimerEvent: {}
+[1.521158] (ex0402b) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.532440] (ex0402b) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.533068] (ex0402b) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.533556] (ex0402b) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.538819] (ex0402b) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.605930] (-) TimerEvent: {}
+[1.706600] (-) TimerEvent: {}
+[1.771940] (ex0402b) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.806836] (-) TimerEvent: {}
+[1.907490] (-) TimerEvent: {}
+[1.922817] (ex0402b) StdoutLine: {'line': b'-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.007695] (-) TimerEvent: {}
+[2.108323] (-) TimerEvent: {}
+[2.158391] (ex0402b) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.167265] (ex0402b) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.181065] (ex0402b) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.202176] (ex0402b) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.208469] (-) TimerEvent: {}
+[2.228678] (ex0402b) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.300514] (ex0402b) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.305404] (ex0402b) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.308633] (-) TimerEvent: {}
+[2.409118] (-) TimerEvent: {}
+[2.509630] (-) TimerEvent: {}
+[2.610159] (-) TimerEvent: {}
+[2.710744] (-) TimerEvent: {}
+[2.811300] (-) TimerEvent: {}
+[2.911777] (-) TimerEvent: {}
+[3.012242] (-) TimerEvent: {}
+[3.112972] (-) TimerEvent: {}
+[3.213635] (-) TimerEvent: {}
+[3.314095] (-) TimerEvent: {}
+[3.414629] (-) TimerEvent: {}
+[3.515131] (-) TimerEvent: {}
+[3.615634] (-) TimerEvent: {}
+[3.716202] (-) TimerEvent: {}
+[3.816676] (-) TimerEvent: {}
+[3.917119] (-) TimerEvent: {}
+[4.017614] (-) TimerEvent: {}
+[4.019963] (ex0402b) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[4.117826] (-) TimerEvent: {}
+[4.218512] (-) TimerEvent: {}
+[4.319071] (-) TimerEvent: {}
+[4.419610] (-) TimerEvent: {}
+[4.520171] (-) TimerEvent: {}
+[4.620635] (-) TimerEvent: {}
+[4.721143] (-) TimerEvent: {}
+[4.821586] (-) TimerEvent: {}
+[4.922084] (-) TimerEvent: {}
+[5.022577] (-) TimerEvent: {}
+[5.123160] (-) TimerEvent: {}
+[5.223745] (-) TimerEvent: {}
+[5.324227] (-) TimerEvent: {}
+[5.424756] (-) TimerEvent: {}
+[5.525228] (-) TimerEvent: {}
+[5.588060] (ex0402b) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[5.625401] (-) TimerEvent: {}
+[5.725994] (-) TimerEvent: {}
+[5.826545] (-) TimerEvent: {}
+[5.927089] (-) TimerEvent: {}
+[6.027905] (-) TimerEvent: {}
+[6.128560] (-) TimerEvent: {}
+[6.229010] (-) TimerEvent: {}
+[6.329517] (-) TimerEvent: {}
+[6.430042] (-) TimerEvent: {}
+[6.530592] (-) TimerEvent: {}
+[6.631109] (-) TimerEvent: {}
+[6.731581] (-) TimerEvent: {}
+[6.832038] (-) TimerEvent: {}
+[6.932581] (-) TimerEvent: {}
+[7.033176] (-) TimerEvent: {}
+[7.133691] (-) TimerEvent: {}
+[7.234295] (-) TimerEvent: {}
+[7.334857] (-) TimerEvent: {}
+[7.435400] (-) TimerEvent: {}
+[7.536055] (-) TimerEvent: {}
+[7.636633] (-) TimerEvent: {}
+[7.737053] (-) TimerEvent: {}
+[7.837597] (-) TimerEvent: {}
+[7.938155] (-) TimerEvent: {}
+[8.038669] (-) TimerEvent: {}
+[8.139156] (-) TimerEvent: {}
+[8.239650] (-) TimerEvent: {}
+[8.340151] (-) TimerEvent: {}
+[8.440628] (-) TimerEvent: {}
+[8.541177] (-) TimerEvent: {}
+[8.641653] (-) TimerEvent: {}
+[8.666466] (ex0402b) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[8.680957] (ex0402b) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[8.741837] (-) TimerEvent: {}
+[8.842402] (-) TimerEvent: {}
+[8.855563] (ex0402b) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[8.856195] (ex0402b) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[8.942604] (-) TimerEvent: {}
+[9.029555] (ex0402b) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[9.031154] (ex0402b) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[9.042863] (-) TimerEvent: {}
+[9.114548] (ex0402b) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[9.134831] (ex0402b) StdoutLine: {'line': b'-- Found turtlesim: 1.4.2 (/home/ivan/ros2_ws/install/turtlesim/share/turtlesim/cmake)\n'}
+[9.143124] (-) TimerEvent: {}
+[9.198941] (ex0402b) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[9.243311] (-) TimerEvent: {}
+[9.330863] (ex0402b) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.16 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[9.343570] (-) TimerEvent: {}
+[9.394281] (ex0402b) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[9.396231] (ex0402b) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[9.396522] (ex0402b) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[9.401856] (ex0402b) StdoutLine: {'line': b'-- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[9.421166] (ex0402b) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[9.443766] (-) TimerEvent: {}
+[9.544403] (-) TimerEvent: {}
+[9.645011] (-) TimerEvent: {}
+[9.745562] (-) TimerEvent: {}
+[9.847178] (-) TimerEvent: {}
+[9.876352] (ex0402b) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[9.947398] (-) TimerEvent: {}
+[10.048071] (-) TimerEvent: {}
+[10.148583] (-) TimerEvent: {}
+[10.249185] (-) TimerEvent: {}
+[10.349764] (-) TimerEvent: {}
+[10.450279] (-) TimerEvent: {}
+[10.550850] (-) TimerEvent: {}
+[10.567426] (ex0402b) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[10.651012] (-) TimerEvent: {}
+[10.751588] (-) TimerEvent: {}
+[10.817829] (ex0402b) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[10.851773] (-) TimerEvent: {}
+[10.952344] (-) TimerEvent: {}
+[10.955845] (ex0402b) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[10.959222] (ex0402b) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[11.052524] (-) TimerEvent: {}
+[11.153023] (-) TimerEvent: {}
+[11.253619] (-) TimerEvent: {}
+[11.344275] (ex0402b) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[11.344553] (ex0402b) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[11.344680] (ex0402b) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[11.344800] (ex0402b) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[11.353918] (-) TimerEvent: {}
+[11.376955] (ex0402b) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[11.454121] (-) TimerEvent: {}
+[11.551634] (ex0402b) StdoutLine: {'line': b'-- Configuring done\n'}
+[11.554365] (-) TimerEvent: {}
+[11.655026] (-) TimerEvent: {}
+[11.666010] (ex0402b) StdoutLine: {'line': b'-- Generating done\n'}
+[11.700815] (ex0402b) StdoutLine: {'line': b'-- Build files have been written to: /home/ivan/ros2_ws/task4/ex02b/build/ex0402b\n'}
+[11.720443] (ex0402b) CommandEnded: {'returncode': 0}
+[11.721882] (ex0402b) JobProgress: {'identifier': 'ex0402b', 'progress': 'build'}
+[11.723845] (ex0402b) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ivan/ros2_ws/task4/ex02b/build/ex0402b', '--', '-j16', '-l16'], 'cwd': '/home/ivan/ros2_ws/task4/ex02b/build/ex0402b', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ivan'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ivan/ros2_ws/install/tutorial_interfaces/lib:/home/ivan/ros2_ws/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}'), ('HOME', '/home/ivan'), ('OLDPWD', '/home/ivan/ros2_ws/task4'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('_colcon_cd_root', '/opt/ros/humble/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ivan/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ivan'), ('NAME', 'SprintN'), ('WSL_INTEROP', '/run/WSL/2896_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/NSU/Code/netCourse:/mnt/c/Work/netOverload/ffmpeg-master-latest-win64-gpl/ffmpeg-master-latest-win64-gpl/bin:/mnt/c/Program Files/CMake/bin:/mnt/c/Users/Kamen/AppData/Local/Microsoft/WindowsApps:/mnt/c/NSU/Microsoft VS Code/bin:/snap/bin'), ('WT_SESSION', 'cc58855f-9962-405d-8708-01e7bbc6f32d'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/ivan/ros2_ws/install/tutorial_interfaces:/home/ivan/ros2_ws/install/turtle_multi_target:/home/ivan/ros2_ws/install/turtlesim:/home/ivan/ros2_ws/install/text_to_cmd_vel_pkg:/home/ivan/ros2_ws/install/py_pubsub:/home/ivan/ros2_ws/install/my_package:/home/ivan/ros2_ws/install/Ivan:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ivan/ros2_ws/task4/ex02b/build/ex0402b'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ivan/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/ivan/ros2_ws/install/turtle_multi_target/lib/python3.10/site-packages:/home/ivan/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/ivan/ros2_ws/install/text_to_cmd_vel_pkg/lib/python3.10/site-packages:/home/ivan/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/home/ivan/ros2_ws/install/my_package/lib/python3.10/site-packages:/home/ivan/ros2_ws/install/Ivan/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/ivan/ros2_ws/install/tutorial_interfaces:/home/ivan/ros2_ws/install/turtlesim:/home/ivan/ros2_ws/install/turtle_multi_target:/home/ivan/ros2_ws/install/text_to_cmd_vel_pkg:/home/ivan/ros2_ws/install/py_pubsub:/home/ivan/ros2_ws/install/my_package:/home/ivan/ros2_ws/install/Ivan:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[11.755326] (-) TimerEvent: {}
+[11.791008] (ex0402b) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[11.814988] (ex0402b) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding CXX object CMakeFiles/target_switcher.dir/src/target_switcher.cpp.o\x1b[0m\n'}
+[11.829611] (ex0402b) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[11.829903] (ex0402b) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object CMakeFiles/keyboard_listener.dir/src/keyboard_listener.cpp.o\x1b[0m\n'}
+[11.830096] (ex0402b) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/turtle2_tf2_broadcaster.dir/src/turtle2_tf2_broadcaster.cpp.o\x1b[0m\n'}
+[11.843298] (ex0402b) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/turtle_tf2_broadcaster.dir/src/turtle_tf2_broadcaster.cpp.o\x1b[0m\n'}
+[11.855536] (-) TimerEvent: {}
+[11.860433] (ex0402b) StdoutLine: {'line': b'[ 14%] Built target ament_cmake_python_copy_ex0402b\n'}
+[11.955758] (-) TimerEvent: {}
+[12.056298] (-) TimerEvent: {}
+[12.156843] (-) TimerEvent: {}
+[12.257470] (-) TimerEvent: {}
+[12.339274] (ex0402b) StdoutLine: {'line': b'running egg_info\n'}
+[12.340402] (ex0402b) StdoutLine: {'line': b'creating ex0402b.egg-info\n'}
+[12.341096] (ex0402b) StdoutLine: {'line': b'writing ex0402b.egg-info/PKG-INFO\n'}
+[12.341482] (ex0402b) StdoutLine: {'line': b'writing dependency_links to ex0402b.egg-info/dependency_links.txt\n'}
+[12.341786] (ex0402b) StdoutLine: {'line': b'writing top-level names to ex0402b.egg-info/top_level.txt\n'}
+[12.342113] (ex0402b) StdoutLine: {'line': b"writing manifest file 'ex0402b.egg-info/SOURCES.txt'\n"}
+[12.345123] (ex0402b) StdoutLine: {'line': b"reading manifest file 'ex0402b.egg-info/SOURCES.txt'\n"}
+[12.345852] (ex0402b) StdoutLine: {'line': b"writing manifest file 'ex0402b.egg-info/SOURCES.txt'\n"}
+[12.347538] (ex0402b) StdoutLine: {'line': b'[ 14%] Built target ex0402b__cpp\n'}
+[12.350780] (ex0402b) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/ex0402b__rosidl_generator_c.dir/rosidl_generator_c/ex0402b/msg/detail/current_target__functions.c.o\x1b[0m\n'}
+[12.357749] (-) TimerEvent: {}
+[12.365303] (ex0402b) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[12.367043] (ex0402b) StdoutLine: {'line': b'[ 21%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[12.367375] (ex0402b) StdoutLine: {'line': b'[ 24%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[12.402587] (ex0402b) StdoutLine: {'line': b'[ 24%] Built target ament_cmake_python_build_ex0402b_egg\n'}
+[12.428457] (ex0402b) StdoutLine: {'line': b'[ 26%] \x1b[32m\x1b[1mLinking C shared library libex0402b__rosidl_generator_c.so\x1b[0m\n'}
+[12.457923] (-) TimerEvent: {}
+[12.558538] (-) TimerEvent: {}
+[12.605878] (ex0402b) StdoutLine: {'line': b'[ 26%] Built target ex0402b__rosidl_generator_c\n'}
+[12.623417] (ex0402b) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[12.625789] (ex0402b) StdoutLine: {'line': b'[ 31%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[12.626547] (ex0402b) StdoutLine: {'line': b'[ 34%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[12.658762] (-) TimerEvent: {}
+[12.759394] (-) TimerEvent: {}
+[12.836785] (ex0402b) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/ex0402b__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ex0402b/msg/current_target__type_support.cpp.o\x1b[0m\n'}
+[12.859606] (-) TimerEvent: {}
+[12.893720] (ex0402b) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/ex0402b__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ex0402b/msg/detail/current_target__type_support.cpp.o\x1b[0m\n'}
+[12.908971] (ex0402b) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/ex0402b__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ex0402b/msg/detail/dds_fastrtps/current_target__type_support.cpp.o\x1b[0m\n'}
+[12.959819] (-) TimerEvent: {}
+[13.060448] (-) TimerEvent: {}
+[13.115161] (ex0402b) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/ex0402b__rosidl_typesupport_c.dir/rosidl_typesupport_c/ex0402b/msg/current_target__type_support.cpp.o\x1b[0m\n'}
+[13.160698] (-) TimerEvent: {}
+[13.171570] (ex0402b) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding C object CMakeFiles/ex0402b__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ex0402b/msg/detail/current_target__type_support.c.o\x1b[0m\n'}
+[13.176914] (ex0402b) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library libex0402b__rosidl_typesupport_c.so\x1b[0m\n'}
+[13.190510] (ex0402b) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/ex0402b__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ex0402b/msg/detail/current_target__type_support_c.cpp.o\x1b[0m\n'}
+[13.248074] (ex0402b) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking C shared library libex0402b__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[13.260934] (-) TimerEvent: {}
+[13.361529] (-) TimerEvent: {}
+[13.385898] (ex0402b) StdoutLine: {'line': b'[ 53%] Built target ex0402b__rosidl_typesupport_c\n'}
+[13.422666] (ex0402b) StdoutLine: {'line': b'[ 53%] Built target ex0402b__rosidl_typesupport_introspection_c\n'}
+[13.423332] (ex0402b) StdoutLine: {'line': b'[ 56%] \x1b[32m\x1b[1mLinking CXX shared library libex0402b__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[13.461751] (-) TimerEvent: {}
+[13.562419] (-) TimerEvent: {}
+[13.639951] (ex0402b) StdoutLine: {'line': b'[ 56%] Built target ex0402b__rosidl_typesupport_cpp\n'}
+[13.662651] (-) TimerEvent: {}
+[13.678178] (ex0402b) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/turtle_controller.dir/src/turtle_controller.cpp.o\x1b[0m\n'}
+[13.762924] (-) TimerEvent: {}
+[13.794780] (ex0402b) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking CXX shared library libex0402b__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[13.835952] (ex0402b) StdoutLine: {'line': b'[ 63%] \x1b[32m\x1b[1mLinking CXX shared library libex0402b__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[13.863127] (-) TimerEvent: {}
+[13.921208] (ex0402b) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking CXX shared library libex0402b__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[13.963357] (-) TimerEvent: {}
+[14.060150] (ex0402b) StdoutLine: {'line': b'[ 65%] Built target ex0402b__rosidl_typesupport_fastrtps_cpp\n'}
+[14.063602] (-) TimerEvent: {}
+[14.082694] (ex0402b) StdoutLine: {'line': b'[ 65%] Built target ex0402b__rosidl_typesupport_introspection_cpp\n'}
+[14.163802] (-) TimerEvent: {}
+[14.174719] (ex0402b) StdoutLine: {'line': b'[ 65%] Built target ex0402b__rosidl_typesupport_fastrtps_c\n'}
+[14.204337] (ex0402b) StdoutLine: {'line': b'[ 65%] Built target ex0402b\n'}
+[14.232892] (ex0402b) StdoutLine: {'line': b'[ 68%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[14.264075] (-) TimerEvent: {}
+[14.364744] (-) TimerEvent: {}
+[14.465350] (-) TimerEvent: {}
+[14.565964] (-) TimerEvent: {}
+[14.666619] (-) TimerEvent: {}
+[14.767289] (-) TimerEvent: {}
+[14.792333] (ex0402b) StdoutLine: {'line': b'[ 68%] Built target ex0402b__py\n'}
+[14.825083] (ex0402b) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding C object CMakeFiles/ex0402b__rosidl_generator_py.dir/rosidl_generator_py/ex0402b/msg/_current_target_s.c.o\x1b[0m\n'}
+[14.867600] (-) TimerEvent: {}
+[14.968232] (-) TimerEvent: {}
+[15.006244] (ex0402b) StdoutLine: {'line': b'[ 73%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/ex0402b/libex0402b__rosidl_generator_py.so\x1b[0m\n'}
+[15.068485] (-) TimerEvent: {}
+[15.169338] (-) TimerEvent: {}
+[15.199392] (ex0402b) StdoutLine: {'line': b'[ 73%] Built target ex0402b__rosidl_generator_py\n'}
+[15.232015] (ex0402b) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding C object CMakeFiles/ex0402b__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/ex0402b/_ex0402b_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[15.232463] (ex0402b) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding C object CMakeFiles/ex0402b__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/ex0402b/_ex0402b_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[15.234942] (ex0402b) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding C object CMakeFiles/ex0402b__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/ex0402b/_ex0402b_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[15.269557] (-) TimerEvent: {}
+[15.370234] (-) TimerEvent: {}
+[15.399777] (ex0402b) StdoutLine: {'line': b'[ 82%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/ex0402b/ex0402b_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[15.415171] (ex0402b) StdoutLine: {'line': b'[ 85%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/ex0402b/ex0402b_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[15.416778] (ex0402b) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/ex0402b/ex0402b_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[15.470428] (-) TimerEvent: {}
+[15.552032] (ex0402b) StdoutLine: {'line': b'[ 87%] Built target ex0402b__rosidl_typesupport_c__pyext\n'}
+[15.559340] (ex0402b) StdoutLine: {'line': b'[ 87%] Built target ex0402b__rosidl_typesupport_fastrtps_c__pyext\n'}
+[15.570671] (-) TimerEvent: {}
+[15.572872] (ex0402b) StdoutLine: {'line': b'[ 87%] Built target ex0402b__rosidl_typesupport_introspection_c__pyext\n'}
+[15.670993] (-) TimerEvent: {}
+[15.771505] (-) TimerEvent: {}
+[15.872213] (-) TimerEvent: {}
+[15.972910] (-) TimerEvent: {}
+[16.073553] (-) TimerEvent: {}
+[16.174105] (-) TimerEvent: {}
+[16.274713] (-) TimerEvent: {}
+[16.375406] (-) TimerEvent: {}
+[16.476051] (-) TimerEvent: {}
+[16.576753] (-) TimerEvent: {}
+[16.677522] (-) TimerEvent: {}
+[16.778504] (-) TimerEvent: {}
+[16.879169] (-) TimerEvent: {}
+[16.979912] (-) TimerEvent: {}
+[17.081114] (-) TimerEvent: {}
+[17.182041] (-) TimerEvent: {}
+[17.282872] (-) TimerEvent: {}
+[17.383473] (-) TimerEvent: {}
+[17.484229] (-) TimerEvent: {}
+[17.584949] (-) TimerEvent: {}
+[17.685597] (-) TimerEvent: {}
+[17.786239] (-) TimerEvent: {}
+[17.887036] (-) TimerEvent: {}
+[17.987673] (-) TimerEvent: {}
+[18.088355] (-) TimerEvent: {}
+[18.189246] (-) TimerEvent: {}
+[18.290047] (-) TimerEvent: {}
+[18.390632] (-) TimerEvent: {}
+[18.491280] (-) TimerEvent: {}
+[18.591938] (-) TimerEvent: {}
+[18.692626] (-) TimerEvent: {}
+[18.793292] (-) TimerEvent: {}
+[18.893982] (-) TimerEvent: {}
+[18.994758] (-) TimerEvent: {}
+[19.095440] (-) TimerEvent: {}
+[19.196294] (-) TimerEvent: {}
+[19.296974] (-) TimerEvent: {}
+[19.397700] (-) TimerEvent: {}
+[19.498466] (-) TimerEvent: {}
+[19.599324] (-) TimerEvent: {}
+[19.700094] (-) TimerEvent: {}
+[19.800960] (-) TimerEvent: {}
+[19.863832] (ex0402b) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking CXX executable keyboard_listener\x1b[0m\n'}
+[19.901171] (-) TimerEvent: {}
+[20.001925] (-) TimerEvent: {}
+[20.102670] (-) TimerEvent: {}
+[20.203678] (-) TimerEvent: {}
+[20.304376] (-) TimerEvent: {}
+[20.305313] (ex0402b) StdoutLine: {'line': b'[ 90%] Built target keyboard_listener\n'}
+[20.404748] (-) TimerEvent: {}
+[20.505678] (-) TimerEvent: {}
+[20.606277] (-) TimerEvent: {}
+[20.707011] (-) TimerEvent: {}
+[20.785020] (ex0402b) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking CXX executable target_switcher\x1b[0m\n'}
+[20.807199] (-) TimerEvent: {}
+[20.907715] (-) TimerEvent: {}
+[21.008288] (-) TimerEvent: {}
+[21.108824] (-) TimerEvent: {}
+[21.209313] (-) TimerEvent: {}
+[21.222035] (ex0402b) StdoutLine: {'line': b'[ 92%] Built target target_switcher\n'}
+[21.309560] (-) TimerEvent: {}
+[21.410160] (-) TimerEvent: {}
+[21.510770] (-) TimerEvent: {}
+[21.611479] (-) TimerEvent: {}
+[21.712069] (-) TimerEvent: {}
+[21.812931] (-) TimerEvent: {}
+[21.913624] (-) TimerEvent: {}
+[22.014563] (-) TimerEvent: {}
+[22.115242] (-) TimerEvent: {}
+[22.215750] (-) TimerEvent: {}
+[22.316293] (-) TimerEvent: {}
+[22.416956] (-) TimerEvent: {}
+[22.517965] (-) TimerEvent: {}
+[22.618534] (-) TimerEvent: {}
+[22.719052] (-) TimerEvent: {}
+[22.819649] (-) TimerEvent: {}
+[22.920276] (-) TimerEvent: {}
+[23.020800] (-) TimerEvent: {}
+[23.121400] (-) TimerEvent: {}
+[23.221988] (-) TimerEvent: {}
+[23.322609] (-) TimerEvent: {}
+[23.423174] (-) TimerEvent: {}
+[23.523646] (-) TimerEvent: {}
+[23.624206] (-) TimerEvent: {}
+[23.724783] (-) TimerEvent: {}
+[23.825601] (-) TimerEvent: {}
+[23.926235] (-) TimerEvent: {}
+[24.026824] (-) TimerEvent: {}
+[24.127465] (-) TimerEvent: {}
+[24.227990] (-) TimerEvent: {}
+[24.328549] (-) TimerEvent: {}
+[24.429056] (-) TimerEvent: {}
+[24.529705] (-) TimerEvent: {}
+[24.630258] (-) TimerEvent: {}
+[24.730810] (-) TimerEvent: {}
+[24.831415] (-) TimerEvent: {}
+[24.932008] (-) TimerEvent: {}
+[25.017506] (ex0402b) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking CXX executable turtle_controller\x1b[0m\n'}
+[25.032206] (-) TimerEvent: {}
+[25.132669] (-) TimerEvent: {}
+[25.233196] (-) TimerEvent: {}
+[25.333764] (-) TimerEvent: {}
+[25.434259] (-) TimerEvent: {}
+[25.534789] (-) TimerEvent: {}
+[25.577158] (ex0402b) StdoutLine: {'line': b'[ 95%] Built target turtle_controller\n'}
+[25.635051] (-) TimerEvent: {}
+[25.735600] (-) TimerEvent: {}
+[25.836092] (-) TimerEvent: {}
+[25.936701] (-) TimerEvent: {}
+[26.037252] (-) TimerEvent: {}
+[26.137737] (-) TimerEvent: {}
+[26.238233] (-) TimerEvent: {}
+[26.338774] (-) TimerEvent: {}
+[26.439317] (-) TimerEvent: {}
+[26.539778] (-) TimerEvent: {}
+[26.640289] (-) TimerEvent: {}
+[26.740793] (-) TimerEvent: {}
+[26.841266] (-) TimerEvent: {}
+[26.940538] (ex0402b) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking CXX executable turtle_tf2_broadcaster\x1b[0m\n'}
+[26.941403] (-) TimerEvent: {}
+[27.041910] (-) TimerEvent: {}
+[27.143029] (-) TimerEvent: {}
+[27.188244] (ex0402b) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable turtle2_tf2_broadcaster\x1b[0m\n'}
+[27.243217] (-) TimerEvent: {}
+[27.343822] (-) TimerEvent: {}
+[27.444814] (-) TimerEvent: {}
+[27.545576] (-) TimerEvent: {}
+[27.646375] (-) TimerEvent: {}
+[27.711151] (ex0402b) StdoutLine: {'line': b'[100%] Built target turtle_tf2_broadcaster\n'}
+[27.746602] (-) TimerEvent: {}
+[27.847283] (-) TimerEvent: {}
+[27.948010] (-) TimerEvent: {}
+[27.950582] (ex0402b) StdoutLine: {'line': b'[100%] Built target turtle2_tf2_broadcaster\n'}
+[27.971403] (ex0402b) CommandEnded: {'returncode': 0}
+[27.974494] (ex0402b) JobProgress: {'identifier': 'ex0402b', 'progress': 'install'}
+[27.986285] (ex0402b) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ivan/ros2_ws/task4/ex02b/build/ex0402b'], 'cwd': '/home/ivan/ros2_ws/task4/ex02b/build/ex0402b', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ivan'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ivan/ros2_ws/install/tutorial_interfaces/lib:/home/ivan/ros2_ws/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}'), ('HOME', '/home/ivan'), ('OLDPWD', '/home/ivan/ros2_ws/task4'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('_colcon_cd_root', '/opt/ros/humble/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ivan/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ivan'), ('NAME', 'SprintN'), ('WSL_INTEROP', '/run/WSL/2896_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/NSU/Code/netCourse:/mnt/c/Work/netOverload/ffmpeg-master-latest-win64-gpl/ffmpeg-master-latest-win64-gpl/bin:/mnt/c/Program Files/CMake/bin:/mnt/c/Users/Kamen/AppData/Local/Microsoft/WindowsApps:/mnt/c/NSU/Microsoft VS Code/bin:/snap/bin'), ('WT_SESSION', 'cc58855f-9962-405d-8708-01e7bbc6f32d'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/ivan/ros2_ws/install/tutorial_interfaces:/home/ivan/ros2_ws/install/turtle_multi_target:/home/ivan/ros2_ws/install/turtlesim:/home/ivan/ros2_ws/install/text_to_cmd_vel_pkg:/home/ivan/ros2_ws/install/py_pubsub:/home/ivan/ros2_ws/install/my_package:/home/ivan/ros2_ws/install/Ivan:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ivan/ros2_ws/task4/ex02b/build/ex0402b'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ivan/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/ivan/ros2_ws/install/turtle_multi_target/lib/python3.10/site-packages:/home/ivan/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/ivan/ros2_ws/install/text_to_cmd_vel_pkg/lib/python3.10/site-packages:/home/ivan/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/home/ivan/ros2_ws/install/my_package/lib/python3.10/site-packages:/home/ivan/ros2_ws/install/Ivan/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/ivan/ros2_ws/install/tutorial_interfaces:/home/ivan/ros2_ws/install/turtlesim:/home/ivan/ros2_ws/install/turtle_multi_target:/home/ivan/ros2_ws/install/text_to_cmd_vel_pkg:/home/ivan/ros2_ws/install/py_pubsub:/home/ivan/ros2_ws/install/my_package:/home/ivan/ros2_ws/install/Ivan:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[27.996910] (ex0402b) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[27.998674] (ex0402b) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/share/ament_index/resource_index/rosidl_interfaces/ex0402b\n'}
+[27.999019] (ex0402b) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/include/ex0402b/ex0402b\n'}
+[27.999932] (ex0402b) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/include/ex0402b/ex0402b/msg\n'}
+[28.000359] (ex0402b) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/include/ex0402b/ex0402b/msg/current_target.h\n'}
+[28.000564] (ex0402b) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/include/ex0402b/ex0402b/msg/detail\n'}
+[28.001079] (ex0402b) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/include/ex0402b/ex0402b/msg/detail/current_target__functions.h\n'}
+[28.001329] (ex0402b) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/include/ex0402b/ex0402b/msg/detail/current_target__struct.h\n'}
+[28.001734] (ex0402b) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/include/ex0402b/ex0402b/msg/detail/current_target__functions.c\n'}
+[28.001902] (ex0402b) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/include/ex0402b/ex0402b/msg/detail/current_target__type_support.h\n'}
+[28.002252] (ex0402b) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/include/ex0402b/ex0402b/msg/rosidl_generator_c__visibility_control.h\n'}
+[28.003001] (ex0402b) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/share/ex0402b/environment/library_path.sh\n'}
+[28.003289] (ex0402b) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/share/ex0402b/environment/library_path.dsv\n'}
+[28.003925] (ex0402b) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/lib/libex0402b__rosidl_generator_c.so\n'}
+[28.004749] (ex0402b) StdoutLine: {'line': b'-- Set runtime path of "/home/ivan/ros2_ws/task4/ex02b/install/ex0402b/lib/libex0402b__rosidl_generator_c.so" to ""\n'}
+[28.005170] (ex0402b) StdoutLine: {'line': b'-- Up-to-date: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/include/ex0402b/ex0402b\n'}
+[28.005393] (ex0402b) StdoutLine: {'line': b'-- Up-to-date: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/include/ex0402b/ex0402b/msg\n'}
+[28.005516] (ex0402b) StdoutLine: {'line': b'-- Up-to-date: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/include/ex0402b/ex0402b/msg/detail\n'}
+[28.005843] (ex0402b) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/include/ex0402b/ex0402b/msg/detail/current_target__rosidl_typesupport_fastrtps_c.h\n'}
+[28.005948] (ex0402b) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/include/ex0402b/ex0402b/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[28.006063] (ex0402b) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/lib/libex0402b__rosidl_typesupport_fastrtps_c.so\n'}
+[28.006539] (ex0402b) StdoutLine: {'line': b'-- Set runtime path of "/home/ivan/ros2_ws/task4/ex02b/install/ex0402b/lib/libex0402b__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[28.006711] (ex0402b) StdoutLine: {'line': b'-- Up-to-date: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/include/ex0402b/ex0402b\n'}
+[28.006959] (ex0402b) StdoutLine: {'line': b'-- Up-to-date: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/include/ex0402b/ex0402b/msg\n'}
+[28.007244] (ex0402b) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/include/ex0402b/ex0402b/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[28.007658] (ex0402b) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/include/ex0402b/ex0402b/msg/current_target.hpp\n'}
+[28.007799] (ex0402b) StdoutLine: {'line': b'-- Up-to-date: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/include/ex0402b/ex0402b/msg/detail\n'}
+[28.008143] (ex0402b) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/include/ex0402b/ex0402b/msg/detail/current_target__type_support.hpp\n'}
+[28.008397] (ex0402b) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/include/ex0402b/ex0402b/msg/detail/current_target__struct.hpp\n'}
+[28.008740] (ex0402b) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/include/ex0402b/ex0402b/msg/detail/current_target__builder.hpp\n'}
+[28.008816] (ex0402b) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/include/ex0402b/ex0402b/msg/detail/current_target__traits.hpp\n'}
+[28.008921] (ex0402b) StdoutLine: {'line': b'-- Up-to-date: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/include/ex0402b/ex0402b\n'}
+[28.009040] (ex0402b) StdoutLine: {'line': b'-- Up-to-date: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/include/ex0402b/ex0402b/msg\n'}
+[28.009431] (ex0402b) StdoutLine: {'line': b'-- Up-to-date: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/include/ex0402b/ex0402b/msg/detail\n'}
+[28.009554] (ex0402b) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/include/ex0402b/ex0402b/msg/detail/dds_fastrtps\n'}
+[28.009754] (ex0402b) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/include/ex0402b/ex0402b/msg/detail/current_target__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[28.009862] (ex0402b) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/include/ex0402b/ex0402b/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[28.009958] (ex0402b) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/lib/libex0402b__rosidl_typesupport_fastrtps_cpp.so\n'}
+[28.010463] (ex0402b) StdoutLine: {'line': b'-- Set runtime path of "/home/ivan/ros2_ws/task4/ex02b/install/ex0402b/lib/libex0402b__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[28.010779] (ex0402b) StdoutLine: {'line': b'-- Up-to-date: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/include/ex0402b/ex0402b\n'}
+[28.011242] (ex0402b) StdoutLine: {'line': b'-- Up-to-date: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/include/ex0402b/ex0402b/msg\n'}
+[28.011539] (ex0402b) StdoutLine: {'line': b'-- Up-to-date: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/include/ex0402b/ex0402b/msg/detail\n'}
+[28.011687] (ex0402b) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/include/ex0402b/ex0402b/msg/detail/current_target__type_support.c\n'}
+[28.011927] (ex0402b) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/include/ex0402b/ex0402b/msg/detail/current_target__rosidl_typesupport_introspection_c.h\n'}
+[28.012194] (ex0402b) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/include/ex0402b/ex0402b/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[28.012677] (ex0402b) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/lib/libex0402b__rosidl_typesupport_introspection_c.so\n'}
+[28.012808] (ex0402b) StdoutLine: {'line': b'-- Set runtime path of "/home/ivan/ros2_ws/task4/ex02b/install/ex0402b/lib/libex0402b__rosidl_typesupport_introspection_c.so" to ""\n'}
+[28.012877] (ex0402b) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/lib/libex0402b__rosidl_typesupport_c.so\n'}
+[28.013131] (ex0402b) StdoutLine: {'line': b'-- Set runtime path of "/home/ivan/ros2_ws/task4/ex02b/install/ex0402b/lib/libex0402b__rosidl_typesupport_c.so" to ""\n'}
+[28.013301] (ex0402b) StdoutLine: {'line': b'-- Up-to-date: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/include/ex0402b/ex0402b\n'}
+[28.013733] (ex0402b) StdoutLine: {'line': b'-- Up-to-date: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/include/ex0402b/ex0402b/msg\n'}
+[28.014062] (ex0402b) StdoutLine: {'line': b'-- Up-to-date: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/include/ex0402b/ex0402b/msg/detail\n'}
+[28.014301] (ex0402b) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/include/ex0402b/ex0402b/msg/detail/current_target__rosidl_typesupport_introspection_cpp.hpp\n'}
+[28.014380] (ex0402b) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/include/ex0402b/ex0402b/msg/detail/current_target__type_support.cpp\n'}
+[28.014442] (ex0402b) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/lib/libex0402b__rosidl_typesupport_introspection_cpp.so\n'}
+[28.014708] (ex0402b) StdoutLine: {'line': b'-- Set runtime path of "/home/ivan/ros2_ws/task4/ex02b/install/ex0402b/lib/libex0402b__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[28.015103] (ex0402b) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/lib/libex0402b__rosidl_typesupport_cpp.so\n'}
+[28.015444] (ex0402b) StdoutLine: {'line': b'-- Set runtime path of "/home/ivan/ros2_ws/task4/ex02b/install/ex0402b/lib/libex0402b__rosidl_typesupport_cpp.so" to ""\n'}
+[28.015672] (ex0402b) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/share/ex0402b/environment/pythonpath.sh\n'}
+[28.015844] (ex0402b) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/share/ex0402b/environment/pythonpath.dsv\n'}
+[28.016061] (ex0402b) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/local/lib/python3.10/dist-packages/ex0402b-0.0.0-py3.10.egg-info\n'}
+[28.017397] (ex0402b) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/local/lib/python3.10/dist-packages/ex0402b-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[28.017858] (ex0402b) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/local/lib/python3.10/dist-packages/ex0402b-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[28.018095] (ex0402b) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/local/lib/python3.10/dist-packages/ex0402b-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[28.018304] (ex0402b) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/local/lib/python3.10/dist-packages/ex0402b-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[28.018518] (ex0402b) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/local/lib/python3.10/dist-packages/ex0402b\n'}
+[28.019183] (ex0402b) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/local/lib/python3.10/dist-packages/ex0402b/_ex0402b_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[28.019560] (ex0402b) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/local/lib/python3.10/dist-packages/ex0402b/_ex0402b_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[28.019916] (ex0402b) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/local/lib/python3.10/dist-packages/ex0402b/libex0402b__rosidl_generator_py.so\n'}
+[28.020335] (ex0402b) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/local/lib/python3.10/dist-packages/ex0402b/_ex0402b_s.ep.rosidl_typesupport_c.c\n'}
+[28.020451] (ex0402b) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/local/lib/python3.10/dist-packages/ex0402b/ex0402b_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[28.020629] (ex0402b) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/local/lib/python3.10/dist-packages/ex0402b/ex0402b_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[28.020947] (ex0402b) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/local/lib/python3.10/dist-packages/ex0402b/ex0402b_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[28.021297] (ex0402b) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/local/lib/python3.10/dist-packages/ex0402b/__init__.py\n'}
+[28.021553] (ex0402b) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/local/lib/python3.10/dist-packages/ex0402b/msg\n'}
+[28.022011] (ex0402b) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/local/lib/python3.10/dist-packages/ex0402b/msg/_current_target_s.c\n'}
+[28.022230] (ex0402b) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/local/lib/python3.10/dist-packages/ex0402b/msg/_current_target.py\n'}
+[28.022493] (ex0402b) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/local/lib/python3.10/dist-packages/ex0402b/msg/__init__.py\n'}
+[28.048150] (-) TimerEvent: {}
+[28.073518] (ex0402b) StdoutLine: {'line': b"Listing '/home/ivan/ros2_ws/task4/ex02b/install/ex0402b/local/lib/python3.10/dist-packages/ex0402b'...\n"}
+[28.074055] (ex0402b) StdoutLine: {'line': b"Compiling '/home/ivan/ros2_ws/task4/ex02b/install/ex0402b/local/lib/python3.10/dist-packages/ex0402b/__init__.py'...\n"}
+[28.074380] (ex0402b) StdoutLine: {'line': b"Listing '/home/ivan/ros2_ws/task4/ex02b/install/ex0402b/local/lib/python3.10/dist-packages/ex0402b/msg'...\n"}
+[28.074602] (ex0402b) StdoutLine: {'line': b"Compiling '/home/ivan/ros2_ws/task4/ex02b/install/ex0402b/local/lib/python3.10/dist-packages/ex0402b/msg/__init__.py'...\n"}
+[28.074926] (ex0402b) StdoutLine: {'line': b"Compiling '/home/ivan/ros2_ws/task4/ex02b/install/ex0402b/local/lib/python3.10/dist-packages/ex0402b/msg/_current_target.py'...\n"}
+[28.082646] (ex0402b) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/local/lib/python3.10/dist-packages/ex0402b/ex0402b_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[28.083006] (ex0402b) StdoutLine: {'line': b'-- Set runtime path of "/home/ivan/ros2_ws/task4/ex02b/install/ex0402b/local/lib/python3.10/dist-packages/ex0402b/ex0402b_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[28.083391] (ex0402b) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/local/lib/python3.10/dist-packages/ex0402b/ex0402b_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[28.083835] (ex0402b) StdoutLine: {'line': b'-- Set runtime path of "/home/ivan/ros2_ws/task4/ex02b/install/ex0402b/local/lib/python3.10/dist-packages/ex0402b/ex0402b_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[28.084145] (ex0402b) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/local/lib/python3.10/dist-packages/ex0402b/ex0402b_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[28.084576] (ex0402b) StdoutLine: {'line': b'-- Set runtime path of "/home/ivan/ros2_ws/task4/ex02b/install/ex0402b/local/lib/python3.10/dist-packages/ex0402b/ex0402b_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[28.084822] (ex0402b) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/lib/libex0402b__rosidl_generator_py.so\n'}
+[28.085244] (ex0402b) StdoutLine: {'line': b'-- Set runtime path of "/home/ivan/ros2_ws/task4/ex02b/install/ex0402b/lib/libex0402b__rosidl_generator_py.so" to ""\n'}
+[28.085752] (ex0402b) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/share/ex0402b/msg/CurrentTarget.idl\n'}
+[28.086019] (ex0402b) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/share/ex0402b/msg/CurrentTarget.msg\n'}
+[28.086718] (ex0402b) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/lib/ex0402b/target_switcher\n'}
+[28.088701] (ex0402b) StdoutLine: {'line': b'-- Set runtime path of "/home/ivan/ros2_ws/task4/ex02b/install/ex0402b/lib/ex0402b/target_switcher" to ""\n'}
+[28.088945] (ex0402b) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/lib/ex0402b/turtle_controller\n'}
+[28.091758] (ex0402b) StdoutLine: {'line': b'-- Set runtime path of "/home/ivan/ros2_ws/task4/ex02b/install/ex0402b/lib/ex0402b/turtle_controller" to ""\n'}
+[28.092047] (ex0402b) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/lib/ex0402b/turtle_tf2_broadcaster\n'}
+[28.097013] (ex0402b) StdoutLine: {'line': b'-- Set runtime path of "/home/ivan/ros2_ws/task4/ex02b/install/ex0402b/lib/ex0402b/turtle_tf2_broadcaster" to ""\n'}
+[28.097528] (ex0402b) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/lib/ex0402b/turtle2_tf2_broadcaster\n'}
+[28.102952] (ex0402b) StdoutLine: {'line': b'-- Set runtime path of "/home/ivan/ros2_ws/task4/ex02b/install/ex0402b/lib/ex0402b/turtle2_tf2_broadcaster" to ""\n'}
+[28.103185] (ex0402b) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/lib/ex0402b/keyboard_listener\n'}
+[28.104355] (ex0402b) StdoutLine: {'line': b'-- Set runtime path of "/home/ivan/ros2_ws/task4/ex02b/install/ex0402b/lib/ex0402b/keyboard_listener" to ""\n'}
+[28.104496] (ex0402b) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/share/ex0402b/launch\n'}
+[28.104814] (ex0402b) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/share/ex0402b/launch/ex0402b.launch.py\n'}
+[28.105180] (ex0402b) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/share/ex0402b/rviz\n'}
+[28.105963] (ex0402b) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/share/ex0402b/rviz/multi_target.rviz\n'}
+[28.106445] (ex0402b) StdoutLine: {'line': b'-- Up-to-date: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/share/ex0402b/msg\n'}
+[28.106888] (ex0402b) StdoutLine: {'line': b'-- Up-to-date: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/share/ex0402b/msg/CurrentTarget.msg\n'}
+[28.107003] (ex0402b) StdoutLine: {'line': b'-- Up-to-date: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/include\n'}
+[28.107071] (ex0402b) StdoutLine: {'line': b'-- Up-to-date: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/include/ex0402b\n'}
+[28.107174] (ex0402b) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/include/ex0402b/utilities.hpp\n'}
+[28.107629] (ex0402b) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/share/ament_index/resource_index/package_run_dependencies/ex0402b\n'}
+[28.108283] (ex0402b) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/share/ament_index/resource_index/parent_prefix_path/ex0402b\n'}
+[28.108722] (ex0402b) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/share/ex0402b/environment/ament_prefix_path.sh\n'}
+[28.108959] (ex0402b) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/share/ex0402b/environment/ament_prefix_path.dsv\n'}
+[28.109180] (ex0402b) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/share/ex0402b/environment/path.sh\n'}
+[28.109546] (ex0402b) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/share/ex0402b/environment/path.dsv\n'}
+[28.109846] (ex0402b) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/share/ex0402b/local_setup.bash\n'}
+[28.110107] (ex0402b) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/share/ex0402b/local_setup.sh\n'}
+[28.110483] (ex0402b) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/share/ex0402b/local_setup.zsh\n'}
+[28.110754] (ex0402b) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/share/ex0402b/local_setup.dsv\n'}
+[28.111211] (ex0402b) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/share/ex0402b/package.dsv\n'}
+[28.111903] (ex0402b) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/share/ament_index/resource_index/packages/ex0402b\n'}
+[28.112546] (ex0402b) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/share/ex0402b/cmake/export_ex0402b__rosidl_generator_cExport.cmake\n'}
+[28.112791] (ex0402b) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/share/ex0402b/cmake/export_ex0402b__rosidl_generator_cExport-noconfig.cmake\n'}
+[28.113093] (ex0402b) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/share/ex0402b/cmake/export_ex0402b__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[28.113474] (ex0402b) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/share/ex0402b/cmake/export_ex0402b__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[28.113925] (ex0402b) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/share/ex0402b/cmake/export_ex0402b__rosidl_generator_cppExport.cmake\n'}
+[28.114381] (ex0402b) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/share/ex0402b/cmake/export_ex0402b__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[28.114752] (ex0402b) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/share/ex0402b/cmake/export_ex0402b__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[28.114872] (ex0402b) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/share/ex0402b/cmake/ex0402b__rosidl_typesupport_introspection_cExport.cmake\n'}
+[28.115062] (ex0402b) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/share/ex0402b/cmake/ex0402b__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[28.115374] (ex0402b) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/share/ex0402b/cmake/ex0402b__rosidl_typesupport_cExport.cmake\n'}
+[28.115931] (ex0402b) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/share/ex0402b/cmake/ex0402b__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[28.116334] (ex0402b) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/share/ex0402b/cmake/ex0402b__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[28.116687] (ex0402b) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/share/ex0402b/cmake/ex0402b__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[28.117247] (ex0402b) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/share/ex0402b/cmake/ex0402b__rosidl_typesupport_cppExport.cmake\n'}
+[28.117578] (ex0402b) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/share/ex0402b/cmake/ex0402b__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[28.117901] (ex0402b) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/share/ex0402b/cmake/export_ex0402b__rosidl_generator_pyExport.cmake\n'}
+[28.118648] (ex0402b) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/share/ex0402b/cmake/export_ex0402b__rosidl_generator_pyExport-noconfig.cmake\n'}
+[28.118891] (ex0402b) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/share/ex0402b/cmake/rosidl_cmake-extras.cmake\n'}
+[28.119046] (ex0402b) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/share/ex0402b/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[28.119359] (ex0402b) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/share/ex0402b/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[28.119621] (ex0402b) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/share/ex0402b/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[28.119922] (ex0402b) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/share/ex0402b/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[28.120445] (ex0402b) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/share/ex0402b/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[28.120922] (ex0402b) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/share/ex0402b/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[28.121177] (ex0402b) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/share/ex0402b/cmake/ex0402bConfig.cmake\n'}
+[28.121441] (ex0402b) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/share/ex0402b/cmake/ex0402bConfig-version.cmake\n'}
+[28.121649] (ex0402b) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task4/ex02b/install/ex0402b/share/ex0402b/package.xml\n'}
+[28.126206] (ex0402b) CommandEnded: {'returncode': 0}
+[28.148355] (-) TimerEvent: {}
+[28.156489] (ex0402b) JobEnded: {'identifier': 'ex0402b', 'rc': 0}
+[28.158491] (-) EventReactorShutdown: {}

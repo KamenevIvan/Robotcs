@@ -1,0 +1,139 @@
+[0.268s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'ex0402b']
+[0.268s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['ex0402b'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f742a0d5ae0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f742a2c7040>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f742a2c7040>>)
+[0.512s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.513s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.513s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.513s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.513s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.513s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.513s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ivan/ros2_ws/task4/ex02b'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(turtle_multi_target) by extensions ['ignore', 'ignore_ament_install']
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(turtle_multi_target) by extension 'ignore'
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(turtle_multi_target) by extension 'ignore_ament_install'
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(turtle_multi_target) by extensions ['colcon_pkg']
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(turtle_multi_target) by extension 'colcon_pkg'
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(turtle_multi_target) by extensions ['colcon_meta']
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(turtle_multi_target) by extension 'colcon_meta'
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(turtle_multi_target) by extensions ['ros']
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(turtle_multi_target) by extension 'ros'
+[0.538s] DEBUG:colcon.colcon_core.package_identification:Package 'turtle_multi_target' with type 'ros.ament_cmake' and name 'ex0402b'
+[0.538s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.538s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.538s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.538s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.538s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.569s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.569s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.571s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 7 installed packages in /home/ivan/ros2_ws/install
+[0.573s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 274 installed packages in /opt/ros/humble
+[0.604s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.660s] Level 5:colcon.colcon_core.verb:set package 'ex0402b' build argument 'cmake_args' from command line to 'None'
+[0.660s] Level 5:colcon.colcon_core.verb:set package 'ex0402b' build argument 'cmake_target' from command line to 'None'
+[0.660s] Level 5:colcon.colcon_core.verb:set package 'ex0402b' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.660s] Level 5:colcon.colcon_core.verb:set package 'ex0402b' build argument 'cmake_clean_cache' from command line to 'False'
+[0.660s] Level 5:colcon.colcon_core.verb:set package 'ex0402b' build argument 'cmake_clean_first' from command line to 'False'
+[0.660s] Level 5:colcon.colcon_core.verb:set package 'ex0402b' build argument 'cmake_force_configure' from command line to 'False'
+[0.660s] Level 5:colcon.colcon_core.verb:set package 'ex0402b' build argument 'ament_cmake_args' from command line to 'None'
+[0.660s] Level 5:colcon.colcon_core.verb:set package 'ex0402b' build argument 'catkin_cmake_args' from command line to 'None'
+[0.660s] Level 5:colcon.colcon_core.verb:set package 'ex0402b' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.660s] DEBUG:colcon.colcon_core.verb:Building package 'ex0402b' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ivan/ros2_ws/task4/ex02b/build/ex0402b', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ivan/ros2_ws/task4/ex02b/install/ex0402b', 'merge_install': False, 'path': '/home/ivan/ros2_ws/task4/ex02b/turtle_multi_target', 'symlink_install': False, 'test_result_base': None}
+[0.660s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.663s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.663s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ivan/ros2_ws/task4/ex02b/turtle_multi_target' with build type 'ament_cmake'
+[0.663s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ivan/ros2_ws/task4/ex02b/turtle_multi_target'
+[0.668s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.668s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.669s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.705s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ivan/ros2_ws/task4/ex02b/build/ex0402b': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ivan/ros2_ws/install/turtle_multi_target:/home/ivan/ros2_ws/install/text_to_cmd_vel_pkg:/home/ivan/ros2_ws/install/py_pubsub:/home/ivan/ros2_ws/install/my_package:/home/ivan/ros2_ws/install/Ivan:/opt/ros/humble /usr/bin/cmake /home/ivan/ros2_ws/task4/ex02b/turtle_multi_target -DCMAKE_INSTALL_PREFIX=/home/ivan/ros2_ws/task4/ex02b/install/ex0402b
+[12.385s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ivan/ros2_ws/task4/ex02b/build/ex0402b' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ivan/ros2_ws/install/turtle_multi_target:/home/ivan/ros2_ws/install/text_to_cmd_vel_pkg:/home/ivan/ros2_ws/install/py_pubsub:/home/ivan/ros2_ws/install/my_package:/home/ivan/ros2_ws/install/Ivan:/opt/ros/humble /usr/bin/cmake /home/ivan/ros2_ws/task4/ex02b/turtle_multi_target -DCMAKE_INSTALL_PREFIX=/home/ivan/ros2_ws/task4/ex02b/install/ex0402b
+[12.389s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ivan/ros2_ws/task4/ex02b/build/ex0402b': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ivan/ros2_ws/install/turtle_multi_target:/home/ivan/ros2_ws/install/text_to_cmd_vel_pkg:/home/ivan/ros2_ws/install/py_pubsub:/home/ivan/ros2_ws/install/my_package:/home/ivan/ros2_ws/install/Ivan:/opt/ros/humble /usr/bin/cmake --build /home/ivan/ros2_ws/task4/ex02b/build/ex0402b -- -j16 -l16
+[28.636s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ivan/ros2_ws/task4/ex02b/build/ex0402b' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ivan/ros2_ws/install/turtle_multi_target:/home/ivan/ros2_ws/install/text_to_cmd_vel_pkg:/home/ivan/ros2_ws/install/py_pubsub:/home/ivan/ros2_ws/install/my_package:/home/ivan/ros2_ws/install/Ivan:/opt/ros/humble /usr/bin/cmake --build /home/ivan/ros2_ws/task4/ex02b/build/ex0402b -- -j16 -l16
+[28.651s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ivan/ros2_ws/task4/ex02b/build/ex0402b': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ivan/ros2_ws/install/turtle_multi_target:/home/ivan/ros2_ws/install/text_to_cmd_vel_pkg:/home/ivan/ros2_ws/install/py_pubsub:/home/ivan/ros2_ws/install/my_package:/home/ivan/ros2_ws/install/Ivan:/opt/ros/humble /usr/bin/cmake --install /home/ivan/ros2_ws/task4/ex02b/build/ex0402b
+[28.789s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ex0402b)
+[28.791s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ivan/ros2_ws/task4/ex02b/build/ex0402b' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ivan/ros2_ws/install/turtle_multi_target:/home/ivan/ros2_ws/install/text_to_cmd_vel_pkg:/home/ivan/ros2_ws/install/py_pubsub:/home/ivan/ros2_ws/install/my_package:/home/ivan/ros2_ws/install/Ivan:/opt/ros/humble /usr/bin/cmake --install /home/ivan/ros2_ws/task4/ex02b/build/ex0402b
+[28.794s] Level 1:colcon.colcon_core.environment:checking '/home/ivan/ros2_ws/task4/ex02b/install/ex0402b' for CMake module files
+[28.795s] Level 1:colcon.colcon_core.environment:checking '/home/ivan/ros2_ws/task4/ex02b/install/ex0402b' for CMake config files
+[28.796s] Level 1:colcon.colcon_core.shell:create_environment_hook('ex0402b', 'cmake_prefix_path')
+[28.796s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ivan/ros2_ws/task4/ex02b/install/ex0402b/share/ex0402b/hook/cmake_prefix_path.ps1'
+[28.798s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ivan/ros2_ws/task4/ex02b/install/ex0402b/share/ex0402b/hook/cmake_prefix_path.dsv'
+[28.798s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ivan/ros2_ws/task4/ex02b/install/ex0402b/share/ex0402b/hook/cmake_prefix_path.sh'
+[28.799s] Level 1:colcon.colcon_core.environment:checking '/home/ivan/ros2_ws/task4/ex02b/install/ex0402b/lib'
+[28.800s] Level 1:colcon.colcon_core.shell:create_environment_hook('ex0402b', 'ld_library_path_lib')
+[28.800s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ivan/ros2_ws/task4/ex02b/install/ex0402b/share/ex0402b/hook/ld_library_path_lib.ps1'
+[28.800s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ivan/ros2_ws/task4/ex02b/install/ex0402b/share/ex0402b/hook/ld_library_path_lib.dsv'
+[28.801s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ivan/ros2_ws/task4/ex02b/install/ex0402b/share/ex0402b/hook/ld_library_path_lib.sh'
+[28.801s] Level 1:colcon.colcon_core.environment:checking '/home/ivan/ros2_ws/task4/ex02b/install/ex0402b/bin'
+[28.801s] Level 1:colcon.colcon_core.environment:checking '/home/ivan/ros2_ws/task4/ex02b/install/ex0402b/lib/pkgconfig/ex0402b.pc'
+[28.802s] Level 1:colcon.colcon_core.environment:checking '/home/ivan/ros2_ws/task4/ex02b/install/ex0402b/lib/python3.10/site-packages'
+[28.802s] Level 1:colcon.colcon_core.environment:checking '/home/ivan/ros2_ws/task4/ex02b/install/ex0402b/bin'
+[28.803s] INFO:colcon.colcon_core.shell:Creating package script '/home/ivan/ros2_ws/task4/ex02b/install/ex0402b/share/ex0402b/package.ps1'
+[28.804s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ivan/ros2_ws/task4/ex02b/install/ex0402b/share/ex0402b/package.dsv'
+[28.805s] INFO:colcon.colcon_core.shell:Creating package script '/home/ivan/ros2_ws/task4/ex02b/install/ex0402b/share/ex0402b/package.sh'
+[28.805s] INFO:colcon.colcon_core.shell:Creating package script '/home/ivan/ros2_ws/task4/ex02b/install/ex0402b/share/ex0402b/package.bash'
+[28.806s] INFO:colcon.colcon_core.shell:Creating package script '/home/ivan/ros2_ws/task4/ex02b/install/ex0402b/share/ex0402b/package.zsh'
+[28.807s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ivan/ros2_ws/task4/ex02b/install/ex0402b/share/colcon-core/packages/ex0402b)
+[28.809s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ex0402b)
+[28.809s] Level 1:colcon.colcon_core.environment:checking '/home/ivan/ros2_ws/task4/ex02b/install/ex0402b' for CMake module files
+[28.810s] Level 1:colcon.colcon_core.environment:checking '/home/ivan/ros2_ws/task4/ex02b/install/ex0402b' for CMake config files
+[28.810s] Level 1:colcon.colcon_core.shell:create_environment_hook('ex0402b', 'cmake_prefix_path')
+[28.810s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ivan/ros2_ws/task4/ex02b/install/ex0402b/share/ex0402b/hook/cmake_prefix_path.ps1'
+[28.811s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ivan/ros2_ws/task4/ex02b/install/ex0402b/share/ex0402b/hook/cmake_prefix_path.dsv'
+[28.811s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ivan/ros2_ws/task4/ex02b/install/ex0402b/share/ex0402b/hook/cmake_prefix_path.sh'
+[28.812s] Level 1:colcon.colcon_core.environment:checking '/home/ivan/ros2_ws/task4/ex02b/install/ex0402b/lib'
+[28.812s] Level 1:colcon.colcon_core.shell:create_environment_hook('ex0402b', 'ld_library_path_lib')
+[28.813s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ivan/ros2_ws/task4/ex02b/install/ex0402b/share/ex0402b/hook/ld_library_path_lib.ps1'
+[28.814s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ivan/ros2_ws/task4/ex02b/install/ex0402b/share/ex0402b/hook/ld_library_path_lib.dsv'
+[28.815s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ivan/ros2_ws/task4/ex02b/install/ex0402b/share/ex0402b/hook/ld_library_path_lib.sh'
+[28.815s] Level 1:colcon.colcon_core.environment:checking '/home/ivan/ros2_ws/task4/ex02b/install/ex0402b/bin'
+[28.815s] Level 1:colcon.colcon_core.environment:checking '/home/ivan/ros2_ws/task4/ex02b/install/ex0402b/lib/pkgconfig/ex0402b.pc'
+[28.816s] Level 1:colcon.colcon_core.environment:checking '/home/ivan/ros2_ws/task4/ex02b/install/ex0402b/lib/python3.10/site-packages'
+[28.816s] Level 1:colcon.colcon_core.environment:checking '/home/ivan/ros2_ws/task4/ex02b/install/ex0402b/bin'
+[28.817s] INFO:colcon.colcon_core.shell:Creating package script '/home/ivan/ros2_ws/task4/ex02b/install/ex0402b/share/ex0402b/package.ps1'
+[28.817s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ivan/ros2_ws/task4/ex02b/install/ex0402b/share/ex0402b/package.dsv'
+[28.818s] INFO:colcon.colcon_core.shell:Creating package script '/home/ivan/ros2_ws/task4/ex02b/install/ex0402b/share/ex0402b/package.sh'
+[28.818s] INFO:colcon.colcon_core.shell:Creating package script '/home/ivan/ros2_ws/task4/ex02b/install/ex0402b/share/ex0402b/package.bash'
+[28.819s] INFO:colcon.colcon_core.shell:Creating package script '/home/ivan/ros2_ws/task4/ex02b/install/ex0402b/share/ex0402b/package.zsh'
+[28.820s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ivan/ros2_ws/task4/ex02b/install/ex0402b/share/colcon-core/packages/ex0402b)
+[28.820s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[28.822s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[28.822s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[28.822s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[28.861s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[28.861s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[28.862s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[28.862s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[28.862s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.FileNotFound: Failed to connect to socket /run/user/1000/bus: No such file or directory
+[28.862s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[28.863s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ivan/ros2_ws/task4/ex02b/install/local_setup.ps1'
+[28.864s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ivan/ros2_ws/task4/ex02b/install/_local_setup_util_ps1.py'
+[28.866s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ivan/ros2_ws/task4/ex02b/install/setup.ps1'
+[28.868s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ivan/ros2_ws/task4/ex02b/install/local_setup.sh'
+[28.869s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ivan/ros2_ws/task4/ex02b/install/_local_setup_util_sh.py'
+[28.870s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ivan/ros2_ws/task4/ex02b/install/setup.sh'
+[28.872s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ivan/ros2_ws/task4/ex02b/install/local_setup.bash'
+[28.873s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ivan/ros2_ws/task4/ex02b/install/setup.bash'
+[28.874s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ivan/ros2_ws/task4/ex02b/install/local_setup.zsh'
+[28.875s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ivan/ros2_ws/task4/ex02b/install/setup.zsh'

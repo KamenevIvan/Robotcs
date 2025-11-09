@@ -1,0 +1,4 @@
+source;share/ex0402b/environment/ament_prefix_path.sh
+source;share/ex0402b/environment/library_path.sh
+source;share/ex0402b/environment/path.sh
+source;share/ex0402b/environment/pythonpath.sh
