@@ -1,0 +1,49 @@
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclpy: 3.3.17 (/opt/ros/humble/share/rclpy/cmake)
+-- Found robot_state_publisher: 3.0.3 (/opt/ros/humble/share/robot_state_publisher/cmake)
+-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found xacro: 2.1.1 (/opt/ros/humble/share/xacro/cmake)
+-- Found ros_gz_sim: 0.244.20 (/opt/ros/humble/share/ros_gz_sim/cmake)
+-- Found ros_gz_bridge: 0.244.20 (/opt/ros/humble/share/ros_gz_bridge/cmake)
+-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ivan/ros2_ws/task5/build/my_robot_gazebo
+-- Install configuration: ""
+-- Up-to-date: /home/ivan/ros2_ws/task5/install/my_robot_gazebo/share/my_robot_gazebo/ex03
+-- Up-to-date: /home/ivan/ros2_ws/task5/install/my_robot_gazebo/share/my_robot_gazebo/ex03/robot.urdf.xacro
+-- Up-to-date: /home/ivan/ros2_ws/task5/install/my_robot_gazebo/share/my_robot_gazebo/ex03/robot.gazebo.xacro
+-- Up-to-date: /home/ivan/ros2_ws/task5/install/my_robot_gazebo/share/my_robot_gazebo/ex03/world.sdf
+-- Installing: /home/ivan/ros2_ws/task5/install/my_robot_gazebo/share/my_robot_gazebo/ex03/odom_to_tf.py
+-- Installing: /home/ivan/ros2_ws/task5/install/my_robot_gazebo/share/my_robot_gazebo/ex03/robot_gazebo.launch.py
+-- Installing: /home/ivan/ros2_ws/task5/install/my_robot_gazebo/lib/my_robot_gazebo/odom_to_tf.py
+-- Up-to-date: /home/ivan/ros2_ws/task5/install/my_robot_gazebo/share/ament_index/resource_index/package_run_dependencies/my_robot_gazebo
+-- Up-to-date: /home/ivan/ros2_ws/task5/install/my_robot_gazebo/share/ament_index/resource_index/parent_prefix_path/my_robot_gazebo
+-- Up-to-date: /home/ivan/ros2_ws/task5/install/my_robot_gazebo/share/my_robot_gazebo/environment/ament_prefix_path.sh
+-- Installing: /home/ivan/ros2_ws/task5/install/my_robot_gazebo/share/my_robot_gazebo/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/ivan/ros2_ws/task5/install/my_robot_gazebo/share/my_robot_gazebo/environment/path.sh
+-- Installing: /home/ivan/ros2_ws/task5/install/my_robot_gazebo/share/my_robot_gazebo/environment/path.dsv
+-- Up-to-date: /home/ivan/ros2_ws/task5/install/my_robot_gazebo/share/my_robot_gazebo/local_setup.bash
+-- Up-to-date: /home/ivan/ros2_ws/task5/install/my_robot_gazebo/share/my_robot_gazebo/local_setup.sh
+-- Up-to-date: /home/ivan/ros2_ws/task5/install/my_robot_gazebo/share/my_robot_gazebo/local_setup.zsh
+-- Installing: /home/ivan/ros2_ws/task5/install/my_robot_gazebo/share/my_robot_gazebo/local_setup.dsv
+-- Installing: /home/ivan/ros2_ws/task5/install/my_robot_gazebo/share/my_robot_gazebo/package.dsv
+-- Up-to-date: /home/ivan/ros2_ws/task5/install/my_robot_gazebo/share/ament_index/resource_index/packages/my_robot_gazebo
+-- Up-to-date: /home/ivan/ros2_ws/task5/install/my_robot_gazebo/share/my_robot_gazebo/cmake/my_robot_gazeboConfig.cmake
+-- Up-to-date: /home/ivan/ros2_ws/task5/install/my_robot_gazebo/share/my_robot_gazebo/cmake/my_robot_gazeboConfig-version.cmake
+-- Up-to-date: /home/ivan/ros2_ws/task5/install/my_robot_gazebo/share/my_robot_gazebo/package.xml

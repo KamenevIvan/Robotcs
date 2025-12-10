@@ -1,0 +1,23 @@
+-- Install configuration: ""
+-- Up-to-date: /home/ivan/ros2_ws/task5/install/my_unique_robot_gazebo/share/my_unique_robot_gazebo/ex05
+-- Up-to-date: /home/ivan/ros2_ws/task5/install/my_unique_robot_gazebo/share/my_unique_robot_gazebo/ex05/robot.urdf.xacro
+-- Up-to-date: /home/ivan/ros2_ws/task5/install/my_unique_robot_gazebo/share/my_unique_robot_gazebo/ex05/robot.gazebo.xacro
+-- Up-to-date: /home/ivan/ros2_ws/task5/install/my_unique_robot_gazebo/share/my_unique_robot_gazebo/ex05/world.sdf
+-- Up-to-date: /home/ivan/ros2_ws/task5/install/my_unique_robot_gazebo/share/my_unique_robot_gazebo/ex05/temp.urdf
+-- Up-to-date: /home/ivan/ros2_ws/task5/install/my_unique_robot_gazebo/share/my_unique_robot_gazebo/ex05/odom_to_tf.py
+-- Up-to-date: /home/ivan/ros2_ws/task5/install/my_unique_robot_gazebo/share/my_unique_robot_gazebo/ex05/robot_gazebo.launch.py
+-- Up-to-date: /home/ivan/ros2_ws/task5/install/my_unique_robot_gazebo/share/ament_index/resource_index/package_run_dependencies/my_unique_robot_gazebo
+-- Up-to-date: /home/ivan/ros2_ws/task5/install/my_unique_robot_gazebo/share/ament_index/resource_index/parent_prefix_path/my_unique_robot_gazebo
+-- Up-to-date: /home/ivan/ros2_ws/task5/install/my_unique_robot_gazebo/share/my_unique_robot_gazebo/environment/ament_prefix_path.sh
+-- Up-to-date: /home/ivan/ros2_ws/task5/install/my_unique_robot_gazebo/share/my_unique_robot_gazebo/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/ivan/ros2_ws/task5/install/my_unique_robot_gazebo/share/my_unique_robot_gazebo/environment/path.sh
+-- Up-to-date: /home/ivan/ros2_ws/task5/install/my_unique_robot_gazebo/share/my_unique_robot_gazebo/environment/path.dsv
+-- Up-to-date: /home/ivan/ros2_ws/task5/install/my_unique_robot_gazebo/share/my_unique_robot_gazebo/local_setup.bash
+-- Up-to-date: /home/ivan/ros2_ws/task5/install/my_unique_robot_gazebo/share/my_unique_robot_gazebo/local_setup.sh
+-- Up-to-date: /home/ivan/ros2_ws/task5/install/my_unique_robot_gazebo/share/my_unique_robot_gazebo/local_setup.zsh
+-- Up-to-date: /home/ivan/ros2_ws/task5/install/my_unique_robot_gazebo/share/my_unique_robot_gazebo/local_setup.dsv
+-- Installing: /home/ivan/ros2_ws/task5/install/my_unique_robot_gazebo/share/my_unique_robot_gazebo/package.dsv
+-- Up-to-date: /home/ivan/ros2_ws/task5/install/my_unique_robot_gazebo/share/ament_index/resource_index/packages/my_unique_robot_gazebo
+-- Up-to-date: /home/ivan/ros2_ws/task5/install/my_unique_robot_gazebo/share/my_unique_robot_gazebo/cmake/my_unique_robot_gazeboConfig.cmake
+-- Up-to-date: /home/ivan/ros2_ws/task5/install/my_unique_robot_gazebo/share/my_unique_robot_gazebo/cmake/my_unique_robot_gazeboConfig-version.cmake
+-- Up-to-date: /home/ivan/ros2_ws/task5/install/my_unique_robot_gazebo/share/my_unique_robot_gazebo/package.xml

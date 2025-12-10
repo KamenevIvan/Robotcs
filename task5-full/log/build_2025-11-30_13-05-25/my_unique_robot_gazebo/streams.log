@@ -1,0 +1,75 @@
+[0.035s] Invoking command in '/home/ivan/ros2_ws/task5/build/my_unique_robot_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ivan/ros2_ws/task5/install/my_unique_robot_control:/home/ivan/ros2_ws/task5/install/my_robot_control:/home/ivan/ros2_ws/task5/ex04/install/my_robot_control:/home/ivan/ros2_ws/install/turtle_multi_target:/home/ivan/ros2_ws/install/text_to_cmd_vel_pkg:/home/ivan/ros2_ws/install/py_pubsub:/home/ivan/ros2_ws/install/my_package:/home/ivan/ros2_ws/install/Ivan:/opt/ros/humble /usr/bin/cmake /home/ivan/ros2_ws/task5/ex05/my_unique_robot_gazebo -DCMAKE_INSTALL_PREFIX=/home/ivan/ros2_ws/task5/install/my_unique_robot_gazebo
+[0.449s] -- The C compiler identification is GNU 11.4.0
+[1.051s] -- The CXX compiler identification is GNU 11.4.0
+[1.411s] -- Detecting C compiler ABI info
+[1.627s] -- Detecting C compiler ABI info - done
+[1.638s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.646s] -- Detecting C compile features
+[1.648s] -- Detecting C compile features - done
+[1.656s] -- Detecting CXX compiler ABI info
+[1.868s] -- Detecting CXX compiler ABI info - done
+[1.881s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.881s] -- Detecting CXX compile features
+[1.882s] -- Detecting CXX compile features - done
+[1.952s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.230s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.476s] -- Found ros_gz_sim: 0.244.20 (/opt/ros/humble/share/ros_gz_sim/cmake)
+[2.851s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.869s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.897s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.941s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.993s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.142s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.152s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.860s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[6.726s] -- Found FastRTPS: /opt/ros/humble/include  
+[10.071s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[10.115s] -- Looking for pthread.h
+[10.336s] -- Looking for pthread.h - found
+[10.336s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[10.522s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[10.523s] -- Found Threads: TRUE  
+[10.701s] -- Found ros_gz_bridge: 0.244.20 (/opt/ros/humble/share/ros_gz_bridge/cmake)
+[12.958s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[14.624s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[17.089s] -- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)
+[17.176s] -- Found robot_state_publisher: 3.0.3 (/opt/ros/humble/share/robot_state_publisher/cmake)
+[17.275s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[17.279s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[17.279s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[18.903s] -- Found xacro: 2.1.1 (/opt/ros/humble/share/xacro/cmake)
+[18.912s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[19.079s] -- Added test 'flake8' to check Python code syntax and style conventions
+[19.082s] -- Added test 'lint_cmake' to check CMake code style
+[19.085s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[19.089s] -- Added test 'xmllint' to check XML markup files
+[19.094s] -- Configuring done
+[19.114s] -- Generating done
+[19.122s] -- Build files have been written to: /home/ivan/ros2_ws/task5/build/my_unique_robot_gazebo
+[19.146s] Invoked command in '/home/ivan/ros2_ws/task5/build/my_unique_robot_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ivan/ros2_ws/task5/install/my_unique_robot_control:/home/ivan/ros2_ws/task5/install/my_robot_control:/home/ivan/ros2_ws/task5/ex04/install/my_robot_control:/home/ivan/ros2_ws/install/turtle_multi_target:/home/ivan/ros2_ws/install/text_to_cmd_vel_pkg:/home/ivan/ros2_ws/install/py_pubsub:/home/ivan/ros2_ws/install/my_package:/home/ivan/ros2_ws/install/Ivan:/opt/ros/humble /usr/bin/cmake /home/ivan/ros2_ws/task5/ex05/my_unique_robot_gazebo -DCMAKE_INSTALL_PREFIX=/home/ivan/ros2_ws/task5/install/my_unique_robot_gazebo
+[19.152s] Invoking command in '/home/ivan/ros2_ws/task5/build/my_unique_robot_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ivan/ros2_ws/task5/install/my_unique_robot_control:/home/ivan/ros2_ws/task5/install/my_robot_control:/home/ivan/ros2_ws/task5/ex04/install/my_robot_control:/home/ivan/ros2_ws/install/turtle_multi_target:/home/ivan/ros2_ws/install/text_to_cmd_vel_pkg:/home/ivan/ros2_ws/install/py_pubsub:/home/ivan/ros2_ws/install/my_package:/home/ivan/ros2_ws/install/Ivan:/opt/ros/humble /usr/bin/cmake --build /home/ivan/ros2_ws/task5/build/my_unique_robot_gazebo -- -j16 -l16
+[19.219s] Invoked command in '/home/ivan/ros2_ws/task5/build/my_unique_robot_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ivan/ros2_ws/task5/install/my_unique_robot_control:/home/ivan/ros2_ws/task5/install/my_robot_control:/home/ivan/ros2_ws/task5/ex04/install/my_robot_control:/home/ivan/ros2_ws/install/turtle_multi_target:/home/ivan/ros2_ws/install/text_to_cmd_vel_pkg:/home/ivan/ros2_ws/install/py_pubsub:/home/ivan/ros2_ws/install/my_package:/home/ivan/ros2_ws/install/Ivan:/opt/ros/humble /usr/bin/cmake --build /home/ivan/ros2_ws/task5/build/my_unique_robot_gazebo -- -j16 -l16
+[19.239s] Invoking command in '/home/ivan/ros2_ws/task5/build/my_unique_robot_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ivan/ros2_ws/task5/install/my_unique_robot_control:/home/ivan/ros2_ws/task5/install/my_robot_control:/home/ivan/ros2_ws/task5/ex04/install/my_robot_control:/home/ivan/ros2_ws/install/turtle_multi_target:/home/ivan/ros2_ws/install/text_to_cmd_vel_pkg:/home/ivan/ros2_ws/install/py_pubsub:/home/ivan/ros2_ws/install/my_package:/home/ivan/ros2_ws/install/Ivan:/opt/ros/humble /usr/bin/cmake --install /home/ivan/ros2_ws/task5/build/my_unique_robot_gazebo
+[19.249s] -- Install configuration: ""
+[19.249s] -- Installing: /home/ivan/ros2_ws/task5/install/my_unique_robot_gazebo/share/my_unique_robot_gazebo/ex05
+[19.252s] -- Installing: /home/ivan/ros2_ws/task5/install/my_unique_robot_gazebo/share/my_unique_robot_gazebo/ex05/robot.urdf.xacro
+[19.252s] -- Installing: /home/ivan/ros2_ws/task5/install/my_unique_robot_gazebo/share/my_unique_robot_gazebo/ex05/robot.gazebo.xacro
+[19.253s] -- Installing: /home/ivan/ros2_ws/task5/install/my_unique_robot_gazebo/share/my_unique_robot_gazebo/ex05/world.sdf
+[19.253s] -- Installing: /home/ivan/ros2_ws/task5/install/my_unique_robot_gazebo/share/my_unique_robot_gazebo/ex05/odom_to_tf.py
+[19.255s] -- Installing: /home/ivan/ros2_ws/task5/install/my_unique_robot_gazebo/share/my_unique_robot_gazebo/ex05/robot_gazebo.launch.py
+[19.258s] -- Installing: /home/ivan/ros2_ws/task5/install/my_unique_robot_gazebo/share/ament_index/resource_index/package_run_dependencies/my_unique_robot_gazebo
+[19.259s] -- Installing: /home/ivan/ros2_ws/task5/install/my_unique_robot_gazebo/share/ament_index/resource_index/parent_prefix_path/my_unique_robot_gazebo
+[19.260s] -- Installing: /home/ivan/ros2_ws/task5/install/my_unique_robot_gazebo/share/my_unique_robot_gazebo/environment/ament_prefix_path.sh
+[19.261s] -- Installing: /home/ivan/ros2_ws/task5/install/my_unique_robot_gazebo/share/my_unique_robot_gazebo/environment/ament_prefix_path.dsv
+[19.261s] -- Installing: /home/ivan/ros2_ws/task5/install/my_unique_robot_gazebo/share/my_unique_robot_gazebo/environment/path.sh
+[19.262s] -- Installing: /home/ivan/ros2_ws/task5/install/my_unique_robot_gazebo/share/my_unique_robot_gazebo/environment/path.dsv
+[19.262s] -- Installing: /home/ivan/ros2_ws/task5/install/my_unique_robot_gazebo/share/my_unique_robot_gazebo/local_setup.bash
+[19.262s] -- Installing: /home/ivan/ros2_ws/task5/install/my_unique_robot_gazebo/share/my_unique_robot_gazebo/local_setup.sh
+[19.263s] -- Installing: /home/ivan/ros2_ws/task5/install/my_unique_robot_gazebo/share/my_unique_robot_gazebo/local_setup.zsh
+[19.263s] -- Installing: /home/ivan/ros2_ws/task5/install/my_unique_robot_gazebo/share/my_unique_robot_gazebo/local_setup.dsv
+[19.264s] -- Installing: /home/ivan/ros2_ws/task5/install/my_unique_robot_gazebo/share/my_unique_robot_gazebo/package.dsv
+[19.265s] -- Installing: /home/ivan/ros2_ws/task5/install/my_unique_robot_gazebo/share/ament_index/resource_index/packages/my_unique_robot_gazebo
+[19.267s] -- Installing: /home/ivan/ros2_ws/task5/install/my_unique_robot_gazebo/share/my_unique_robot_gazebo/cmake/my_unique_robot_gazeboConfig.cmake
+[19.267s] -- Installing: /home/ivan/ros2_ws/task5/install/my_unique_robot_gazebo/share/my_unique_robot_gazebo/cmake/my_unique_robot_gazeboConfig-version.cmake
+[19.268s] -- Installing: /home/ivan/ros2_ws/task5/install/my_unique_robot_gazebo/share/my_unique_robot_gazebo/package.xml
+[19.272s] Invoked command in '/home/ivan/ros2_ws/task5/build/my_unique_robot_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ivan/ros2_ws/task5/install/my_unique_robot_control:/home/ivan/ros2_ws/task5/install/my_robot_control:/home/ivan/ros2_ws/task5/ex04/install/my_robot_control:/home/ivan/ros2_ws/install/turtle_multi_target:/home/ivan/ros2_ws/install/text_to_cmd_vel_pkg:/home/ivan/ros2_ws/install/py_pubsub:/home/ivan/ros2_ws/install/my_package:/home/ivan/ros2_ws/install/Ivan:/opt/ros/humble /usr/bin/cmake --install /home/ivan/ros2_ws/task5/build/my_unique_robot_gazebo

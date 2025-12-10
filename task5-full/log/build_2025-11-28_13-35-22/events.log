@@ -1,0 +1,416 @@
+[0.000000] (-) TimerEvent: {}
+[0.000389] (my_robot_description) JobQueued: {'identifier': 'my_robot_description', 'dependencies': OrderedDict()}
+[0.000513] (my_robot_gazebo) JobQueued: {'identifier': 'my_robot_gazebo', 'dependencies': OrderedDict([('my_robot_description', '/home/ivan/ros2_ws/task5/install/my_robot_description')])}
+[0.000616] (my_robot_description) JobStarted: {'identifier': 'my_robot_description'}
+[0.028555] (my_robot_description) JobProgress: {'identifier': 'my_robot_description', 'progress': 'cmake'}
+[0.031915] (my_robot_description) Command: {'cmd': ['/usr/bin/cmake', '/home/ivan/ros2_ws/task5/ex01/my_robot_description', '-DCMAKE_INSTALL_PREFIX=/home/ivan/ros2_ws/task5/install/my_robot_description'], 'cwd': '/home/ivan/ros2_ws/task5/build/my_robot_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ivan'), ('MESA_EXTENSION_MAX_YEAR', '2008'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '0'), ('LD_LIBRARY_PATH', '/home/ivan/ros2_ws/install/tutorial_interfaces/lib:/home/ivan/ros2_ws/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}'), ('HOME', '/home/ivan'), ('OLDPWD', '/home/ivan/ros2_ws/task5/ex03'), ('ROS_PYTHON_VERSION', '3'), ('GZ_SIM_RENDER_ENGINE', 'ogre'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('_colcon_cd_root', '/opt/ros/humble/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ivan/ros2_ws/task5/ex03/install:/home/ivan/ros2_ws/task5/install:/home/ivan/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ivan'), ('NAME', 'SprintN'), ('WSL_INTEROP', '/run/WSL/310_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/NSU/Code/netCourse:/mnt/c/Work/netOverload/ffmpeg-master-latest-win64-gpl/ffmpeg-master-latest-win64-gpl/bin:/mnt/c/Program Files/CMake/bin:/mnt/c/Users/Kamen/AppData/Local/Microsoft/WindowsApps:/mnt/c/NSU/Microsoft VS Code/bin:/snap/bin'), ('WT_SESSION', 'b51f6ad0-ab0a-4284-b063-921c253c92ba'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('IGN_GUI_RENDER_THREAD', '1'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/ivan/ros2_ws/task5/ex03/install/my_robot_gazebo:/home/ivan/ros2_ws/task5/install/my_robot_gazebo:/home/ivan/ros2_ws/task5/install/my_robot_description:/home/ivan/ros2_ws/install/tutorial_interfaces:/home/ivan/ros2_ws/install/turtle_multi_target:/home/ivan/ros2_ws/install/turtlesim:/home/ivan/ros2_ws/install/text_to_cmd_vel_pkg:/home/ivan/ros2_ws/install/py_pubsub:/home/ivan/ros2_ws/install/my_package:/home/ivan/ros2_ws/install/Ivan:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ivan/ros2_ws/task5/build/my_robot_description'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ivan/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/ivan/ros2_ws/install/turtle_multi_target/lib/python3.10/site-packages:/home/ivan/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/ivan/ros2_ws/install/text_to_cmd_vel_pkg/lib/python3.10/site-packages:/home/ivan/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/home/ivan/ros2_ws/install/my_package/lib/python3.10/site-packages:/home/ivan/ros2_ws/install/Ivan/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('OGRE_RTT_MODE', 'Copy'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/ivan/ros2_ws/task5/ex03/install/my_robot_gazebo:/home/ivan/ros2_ws/task5/install/my_robot_gazebo:/home/ivan/ros2_ws/task5/install/my_robot_description:/home/ivan/ros2_ws/install/tutorial_interfaces:/home/ivan/ros2_ws/install/turtlesim:/home/ivan/ros2_ws/install/turtle_multi_target:/home/ivan/ros2_ws/install/text_to_cmd_vel_pkg:/home/ivan/ros2_ws/install/py_pubsub:/home/ivan/ros2_ws/install/my_package:/home/ivan/ros2_ws/install/Ivan:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[0.098751] (-) TimerEvent: {}
+[0.199301] (-) TimerEvent: {}
+[0.299818] (-) TimerEvent: {}
+[0.400396] (-) TimerEvent: {}
+[0.434754] (my_robot_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.500586] (-) TimerEvent: {}
+[0.601124] (-) TimerEvent: {}
+[0.701681] (-) TimerEvent: {}
+[0.802249] (-) TimerEvent: {}
+[0.902775] (-) TimerEvent: {}
+[1.003344] (-) TimerEvent: {}
+[1.103998] (-) TimerEvent: {}
+[1.110796] (my_robot_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.204203] (-) TimerEvent: {}
+[1.304734] (-) TimerEvent: {}
+[1.405259] (-) TimerEvent: {}
+[1.505844] (-) TimerEvent: {}
+[1.567163] (my_robot_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.606123] (-) TimerEvent: {}
+[1.706846] (-) TimerEvent: {}
+[1.798829] (my_robot_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.807073] (-) TimerEvent: {}
+[1.811315] (my_robot_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.818612] (my_robot_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.819855] (my_robot_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.828958] (my_robot_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.907331] (-) TimerEvent: {}
+[2.007990] (-) TimerEvent: {}
+[2.043183] (my_robot_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.055698] (my_robot_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.056120] (my_robot_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.057054] (my_robot_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.101124] (my_robot_description) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.108180] (-) TimerEvent: {}
+[2.208816] (-) TimerEvent: {}
+[2.309503] (-) TimerEvent: {}
+[2.374490] (my_robot_description) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.410017] (-) TimerEvent: {}
+[2.510602] (-) TimerEvent: {}
+[2.611133] (-) TimerEvent: {}
+[2.616018] (my_robot_description) StdoutLine: {'line': b'-- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)\n'}
+[2.711323] (-) TimerEvent: {}
+[2.811807] (-) TimerEvent: {}
+[2.912442] (-) TimerEvent: {}
+[3.013065] (-) TimerEvent: {}
+[3.113658] (-) TimerEvent: {}
+[3.214155] (-) TimerEvent: {}
+[3.314717] (-) TimerEvent: {}
+[3.415239] (-) TimerEvent: {}
+[3.515748] (-) TimerEvent: {}
+[3.616248] (-) TimerEvent: {}
+[3.716799] (-) TimerEvent: {}
+[3.817402] (-) TimerEvent: {}
+[3.917921] (-) TimerEvent: {}
+[4.018437] (-) TimerEvent: {}
+[4.118986] (-) TimerEvent: {}
+[4.219484] (-) TimerEvent: {}
+[4.319961] (-) TimerEvent: {}
+[4.420457] (-) TimerEvent: {}
+[4.520926] (-) TimerEvent: {}
+[4.621460] (-) TimerEvent: {}
+[4.705117] (my_robot_description) StdoutLine: {'line': b'-- Found xacro: 2.1.1 (/opt/ros/humble/share/xacro/cmake)\n'}
+[4.712631] (my_robot_description) StdoutLine: {'line': b'-- Found robot_state_publisher: 3.0.3 (/opt/ros/humble/share/robot_state_publisher/cmake)\n'}
+[4.721636] (-) TimerEvent: {}
+[4.812273] (my_robot_description) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[4.821835] (-) TimerEvent: {}
+[4.829317] (my_robot_description) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[4.859354] (my_robot_description) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[4.904913] (my_robot_description) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.922028] (-) TimerEvent: {}
+[4.947333] (my_robot_description) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.022238] (-) TimerEvent: {}
+[5.122673] (-) TimerEvent: {}
+[5.150755] (my_robot_description) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[5.154051] (my_robot_description) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[5.154271] (my_robot_description) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[5.222939] (-) TimerEvent: {}
+[5.294521] (my_robot_description) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[5.305181] (my_robot_description) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[5.323123] (-) TimerEvent: {}
+[5.393259] (my_robot_description) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[5.423300] (-) TimerEvent: {}
+[5.493761] (my_robot_description) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[5.502570] (my_robot_description) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[5.523589] (-) TimerEvent: {}
+[5.624145] (-) TimerEvent: {}
+[5.688977] (my_robot_description) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[5.699901] (my_robot_description) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[5.712690] (my_robot_description) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[5.724406] (-) TimerEvent: {}
+[5.806343] (my_robot_description) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[5.824621] (-) TimerEvent: {}
+[5.842245] (my_robot_description) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[5.924981] (-) TimerEvent: {}
+[6.025742] (-) TimerEvent: {}
+[6.032095] (my_robot_description) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[6.032586] (my_robot_description) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[6.126102] (-) TimerEvent: {}
+[6.224853] (my_robot_description) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[6.226259] (-) TimerEvent: {}
+[6.226659] (my_robot_description) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[6.326465] (-) TimerEvent: {}
+[6.426945] (-) TimerEvent: {}
+[6.527389] (-) TimerEvent: {}
+[6.627922] (-) TimerEvent: {}
+[6.681692] (my_robot_description) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[6.728128] (-) TimerEvent: {}
+[6.828672] (-) TimerEvent: {}
+[6.860106] (my_robot_description) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[6.862414] (my_robot_description) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[6.865036] (my_robot_description) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[6.869283] (my_robot_description) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[6.874704] (my_robot_description) StdoutLine: {'line': b'-- Configuring done\n'}
+[6.890041] (my_robot_description) StdoutLine: {'line': b'-- Generating done\n'}
+[6.895256] (my_robot_description) StdoutLine: {'line': b'-- Build files have been written to: /home/ivan/ros2_ws/task5/build/my_robot_description\n'}
+[6.911406] (my_robot_description) CommandEnded: {'returncode': 0}
+[6.915256] (my_robot_description) JobProgress: {'identifier': 'my_robot_description', 'progress': 'build'}
+[6.915378] (my_robot_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ivan/ros2_ws/task5/build/my_robot_description', '--', '-j16', '-l16'], 'cwd': '/home/ivan/ros2_ws/task5/build/my_robot_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ivan'), ('MESA_EXTENSION_MAX_YEAR', '2008'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '0'), ('LD_LIBRARY_PATH', '/home/ivan/ros2_ws/install/tutorial_interfaces/lib:/home/ivan/ros2_ws/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}'), ('HOME', '/home/ivan'), ('OLDPWD', '/home/ivan/ros2_ws/task5/ex03'), ('ROS_PYTHON_VERSION', '3'), ('GZ_SIM_RENDER_ENGINE', 'ogre'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('_colcon_cd_root', '/opt/ros/humble/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ivan/ros2_ws/task5/ex03/install:/home/ivan/ros2_ws/task5/install:/home/ivan/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ivan'), ('NAME', 'SprintN'), ('WSL_INTEROP', '/run/WSL/310_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/NSU/Code/netCourse:/mnt/c/Work/netOverload/ffmpeg-master-latest-win64-gpl/ffmpeg-master-latest-win64-gpl/bin:/mnt/c/Program Files/CMake/bin:/mnt/c/Users/Kamen/AppData/Local/Microsoft/WindowsApps:/mnt/c/NSU/Microsoft VS Code/bin:/snap/bin'), ('WT_SESSION', 'b51f6ad0-ab0a-4284-b063-921c253c92ba'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('IGN_GUI_RENDER_THREAD', '1'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/ivan/ros2_ws/task5/ex03/install/my_robot_gazebo:/home/ivan/ros2_ws/task5/install/my_robot_gazebo:/home/ivan/ros2_ws/task5/install/my_robot_description:/home/ivan/ros2_ws/install/tutorial_interfaces:/home/ivan/ros2_ws/install/turtle_multi_target:/home/ivan/ros2_ws/install/turtlesim:/home/ivan/ros2_ws/install/text_to_cmd_vel_pkg:/home/ivan/ros2_ws/install/py_pubsub:/home/ivan/ros2_ws/install/my_package:/home/ivan/ros2_ws/install/Ivan:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ivan/ros2_ws/task5/build/my_robot_description'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ivan/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/ivan/ros2_ws/install/turtle_multi_target/lib/python3.10/site-packages:/home/ivan/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/ivan/ros2_ws/install/text_to_cmd_vel_pkg/lib/python3.10/site-packages:/home/ivan/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/home/ivan/ros2_ws/install/my_package/lib/python3.10/site-packages:/home/ivan/ros2_ws/install/Ivan/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('OGRE_RTT_MODE', 'Copy'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/ivan/ros2_ws/task5/ex03/install/my_robot_gazebo:/home/ivan/ros2_ws/task5/install/my_robot_gazebo:/home/ivan/ros2_ws/task5/install/my_robot_description:/home/ivan/ros2_ws/install/tutorial_interfaces:/home/ivan/ros2_ws/install/turtlesim:/home/ivan/ros2_ws/install/turtle_multi_target:/home/ivan/ros2_ws/install/text_to_cmd_vel_pkg:/home/ivan/ros2_ws/install/py_pubsub:/home/ivan/ros2_ws/install/my_package:/home/ivan/ros2_ws/install/Ivan:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[6.928946] (-) TimerEvent: {}
+[6.972867] (my_robot_description) CommandEnded: {'returncode': 0}
+[6.974047] (my_robot_description) JobProgress: {'identifier': 'my_robot_description', 'progress': 'install'}
+[6.987554] (my_robot_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ivan/ros2_ws/task5/build/my_robot_description'], 'cwd': '/home/ivan/ros2_ws/task5/build/my_robot_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ivan'), ('MESA_EXTENSION_MAX_YEAR', '2008'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '0'), ('LD_LIBRARY_PATH', '/home/ivan/ros2_ws/install/tutorial_interfaces/lib:/home/ivan/ros2_ws/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}'), ('HOME', '/home/ivan'), ('OLDPWD', '/home/ivan/ros2_ws/task5/ex03'), ('ROS_PYTHON_VERSION', '3'), ('GZ_SIM_RENDER_ENGINE', 'ogre'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('_colcon_cd_root', '/opt/ros/humble/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ivan/ros2_ws/task5/ex03/install:/home/ivan/ros2_ws/task5/install:/home/ivan/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ivan'), ('NAME', 'SprintN'), ('WSL_INTEROP', '/run/WSL/310_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/NSU/Code/netCourse:/mnt/c/Work/netOverload/ffmpeg-master-latest-win64-gpl/ffmpeg-master-latest-win64-gpl/bin:/mnt/c/Program Files/CMake/bin:/mnt/c/Users/Kamen/AppData/Local/Microsoft/WindowsApps:/mnt/c/NSU/Microsoft VS Code/bin:/snap/bin'), ('WT_SESSION', 'b51f6ad0-ab0a-4284-b063-921c253c92ba'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('IGN_GUI_RENDER_THREAD', '1'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/ivan/ros2_ws/task5/ex03/install/my_robot_gazebo:/home/ivan/ros2_ws/task5/install/my_robot_gazebo:/home/ivan/ros2_ws/task5/install/my_robot_description:/home/ivan/ros2_ws/install/tutorial_interfaces:/home/ivan/ros2_ws/install/turtle_multi_target:/home/ivan/ros2_ws/install/turtlesim:/home/ivan/ros2_ws/install/text_to_cmd_vel_pkg:/home/ivan/ros2_ws/install/py_pubsub:/home/ivan/ros2_ws/install/my_package:/home/ivan/ros2_ws/install/Ivan:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ivan/ros2_ws/task5/build/my_robot_description'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ivan/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/ivan/ros2_ws/install/turtle_multi_target/lib/python3.10/site-packages:/home/ivan/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/ivan/ros2_ws/install/text_to_cmd_vel_pkg/lib/python3.10/site-packages:/home/ivan/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/home/ivan/ros2_ws/install/my_package/lib/python3.10/site-packages:/home/ivan/ros2_ws/install/Ivan/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('OGRE_RTT_MODE', 'Copy'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/ivan/ros2_ws/task5/ex03/install/my_robot_gazebo:/home/ivan/ros2_ws/task5/install/my_robot_gazebo:/home/ivan/ros2_ws/task5/install/my_robot_description:/home/ivan/ros2_ws/install/tutorial_interfaces:/home/ivan/ros2_ws/install/turtlesim:/home/ivan/ros2_ws/install/turtle_multi_target:/home/ivan/ros2_ws/install/text_to_cmd_vel_pkg:/home/ivan/ros2_ws/install/py_pubsub:/home/ivan/ros2_ws/install/my_package:/home/ivan/ros2_ws/install/Ivan:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[6.997519] (my_robot_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.997731] (my_robot_description) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task5/install/my_robot_description/share/my_robot_description//urdf\n'}
+[6.999129] (my_robot_description) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task5/install/my_robot_description/share/my_robot_description//urdf/robot.urdf.xacro\n'}
+[7.002635] (my_robot_description) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task5/install/my_robot_description/share/my_robot_description//ex02\n'}
+[7.004701] (my_robot_description) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task5/install/my_robot_description/share/my_robot_description//launch\n'}
+[7.005821] (my_robot_description) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task5/install/my_robot_description/share/my_robot_description//launch/robot_display.launch.py\n'}
+[7.009100] (my_robot_description) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task5/install/my_robot_description/share/ament_index/resource_index/package_run_dependencies/my_robot_description\n'}
+[7.009966] (my_robot_description) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task5/install/my_robot_description/share/ament_index/resource_index/parent_prefix_path/my_robot_description\n'}
+[7.010756] (my_robot_description) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task5/install/my_robot_description/share/my_robot_description/environment/ament_prefix_path.sh\n'}
+[7.011137] (my_robot_description) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task5/install/my_robot_description/share/my_robot_description/environment/ament_prefix_path.dsv\n'}
+[7.011543] (my_robot_description) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task5/install/my_robot_description/share/my_robot_description/environment/path.sh\n'}
+[7.012095] (my_robot_description) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task5/install/my_robot_description/share/my_robot_description/environment/path.dsv\n'}
+[7.012355] (my_robot_description) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task5/install/my_robot_description/share/my_robot_description/local_setup.bash\n'}
+[7.012729] (my_robot_description) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task5/install/my_robot_description/share/my_robot_description/local_setup.sh\n'}
+[7.013281] (my_robot_description) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task5/install/my_robot_description/share/my_robot_description/local_setup.zsh\n'}
+[7.013540] (my_robot_description) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task5/install/my_robot_description/share/my_robot_description/local_setup.dsv\n'}
+[7.014046] (my_robot_description) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task5/install/my_robot_description/share/my_robot_description/package.dsv\n'}
+[7.014755] (my_robot_description) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task5/install/my_robot_description/share/ament_index/resource_index/packages/my_robot_description\n'}
+[7.015522] (my_robot_description) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task5/install/my_robot_description/share/my_robot_description/cmake/my_robot_descriptionConfig.cmake\n'}
+[7.015914] (my_robot_description) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task5/install/my_robot_description/share/my_robot_description/cmake/my_robot_descriptionConfig-version.cmake\n'}
+[7.016314] (my_robot_description) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task5/install/my_robot_description/share/my_robot_description/package.xml\n'}
+[7.019378] (my_robot_description) CommandEnded: {'returncode': 0}
+[7.029147] (-) TimerEvent: {}
+[7.067346] (my_robot_description) JobEnded: {'identifier': 'my_robot_description', 'rc': 0}
+[7.068476] (my_robot_gazebo) JobStarted: {'identifier': 'my_robot_gazebo'}
+[7.121370] (my_robot_gazebo) JobProgress: {'identifier': 'my_robot_gazebo', 'progress': 'cmake'}
+[7.129391] (my_robot_gazebo) Command: {'cmd': ['/usr/bin/cmake', '/home/ivan/ros2_ws/task5/ex03/src/my_robot_gazebo', '-DCMAKE_INSTALL_PREFIX=/home/ivan/ros2_ws/task5/install/my_robot_gazebo'], 'cwd': '/home/ivan/ros2_ws/task5/build/my_robot_gazebo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ivan'), ('MESA_EXTENSION_MAX_YEAR', '2008'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '0'), ('LD_LIBRARY_PATH', '/home/ivan/ros2_ws/install/tutorial_interfaces/lib:/home/ivan/ros2_ws/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}'), ('HOME', '/home/ivan'), ('OLDPWD', '/home/ivan/ros2_ws/task5/ex03'), ('ROS_PYTHON_VERSION', '3'), ('GZ_SIM_RENDER_ENGINE', 'ogre'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('_colcon_cd_root', '/opt/ros/humble/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ivan/ros2_ws/task5/ex03/install:/home/ivan/ros2_ws/task5/install:/home/ivan/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ivan'), ('NAME', 'SprintN'), ('WSL_INTEROP', '/run/WSL/310_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/NSU/Code/netCourse:/mnt/c/Work/netOverload/ffmpeg-master-latest-win64-gpl/ffmpeg-master-latest-win64-gpl/bin:/mnt/c/Program Files/CMake/bin:/mnt/c/Users/Kamen/AppData/Local/Microsoft/WindowsApps:/mnt/c/NSU/Microsoft VS Code/bin:/snap/bin'), ('WT_SESSION', 'b51f6ad0-ab0a-4284-b063-921c253c92ba'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('IGN_GUI_RENDER_THREAD', '1'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/ivan/ros2_ws/task5/ex03/install/my_robot_gazebo:/home/ivan/ros2_ws/task5/install/my_robot_gazebo:/home/ivan/ros2_ws/task5/install/my_robot_description:/home/ivan/ros2_ws/install/tutorial_interfaces:/home/ivan/ros2_ws/install/turtle_multi_target:/home/ivan/ros2_ws/install/turtlesim:/home/ivan/ros2_ws/install/text_to_cmd_vel_pkg:/home/ivan/ros2_ws/install/py_pubsub:/home/ivan/ros2_ws/install/my_package:/home/ivan/ros2_ws/install/Ivan:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ivan/ros2_ws/task5/build/my_robot_gazebo'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ivan/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/ivan/ros2_ws/install/turtle_multi_target/lib/python3.10/site-packages:/home/ivan/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/ivan/ros2_ws/install/text_to_cmd_vel_pkg/lib/python3.10/site-packages:/home/ivan/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/home/ivan/ros2_ws/install/my_package/lib/python3.10/site-packages:/home/ivan/ros2_ws/install/Ivan/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('OGRE_RTT_MODE', 'Copy'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/ivan/ros2_ws/task5/install/my_robot_description:/home/ivan/ros2_ws/task5/ex03/install/my_robot_gazebo:/home/ivan/ros2_ws/task5/install/my_robot_gazebo:/home/ivan/ros2_ws/install/tutorial_interfaces:/home/ivan/ros2_ws/install/turtlesim:/home/ivan/ros2_ws/install/turtle_multi_target:/home/ivan/ros2_ws/install/text_to_cmd_vel_pkg:/home/ivan/ros2_ws/install/py_pubsub:/home/ivan/ros2_ws/install/my_package:/home/ivan/ros2_ws/install/Ivan:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[7.132126] (-) TimerEvent: {}
+[7.232562] (-) TimerEvent: {}
+[7.319153] (my_robot_gazebo) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[7.332739] (-) TimerEvent: {}
+[7.433251] (-) TimerEvent: {}
+[7.533754] (-) TimerEvent: {}
+[7.634286] (-) TimerEvent: {}
+[7.734803] (-) TimerEvent: {}
+[7.835292] (-) TimerEvent: {}
+[7.910194] (my_robot_gazebo) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[7.935498] (-) TimerEvent: {}
+[8.036063] (-) TimerEvent: {}
+[8.136573] (-) TimerEvent: {}
+[8.237077] (-) TimerEvent: {}
+[8.331213] (my_robot_gazebo) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[8.338329] (-) TimerEvent: {}
+[8.438938] (-) TimerEvent: {}
+[8.525246] (my_robot_gazebo) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[8.536806] (my_robot_gazebo) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[8.537336] (my_robot_gazebo) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[8.537956] (my_robot_gazebo) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[8.539075] (-) TimerEvent: {}
+[8.543040] (my_robot_gazebo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[8.639265] (-) TimerEvent: {}
+[8.738387] (my_robot_gazebo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[8.739463] (-) TimerEvent: {}
+[8.750736] (my_robot_gazebo) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[8.751211] (my_robot_gazebo) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[8.751813] (my_robot_gazebo) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[8.757324] (my_robot_gazebo) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[8.839707] (-) TimerEvent: {}
+[8.940309] (-) TimerEvent: {}
+[9.001940] (my_robot_gazebo) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[9.040566] (-) TimerEvent: {}
+[9.141278] (-) TimerEvent: {}
+[9.175955] (my_robot_gazebo) StdoutLine: {'line': b'-- Found rclpy: 3.3.17 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[9.179963] (my_robot_gazebo) StdoutLine: {'line': b'-- Found robot_state_publisher: 3.0.3 (/opt/ros/humble/share/robot_state_publisher/cmake)\n'}
+[9.241497] (-) TimerEvent: {}
+[9.342015] (-) TimerEvent: {}
+[9.416263] (my_robot_gazebo) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[9.426638] (my_robot_gazebo) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[9.441653] (my_robot_gazebo) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[9.442020] (-) TimerEvent: {}
+[9.466114] (my_robot_gazebo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[9.495506] (my_robot_gazebo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[9.542364] (-) TimerEvent: {}
+[9.642895] (-) TimerEvent: {}
+[9.647054] (my_robot_gazebo) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[9.649076] (my_robot_gazebo) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[9.649368] (my_robot_gazebo) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[9.728763] (my_robot_gazebo) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[9.734632] (my_robot_gazebo) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[9.743162] (-) TimerEvent: {}
+[9.843939] (-) TimerEvent: {}
+[9.944596] (-) TimerEvent: {}
+[10.045120] (-) TimerEvent: {}
+[10.145728] (-) TimerEvent: {}
+[10.246260] (-) TimerEvent: {}
+[10.346768] (-) TimerEvent: {}
+[10.447300] (-) TimerEvent: {}
+[10.548000] (-) TimerEvent: {}
+[10.648701] (-) TimerEvent: {}
+[10.749264] (-) TimerEvent: {}
+[10.849799] (-) TimerEvent: {}
+[10.950252] (-) TimerEvent: {}
+[11.050711] (-) TimerEvent: {}
+[11.151193] (-) TimerEvent: {}
+[11.251697] (-) TimerEvent: {}
+[11.352277] (-) TimerEvent: {}
+[11.452867] (-) TimerEvent: {}
+[11.553405] (-) TimerEvent: {}
+[11.576274] (my_robot_gazebo) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[11.653731] (-) TimerEvent: {}
+[11.754204] (-) TimerEvent: {}
+[11.854733] (-) TimerEvent: {}
+[11.955233] (-) TimerEvent: {}
+[12.055901] (-) TimerEvent: {}
+[12.156400] (-) TimerEvent: {}
+[12.256907] (-) TimerEvent: {}
+[12.357459] (-) TimerEvent: {}
+[12.457986] (-) TimerEvent: {}
+[12.558506] (-) TimerEvent: {}
+[12.658980] (-) TimerEvent: {}
+[12.759693] (-) TimerEvent: {}
+[12.860365] (-) TimerEvent: {}
+[12.960820] (-) TimerEvent: {}
+[13.061368] (-) TimerEvent: {}
+[13.161877] (-) TimerEvent: {}
+[13.262336] (-) TimerEvent: {}
+[13.362842] (-) TimerEvent: {}
+[13.378755] (my_robot_gazebo) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[13.463062] (-) TimerEvent: {}
+[13.563711] (-) TimerEvent: {}
+[13.664266] (-) TimerEvent: {}
+[13.764793] (-) TimerEvent: {}
+[13.865333] (-) TimerEvent: {}
+[13.965847] (-) TimerEvent: {}
+[14.066457] (-) TimerEvent: {}
+[14.167079] (-) TimerEvent: {}
+[14.267662] (-) TimerEvent: {}
+[14.368230] (-) TimerEvent: {}
+[14.468731] (-) TimerEvent: {}
+[14.569694] (-) TimerEvent: {}
+[14.670219] (-) TimerEvent: {}
+[14.770704] (-) TimerEvent: {}
+[14.871172] (-) TimerEvent: {}
+[14.971639] (-) TimerEvent: {}
+[15.072136] (-) TimerEvent: {}
+[15.172627] (-) TimerEvent: {}
+[15.273158] (-) TimerEvent: {}
+[15.373643] (-) TimerEvent: {}
+[15.474188] (-) TimerEvent: {}
+[15.574740] (-) TimerEvent: {}
+[15.675304] (-) TimerEvent: {}
+[15.775790] (-) TimerEvent: {}
+[15.876265] (-) TimerEvent: {}
+[15.976724] (-) TimerEvent: {}
+[16.077247] (-) TimerEvent: {}
+[16.177807] (-) TimerEvent: {}
+[16.278387] (-) TimerEvent: {}
+[16.378925] (-) TimerEvent: {}
+[16.479425] (-) TimerEvent: {}
+[16.579995] (-) TimerEvent: {}
+[16.680520] (-) TimerEvent: {}
+[16.781087] (-) TimerEvent: {}
+[16.824461] (my_robot_gazebo) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[16.842356] (my_robot_gazebo) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[16.881334] (-) TimerEvent: {}
+[16.981843] (-) TimerEvent: {}
+[17.041003] (my_robot_gazebo) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[17.041494] (my_robot_gazebo) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[17.082043] (-) TimerEvent: {}
+[17.182495] (-) TimerEvent: {}
+[17.249513] (my_robot_gazebo) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[17.251226] (my_robot_gazebo) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[17.282752] (-) TimerEvent: {}
+[17.383407] (-) TimerEvent: {}
+[17.484303] (-) TimerEvent: {}
+[17.584885] (-) TimerEvent: {}
+[17.685368] (-) TimerEvent: {}
+[17.785864] (-) TimerEvent: {}
+[17.886408] (-) TimerEvent: {}
+[17.986909] (-) TimerEvent: {}
+[18.087374] (-) TimerEvent: {}
+[18.187865] (-) TimerEvent: {}
+[18.288378] (-) TimerEvent: {}
+[18.388834] (-) TimerEvent: {}
+[18.489323] (-) TimerEvent: {}
+[18.589858] (-) TimerEvent: {}
+[18.690393] (-) TimerEvent: {}
+[18.790865] (-) TimerEvent: {}
+[18.891377] (-) TimerEvent: {}
+[18.991897] (-) TimerEvent: {}
+[19.092495] (-) TimerEvent: {}
+[19.163224] (my_robot_gazebo) StdoutLine: {'line': b'-- Found xacro: 2.1.1 (/opt/ros/humble/share/xacro/cmake)\n'}
+[19.177521] (my_robot_gazebo) StdoutLine: {'line': b'-- Found ros_gz_sim: 0.244.20 (/opt/ros/humble/share/ros_gz_sim/cmake)\n'}
+[19.188674] (my_robot_gazebo) StdoutLine: {'line': b'-- Found ros_gz_bridge: 0.244.20 (/opt/ros/humble/share/ros_gz_bridge/cmake)\n'}
+[19.192712] (-) TimerEvent: {}
+[19.293174] (-) TimerEvent: {}
+[19.393830] (-) TimerEvent: {}
+[19.494357] (-) TimerEvent: {}
+[19.594872] (-) TimerEvent: {}
+[19.695389] (-) TimerEvent: {}
+[19.795839] (-) TimerEvent: {}
+[19.896339] (-) TimerEvent: {}
+[19.996852] (-) TimerEvent: {}
+[20.097304] (-) TimerEvent: {}
+[20.197816] (-) TimerEvent: {}
+[20.298901] (-) TimerEvent: {}
+[20.399384] (-) TimerEvent: {}
+[20.499849] (-) TimerEvent: {}
+[20.600433] (-) TimerEvent: {}
+[20.700955] (-) TimerEvent: {}
+[20.801451] (-) TimerEvent: {}
+[20.901910] (-) TimerEvent: {}
+[21.002395] (-) TimerEvent: {}
+[21.102907] (-) TimerEvent: {}
+[21.203535] (-) TimerEvent: {}
+[21.304095] (-) TimerEvent: {}
+[21.388428] (my_robot_gazebo) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[21.404366] (-) TimerEvent: {}
+[21.504931] (-) TimerEvent: {}
+[21.605444] (-) TimerEvent: {}
+[21.706075] (-) TimerEvent: {}
+[21.806628] (-) TimerEvent: {}
+[21.907161] (-) TimerEvent: {}
+[22.007719] (-) TimerEvent: {}
+[22.108202] (-) TimerEvent: {}
+[22.208710] (-) TimerEvent: {}
+[22.309209] (-) TimerEvent: {}
+[22.409760] (-) TimerEvent: {}
+[22.510269] (-) TimerEvent: {}
+[22.610765] (-) TimerEvent: {}
+[22.711282] (-) TimerEvent: {}
+[22.811766] (-) TimerEvent: {}
+[22.912274] (-) TimerEvent: {}
+[23.012790] (-) TimerEvent: {}
+[23.034857] (my_robot_gazebo) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[23.113036] (-) TimerEvent: {}
+[23.213656] (-) TimerEvent: {}
+[23.314245] (-) TimerEvent: {}
+[23.414744] (-) TimerEvent: {}
+[23.515266] (-) TimerEvent: {}
+[23.615883] (-) TimerEvent: {}
+[23.716421] (-) TimerEvent: {}
+[23.817099] (-) TimerEvent: {}
+[23.917588] (-) TimerEvent: {}
+[24.018074] (-) TimerEvent: {}
+[24.118595] (-) TimerEvent: {}
+[24.219090] (-) TimerEvent: {}
+[24.319746] (-) TimerEvent: {}
+[24.420271] (-) TimerEvent: {}
+[24.520860] (-) TimerEvent: {}
+[24.621343] (-) TimerEvent: {}
+[24.721874] (-) TimerEvent: {}
+[24.822557] (-) TimerEvent: {}
+[24.923137] (-) TimerEvent: {}
+[25.023719] (-) TimerEvent: {}
+[25.124558] (-) TimerEvent: {}
+[25.225189] (-) TimerEvent: {}
+[25.325690] (-) TimerEvent: {}
+[25.327836] (my_robot_gazebo) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[25.425942] (-) TimerEvent: {}
+[25.491909] (my_robot_gazebo) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[25.494383] (my_robot_gazebo) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[25.496599] (my_robot_gazebo) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[25.500954] (my_robot_gazebo) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[25.505095] (my_robot_gazebo) StdoutLine: {'line': b'-- Configuring done\n'}
+[25.521656] (my_robot_gazebo) StdoutLine: {'line': b'-- Generating done\n'}
+[25.526267] (-) TimerEvent: {}
+[25.528202] (my_robot_gazebo) StdoutLine: {'line': b'-- Build files have been written to: /home/ivan/ros2_ws/task5/build/my_robot_gazebo\n'}
+[25.547107] (my_robot_gazebo) CommandEnded: {'returncode': 0}
+[25.549896] (my_robot_gazebo) JobProgress: {'identifier': 'my_robot_gazebo', 'progress': 'build'}
+[25.550016] (my_robot_gazebo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ivan/ros2_ws/task5/build/my_robot_gazebo', '--', '-j16', '-l16'], 'cwd': '/home/ivan/ros2_ws/task5/build/my_robot_gazebo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ivan'), ('MESA_EXTENSION_MAX_YEAR', '2008'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '0'), ('LD_LIBRARY_PATH', '/home/ivan/ros2_ws/install/tutorial_interfaces/lib:/home/ivan/ros2_ws/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}'), ('HOME', '/home/ivan'), ('OLDPWD', '/home/ivan/ros2_ws/task5/ex03'), ('ROS_PYTHON_VERSION', '3'), ('GZ_SIM_RENDER_ENGINE', 'ogre'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('_colcon_cd_root', '/opt/ros/humble/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ivan/ros2_ws/task5/ex03/install:/home/ivan/ros2_ws/task5/install:/home/ivan/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ivan'), ('NAME', 'SprintN'), ('WSL_INTEROP', '/run/WSL/310_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/NSU/Code/netCourse:/mnt/c/Work/netOverload/ffmpeg-master-latest-win64-gpl/ffmpeg-master-latest-win64-gpl/bin:/mnt/c/Program Files/CMake/bin:/mnt/c/Users/Kamen/AppData/Local/Microsoft/WindowsApps:/mnt/c/NSU/Microsoft VS Code/bin:/snap/bin'), ('WT_SESSION', 'b51f6ad0-ab0a-4284-b063-921c253c92ba'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('IGN_GUI_RENDER_THREAD', '1'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/ivan/ros2_ws/task5/ex03/install/my_robot_gazebo:/home/ivan/ros2_ws/task5/install/my_robot_gazebo:/home/ivan/ros2_ws/task5/install/my_robot_description:/home/ivan/ros2_ws/install/tutorial_interfaces:/home/ivan/ros2_ws/install/turtle_multi_target:/home/ivan/ros2_ws/install/turtlesim:/home/ivan/ros2_ws/install/text_to_cmd_vel_pkg:/home/ivan/ros2_ws/install/py_pubsub:/home/ivan/ros2_ws/install/my_package:/home/ivan/ros2_ws/install/Ivan:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ivan/ros2_ws/task5/build/my_robot_gazebo'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ivan/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/ivan/ros2_ws/install/turtle_multi_target/lib/python3.10/site-packages:/home/ivan/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/ivan/ros2_ws/install/text_to_cmd_vel_pkg/lib/python3.10/site-packages:/home/ivan/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/home/ivan/ros2_ws/install/my_package/lib/python3.10/site-packages:/home/ivan/ros2_ws/install/Ivan/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('OGRE_RTT_MODE', 'Copy'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/ivan/ros2_ws/task5/install/my_robot_description:/home/ivan/ros2_ws/task5/ex03/install/my_robot_gazebo:/home/ivan/ros2_ws/task5/install/my_robot_gazebo:/home/ivan/ros2_ws/install/tutorial_interfaces:/home/ivan/ros2_ws/install/turtlesim:/home/ivan/ros2_ws/install/turtle_multi_target:/home/ivan/ros2_ws/install/text_to_cmd_vel_pkg:/home/ivan/ros2_ws/install/py_pubsub:/home/ivan/ros2_ws/install/my_package:/home/ivan/ros2_ws/install/Ivan:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[25.609716] (my_robot_gazebo) CommandEnded: {'returncode': 0}
+[25.611036] (my_robot_gazebo) JobProgress: {'identifier': 'my_robot_gazebo', 'progress': 'install'}
+[25.611630] (my_robot_gazebo) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ivan/ros2_ws/task5/build/my_robot_gazebo'], 'cwd': '/home/ivan/ros2_ws/task5/build/my_robot_gazebo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ivan'), ('MESA_EXTENSION_MAX_YEAR', '2008'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '0'), ('LD_LIBRARY_PATH', '/home/ivan/ros2_ws/install/tutorial_interfaces/lib:/home/ivan/ros2_ws/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}'), ('HOME', '/home/ivan'), ('OLDPWD', '/home/ivan/ros2_ws/task5/ex03'), ('ROS_PYTHON_VERSION', '3'), ('GZ_SIM_RENDER_ENGINE', 'ogre'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('_colcon_cd_root', '/opt/ros/humble/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ivan/ros2_ws/task5/ex03/install:/home/ivan/ros2_ws/task5/install:/home/ivan/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ivan'), ('NAME', 'SprintN'), ('WSL_INTEROP', '/run/WSL/310_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/NSU/Code/netCourse:/mnt/c/Work/netOverload/ffmpeg-master-latest-win64-gpl/ffmpeg-master-latest-win64-gpl/bin:/mnt/c/Program Files/CMake/bin:/mnt/c/Users/Kamen/AppData/Local/Microsoft/WindowsApps:/mnt/c/NSU/Microsoft VS Code/bin:/snap/bin'), ('WT_SESSION', 'b51f6ad0-ab0a-4284-b063-921c253c92ba'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('IGN_GUI_RENDER_THREAD', '1'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/ivan/ros2_ws/task5/ex03/install/my_robot_gazebo:/home/ivan/ros2_ws/task5/install/my_robot_gazebo:/home/ivan/ros2_ws/task5/install/my_robot_description:/home/ivan/ros2_ws/install/tutorial_interfaces:/home/ivan/ros2_ws/install/turtle_multi_target:/home/ivan/ros2_ws/install/turtlesim:/home/ivan/ros2_ws/install/text_to_cmd_vel_pkg:/home/ivan/ros2_ws/install/py_pubsub:/home/ivan/ros2_ws/install/my_package:/home/ivan/ros2_ws/install/Ivan:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ivan/ros2_ws/task5/build/my_robot_gazebo'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ivan/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/ivan/ros2_ws/install/turtle_multi_target/lib/python3.10/site-packages:/home/ivan/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/ivan/ros2_ws/install/text_to_cmd_vel_pkg/lib/python3.10/site-packages:/home/ivan/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/home/ivan/ros2_ws/install/my_package/lib/python3.10/site-packages:/home/ivan/ros2_ws/install/Ivan/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('OGRE_RTT_MODE', 'Copy'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/ivan/ros2_ws/task5/install/my_robot_description:/home/ivan/ros2_ws/task5/ex03/install/my_robot_gazebo:/home/ivan/ros2_ws/task5/install/my_robot_gazebo:/home/ivan/ros2_ws/install/tutorial_interfaces:/home/ivan/ros2_ws/install/turtlesim:/home/ivan/ros2_ws/install/turtle_multi_target:/home/ivan/ros2_ws/install/text_to_cmd_vel_pkg:/home/ivan/ros2_ws/install/py_pubsub:/home/ivan/ros2_ws/install/my_package:/home/ivan/ros2_ws/install/Ivan:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[25.623661] (my_robot_gazebo) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[25.624721] (my_robot_gazebo) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task5/install/my_robot_gazebo/share/my_robot_gazebo/ex03\n'}
+[25.625537] (my_robot_gazebo) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task5/install/my_robot_gazebo/share/my_robot_gazebo/ex03/robot.urdf.xacro\n'}
+[25.626403] (-) TimerEvent: {}
+[25.626779] (my_robot_gazebo) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task5/install/my_robot_gazebo/share/my_robot_gazebo/ex03/robot.gazebo.xacro\n'}
+[25.628118] (my_robot_gazebo) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task5/install/my_robot_gazebo/share/my_robot_gazebo/ex03/robot_gazebo.launch.py\n'}
+[25.630698] (my_robot_gazebo) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task5/install/my_robot_gazebo/share/ament_index/resource_index/package_run_dependencies/my_robot_gazebo\n'}
+[25.631297] (my_robot_gazebo) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task5/install/my_robot_gazebo/share/ament_index/resource_index/parent_prefix_path/my_robot_gazebo\n'}
+[25.632065] (my_robot_gazebo) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task5/install/my_robot_gazebo/share/my_robot_gazebo/environment/ament_prefix_path.sh\n'}
+[25.632476] (my_robot_gazebo) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task5/install/my_robot_gazebo/share/my_robot_gazebo/environment/ament_prefix_path.dsv\n'}
+[25.632854] (my_robot_gazebo) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task5/install/my_robot_gazebo/share/my_robot_gazebo/environment/path.sh\n'}
+[25.633210] (my_robot_gazebo) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task5/install/my_robot_gazebo/share/my_robot_gazebo/environment/path.dsv\n'}
+[25.633670] (my_robot_gazebo) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task5/install/my_robot_gazebo/share/my_robot_gazebo/local_setup.bash\n'}
+[25.634046] (my_robot_gazebo) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task5/install/my_robot_gazebo/share/my_robot_gazebo/local_setup.sh\n'}
+[25.634399] (my_robot_gazebo) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task5/install/my_robot_gazebo/share/my_robot_gazebo/local_setup.zsh\n'}
+[25.634690] (my_robot_gazebo) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task5/install/my_robot_gazebo/share/my_robot_gazebo/local_setup.dsv\n'}
+[25.635070] (my_robot_gazebo) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task5/install/my_robot_gazebo/share/my_robot_gazebo/package.dsv\n'}
+[25.635989] (my_robot_gazebo) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task5/install/my_robot_gazebo/share/ament_index/resource_index/packages/my_robot_gazebo\n'}
+[25.636644] (my_robot_gazebo) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task5/install/my_robot_gazebo/share/my_robot_gazebo/cmake/my_robot_gazeboConfig.cmake\n'}
+[25.637051] (my_robot_gazebo) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task5/install/my_robot_gazebo/share/my_robot_gazebo/cmake/my_robot_gazeboConfig-version.cmake\n'}
+[25.637339] (my_robot_gazebo) StdoutLine: {'line': b'-- Installing: /home/ivan/ros2_ws/task5/install/my_robot_gazebo/share/my_robot_gazebo/package.xml\n'}
+[25.640876] (my_robot_gazebo) CommandEnded: {'returncode': 0}
+[25.663737] (my_robot_gazebo) JobEnded: {'identifier': 'my_robot_gazebo', 'rc': 0}
+[25.666204] (-) EventReactorShutdown: {}

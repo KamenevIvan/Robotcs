@@ -1,0 +1,3 @@
+[console_scripts]
+circle_movement = my_robot_control.circle_movement:main
+

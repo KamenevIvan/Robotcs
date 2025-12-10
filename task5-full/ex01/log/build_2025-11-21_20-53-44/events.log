@@ -1,0 +1,89 @@
+[0.000000] (-) TimerEvent: {}
+[0.000752] (my_robot_description) JobQueued: {'identifier': 'my_robot_description', 'dependencies': OrderedDict()}
+[0.001633] (my_robot_description) JobStarted: {'identifier': 'my_robot_description'}
+[0.026980] (my_robot_description) JobProgress: {'identifier': 'my_robot_description', 'progress': 'cmake'}
+[0.029455] (my_robot_description) Command: {'cmd': ['/usr/bin/cmake', '/home/ivan/ros2_ws/task5/ex01/my_robot_description', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ivan/ros2_ws/task5/ex01/install/my_robot_description'], 'cwd': '/home/ivan/ros2_ws/task5/ex01/build/my_robot_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ivan'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ivan/ros2_ws/install/tutorial_interfaces/lib:/home/ivan/ros2_ws/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/ivan'), ('OLDPWD', '/home/ivan/ros2_ws/task5/ex01/my_robot_description'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('_colcon_cd_root', '/opt/ros/humble/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ivan/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ivan'), ('NAME', 'SprintN'), ('WSL_INTEROP', '/run/WSL/309_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/NSU/Code/netCourse:/mnt/c/Work/netOverload/ffmpeg-master-latest-win64-gpl/ffmpeg-master-latest-win64-gpl/bin:/mnt/c/Program Files/CMake/bin:/mnt/c/Users/Kamen/AppData/Local/Microsoft/WindowsApps:/mnt/c/NSU/Microsoft VS Code/bin:/snap/bin'), ('WT_SESSION', '04ee6286-14d2-40f2-9f65-770d018afca4'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/ivan/ros2_ws/install/tutorial_interfaces:/home/ivan/ros2_ws/install/turtle_multi_target:/home/ivan/ros2_ws/install/turtlesim:/home/ivan/ros2_ws/install/text_to_cmd_vel_pkg:/home/ivan/ros2_ws/install/py_pubsub:/home/ivan/ros2_ws/install/my_package:/home/ivan/ros2_ws/install/Ivan:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ivan/ros2_ws/task5/ex01/build/my_robot_description'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ivan/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/ivan/ros2_ws/install/turtle_multi_target/lib/python3.10/site-packages:/home/ivan/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/ivan/ros2_ws/install/text_to_cmd_vel_pkg/lib/python3.10/site-packages:/home/ivan/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/home/ivan/ros2_ws/install/my_package/lib/python3.10/site-packages:/home/ivan/ros2_ws/install/Ivan/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/ivan/ros2_ws/install/tutorial_interfaces:/home/ivan/ros2_ws/install/turtlesim:/home/ivan/ros2_ws/install/turtle_multi_target:/home/ivan/ros2_ws/install/text_to_cmd_vel_pkg:/home/ivan/ros2_ws/install/py_pubsub:/home/ivan/ros2_ws/install/my_package:/home/ivan/ros2_ws/install/Ivan:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[0.099269] (-) TimerEvent: {}
+[0.199709] (-) TimerEvent: {}
+[0.300076] (-) TimerEvent: {}
+[0.400560] (-) TimerEvent: {}
+[0.420476] (my_robot_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.500673] (-) TimerEvent: {}
+[0.601008] (-) TimerEvent: {}
+[0.701421] (-) TimerEvent: {}
+[0.801849] (-) TimerEvent: {}
+[0.891331] (my_robot_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.901947] (-) TimerEvent: {}
+[1.002306] (-) TimerEvent: {}
+[1.102659] (-) TimerEvent: {}
+[1.191337] (my_robot_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.202765] (-) TimerEvent: {}
+[1.303217] (-) TimerEvent: {}
+[1.366389] (my_robot_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.374077] (my_robot_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.380540] (my_robot_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.382430] (my_robot_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.388848] (my_robot_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.403312] (-) TimerEvent: {}
+[1.503717] (-) TimerEvent: {}
+[1.553952] (my_robot_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.563551] (my_robot_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.563949] (my_robot_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.564678] (my_robot_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.602360] (my_robot_description) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.603777] (-) TimerEvent: {}
+[1.704137] (-) TimerEvent: {}
+[1.804551] (-) TimerEvent: {}
+[1.822626] (my_robot_description) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.904670] (-) TimerEvent: {}
+[1.927923] (my_robot_description) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[2.004791] (-) TimerEvent: {}
+[2.011668] (my_robot_description) StdoutLine: {'line': b'-- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)\n'}
+[2.104877] (-) TimerEvent: {}
+[2.205223] (-) TimerEvent: {}
+[2.305581] (-) TimerEvent: {}
+[2.405963] (-) TimerEvent: {}
+[2.506322] (-) TimerEvent: {}
+[2.606676] (-) TimerEvent: {}
+[2.707015] (-) TimerEvent: {}
+[2.807297] (-) TimerEvent: {}
+[2.907683] (-) TimerEvent: {}
+[3.008042] (-) TimerEvent: {}
+[3.108372] (-) TimerEvent: {}
+[3.208664] (-) TimerEvent: {}
+[3.308997] (-) TimerEvent: {}
+[3.409326] (-) TimerEvent: {}
+[3.509676] (-) TimerEvent: {}
+[3.610009] (-) TimerEvent: {}
+[3.710401] (-) TimerEvent: {}
+[3.810792] (-) TimerEvent: {}
+[3.911174] (-) TimerEvent: {}
+[4.011608] (-) TimerEvent: {}
+[4.111941] (-) TimerEvent: {}
+[4.212296] (-) TimerEvent: {}
+[4.312629] (-) TimerEvent: {}
+[4.413006] (-) TimerEvent: {}
+[4.513386] (-) TimerEvent: {}
+[4.607442] (my_robot_description) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:11 (find_package):\n'}
+[4.607869] (my_robot_description) StderrLine: {'line': b'  By not providing "Findxacro.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[4.607977] (my_robot_description) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "xacro", but\n'}
+[4.608054] (my_robot_description) StderrLine: {'line': b'  CMake did not find one.\n'}
+[4.608136] (my_robot_description) StderrLine: {'line': b'\n'}
+[4.608217] (my_robot_description) StderrLine: {'line': b'  Could not find a package configuration file provided by "xacro" with any of\n'}
+[4.608294] (my_robot_description) StderrLine: {'line': b'  the following names:\n'}
+[4.608366] (my_robot_description) StderrLine: {'line': b'\n'}
+[4.608473] (my_robot_description) StderrLine: {'line': b'    xacroConfig.cmake\n'}
+[4.608607] (my_robot_description) StderrLine: {'line': b'    xacro-config.cmake\n'}
+[4.608697] (my_robot_description) StderrLine: {'line': b'\n'}
+[4.608775] (my_robot_description) StderrLine: {'line': b'  Add the installation prefix of "xacro" to CMAKE_PREFIX_PATH or set\n'}
+[4.608857] (my_robot_description) StderrLine: {'line': b'  "xacro_DIR" to a directory containing one of the above files.  If "xacro"\n'}
+[4.608940] (my_robot_description) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[4.609015] (my_robot_description) StderrLine: {'line': b'  installed.\n'}
+[4.609090] (my_robot_description) StderrLine: {'line': b'\n'}
+[4.609167] (my_robot_description) StderrLine: {'line': b'\x1b[0m\n'}
+[4.609245] (my_robot_description) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[4.609328] (my_robot_description) StdoutLine: {'line': b'See also "/home/ivan/ros2_ws/task5/ex01/build/my_robot_description/CMakeFiles/CMakeOutput.log".\n'}
+[4.613522] (-) TimerEvent: {}
+[4.616186] (my_robot_description) CommandEnded: {'returncode': 1}
+[4.661876] (my_robot_description) JobEnded: {'identifier': 'my_robot_description', 'rc': 1}
+[4.673063] (-) EventReactorShutdown: {}

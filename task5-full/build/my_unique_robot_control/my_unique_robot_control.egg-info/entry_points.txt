@@ -1,0 +1,3 @@
+[console_scripts]
+unique_movement = my_unique_robot_control.unique_movement:main
+

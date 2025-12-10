@@ -1,0 +1,17 @@
+/home/ivan/ros2_ws/task5/ex01/install/my_robot_description/share/my_robot_description//ex01/robot.urdf
+/home/ivan/ros2_ws/task5/ex01/install/my_robot_description/share/my_robot_description//ex01/robot_display.launch.py
+/home/ivan/ros2_ws/task5/ex01/install/my_robot_description/share/ament_index/resource_index/package_run_dependencies/my_robot_description
+/home/ivan/ros2_ws/task5/ex01/install/my_robot_description/share/ament_index/resource_index/parent_prefix_path/my_robot_description
+/home/ivan/ros2_ws/task5/ex01/install/my_robot_description/share/my_robot_description/environment/ament_prefix_path.sh
+/home/ivan/ros2_ws/task5/ex01/install/my_robot_description/share/my_robot_description/environment/ament_prefix_path.dsv
+/home/ivan/ros2_ws/task5/ex01/install/my_robot_description/share/my_robot_description/environment/path.sh
+/home/ivan/ros2_ws/task5/ex01/install/my_robot_description/share/my_robot_description/environment/path.dsv
+/home/ivan/ros2_ws/task5/ex01/install/my_robot_description/share/my_robot_description/local_setup.bash
+/home/ivan/ros2_ws/task5/ex01/install/my_robot_description/share/my_robot_description/local_setup.sh
+/home/ivan/ros2_ws/task5/ex01/install/my_robot_description/share/my_robot_description/local_setup.zsh
+/home/ivan/ros2_ws/task5/ex01/install/my_robot_description/share/my_robot_description/local_setup.dsv
+/home/ivan/ros2_ws/task5/ex01/install/my_robot_description/share/my_robot_description/package.dsv
+/home/ivan/ros2_ws/task5/ex01/install/my_robot_description/share/ament_index/resource_index/packages/my_robot_description
+/home/ivan/ros2_ws/task5/ex01/install/my_robot_description/share/my_robot_description/cmake/my_robot_descriptionConfig.cmake
+/home/ivan/ros2_ws/task5/ex01/install/my_robot_description/share/my_robot_description/cmake/my_robot_descriptionConfig-version.cmake
+/home/ivan/ros2_ws/task5/ex01/install/my_robot_description/share/my_robot_description/package.xml
