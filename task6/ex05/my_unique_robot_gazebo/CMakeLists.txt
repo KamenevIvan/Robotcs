@@ -29,7 +29,7 @@ install(DIRECTORY config
 
 install(PROGRAMS
   scripts/odom_to_tf.py
-  scripts/obstacle_stop_node.py
+  scripts/depth_camera_stopper.py 
   DESTINATION lib/${PROJECT_NAME}
 )
 
